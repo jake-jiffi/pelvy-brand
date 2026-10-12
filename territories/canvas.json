@@ -1,0 +1,15 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 900, "h": 1100, "page": "territories" },
+    { "file": "DirectionA.dc.html", "x": 1020, "y": 0, "w": 900, "h": 1100, "page": "territories" },
+    { "file": "DirectionB.dc.html", "x": 2040, "y": 0, "w": 900, "h": 1100, "page": "territories" },
+    { "file": "DirectionC.dc.html", "x": 3060, "y": 0, "w": 900, "h": 1100, "page": "territories" }
+  ],
+  "annotations": [
+    { "id": "how-to-read", "x": 1020, "y": -170, "w": 620, "text": "Each sketch carries the same six parts in the same order: pitch, hero, palette, type, signature, tradeoff.\nThese are low fidelity on purpose. The photographs are generated sketches of each direction's mood and are not brand photography." }
+  ],
+  "pages": [
+    { "id": "territories", "name": "Territories" }
+  ],
+  "launch": { "view": "canvas", "page": "territories" }
+}

@@ -1,0 +1,452 @@
+{
+  "brandi": "media-plan",
+  "version": 1,
+  "budget": 400,
+  "models": {},
+  "slots": [
+    {
+      "id": "photo-a-phone-propped-up-at-home-showing-the-t",
+      "kind": "photo",
+      "need": "photo",
+      "title": "A phone propped up at home showing the treatment hub: mat, mug, late light",
+      "surface": "web",
+      "intent": {
+        "aspect_ratio": "16:9"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "4:5",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 2,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nPositioning: For pelvic health clinicians whose patients lose the thread between appointments, Pelvy is the between-appointments companion that puts the clinician's own advice, exercises and reminders on the patient's phone, because it was built by a practising pelvic health physiotherapist from what patients and clinicians asked for. Unlike a handout or a Kegel timer, it counts the patient through the whole program and keeps the advice where they will find it. Said plainly: what you tell your patients in the room, still with them at home.\nVisual school: Warm humanist.\nSignature element: The clinician's note: the words a clinician gave their patient, set in Literata on a sage card and signed with the clinician's name. It is the app's notes feature promoted to the brand's lead image, because it is the whole promise in one object: what your clinician told you, still with you at home.\nPalette: #41684A, #5E6687, #78A080 (the first is the brand colour). Proportion: Mostly paper and white. Deep sage carries the mark, headings that need colour, and solid buttons. Sage, the 2024 colour, is for large quiet fills behind dark text and for the illustration grounds, and never sits under white text. Slate appears once per view at most, on the one action that matters. Ink carries the reading.\nArt direction: The app is the picture. The lead image on any Pelvy surface is a real screen from the app: the clinician's note, the count, a program. Photography is the setting around it: the corner of a home where the exercises get done, and the treatment room. Rooms, objects and hands before faces. Movement is shown with stills from the app's own exercise videos, never drawn.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nAlways: Lead with a real app screen, flat and legible, at phone proportion with the panel radius.; Photograph the real clinic and the real home setting, including the slightly worn bits.; Use stills from the app's own exercise videos for anything that demonstrates a movement.; Credit clinicians by name and role, with a signed release on file.; Show every kind of body Pelvy is for across a set: different ages, sexes and sizes.; Leave a quiet third of the frame for type..\nNever: No drawn phones and no rendered 3D devices. Show the screen itself, or a real phone in a real photograph.; No illustrated people of any kind.; No fruit, flowers or shells standing in for anatomy.; No women-only casts. Pelvy is for everyone with a pelvis.; No generated images of people, ever. Generated photography is limited to rooms and objects, and is labelled.; No posed wellness: no white linen, no hands on a bare belly, no sunrise yoga.; No screen that shows a real patient's name or note..\nThe shot: A phone propped up at home showing the treatment hub: mat, mug, late light. Why it exists: The website hero and the poster need the app in the place it is used.\nFormat: 16:9, for web.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nNobody in frame may be presented as a real customer or member of staff: this is a sample of the direction, and it is labelled as generated wherever it appears.",
+      "prompt": "Photograph at home in late afternoon, on a pale timber bedroom floor: a modern smartphone standing upright in portrait orientation, propped against a speckled ceramic mug, its screen facing the camera almost square-on and filling a good part of the frame. The screen is switched on but completely blank: a flat, evenly lit plain white rectangle with nothing on it. Beside it a rolled sage-green exercise mat, the edge of a linen bedspread at the top of frame. Warm low sunlight from the right through a linen curtain, soft shadows, 50mm lens at the phone's own height, phone sharp and everything behind it gently soft. Quiet, lived-in. No people, no hands. No text, no lettering, no logos, no icons, nothing at all displayed on the phone screen.",
+      "promptSource": "authored",
+      "briefAtPrompt": "7c97e583d215",
+      "origin": "dealt",
+      "overrides": [
+        "count",
+        "params.aspect_ratio"
+      ],
+      "blocked": null,
+      "results": [
+        {
+          "id": "photo-a-phone-propped-up-at-home-showing-the-t-1",
+          "file": "brand/media/photo/photo-a-phone-propped-up-at-home-showing-the-t-1.png",
+          "preview": "brand/media/photo/photo-a-phone-propped-up-at-home-showing-the-t-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "0767e689-96cf-4bdc-af6c-f0c98f3dc581",
+          "model": "gpt_image_2_5",
+          "modelName": "GPT Image 2.5",
+          "prompt": "Photograph at home in late afternoon, on a pale timber bedroom floor: a modern smartphone standing upright in portrait orientation, propped against a speckled ceramic mug, its screen facing the camera almost square-on and filling a good part of the frame. The screen is switched on but completely blank: a flat, evenly lit plain white rectangle with nothing on it. Beside it a rolled sage-green exercise mat, the edge of a linen bedspread at the top of frame. Warm low sunlight from the right through a linen curtain, soft shadows, 50mm lens at the phone's own height, phone sharp and everything behind it gently soft. Quiet, lived-in. No people, no hands. No text, no lettering, no logos, no icons, nothing at all displayed on the phone screen.",
+          "credits": 15,
+          "created": "2026-10-11T23:53:05.633653Z"
+        },
+        {
+          "id": "photo-a-phone-propped-up-at-home-showing-the-t-2",
+          "file": "brand/media/photo/photo-a-phone-propped-up-at-home-showing-the-t-2.png",
+          "preview": "brand/media/photo/photo-a-phone-propped-up-at-home-showing-the-t-2.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "55d78ba9-d258-477e-95f2-617203d716ca",
+          "model": "gpt_image_2_5",
+          "modelName": "GPT Image 2.5",
+          "prompt": "Photograph at home in late afternoon, on a pale timber bedroom floor: a modern smartphone standing upright in portrait orientation, propped against a speckled ceramic mug, its screen facing the camera almost square-on and filling a good part of the frame. The screen is switched on but completely blank: a flat, evenly lit plain white rectangle with nothing on it. Beside it a rolled sage-green exercise mat, the edge of a linen bedspread at the top of frame. Warm low sunlight from the right through a linen curtain, soft shadows, 50mm lens at the phone's own height, phone sharp and everything behind it gently soft. Quiet, lived-in. No people, no hands. No text, no lettering, no logos, no icons, nothing at all displayed on the phone screen.",
+          "credits": 15,
+          "created": "2026-10-11T23:54:15.352273Z"
+        }
+      ],
+      "failures": [],
+      "modelSource": "fallback"
+    },
+    {
+      "id": "photo-a-clinician-s-hands-setting-up-a-program",
+      "kind": "photo",
+      "need": "photo",
+      "title": "A clinician's hands setting up a program on a phone, patient out of frame",
+      "surface": "deck",
+      "intent": {
+        "aspect_ratio": "16:9"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "16:9",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 2,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nPositioning: For pelvic health clinicians whose patients lose the thread between appointments, Pelvy is the between-appointments companion that puts the clinician's own advice, exercises and reminders on the patient's phone, because it was built by a practising pelvic health physiotherapist from what patients and clinicians asked for. Unlike a handout or a Kegel timer, it counts the patient through the whole program and keeps the advice where they will find it. Said plainly: what you tell your patients in the room, still with them at home.\nVisual school: Warm humanist.\nSignature element: The clinician's note: the words a clinician gave their patient, set in Literata on a sage card and signed with the clinician's name. It is the app's notes feature promoted to the brand's lead image, because it is the whole promise in one object: what your clinician told you, still with you at home.\nPalette: #41684A, #5E6687, #78A080 (the first is the brand colour). Proportion: Mostly paper and white. Deep sage carries the mark, headings that need colour, and solid buttons. Sage, the 2024 colour, is for large quiet fills behind dark text and for the illustration grounds, and never sits under white text. Slate appears once per view at most, on the one action that matters. Ink carries the reading.\nArt direction: The app is the picture. The lead image on any Pelvy surface is a real screen from the app: the clinician's note, the count, a program. Photography is the setting around it: the corner of a home where the exercises get done, and the treatment room. Rooms, objects and hands before faces. Movement is shown with stills from the app's own exercise videos, never drawn.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nAlways: Lead with a real app screen, flat and legible, at phone proportion with the panel radius.; Photograph the real clinic and the real home setting, including the slightly worn bits.; Use stills from the app's own exercise videos for anything that demonstrates a movement.; Credit clinicians by name and role, with a signed release on file.; Show every kind of body Pelvy is for across a set: different ages, sexes and sizes.; Leave a quiet third of the frame for type..\nNever: No drawn phones and no rendered 3D devices. Show the screen itself, or a real phone in a real photograph.; No illustrated people of any kind.; No fruit, flowers or shells standing in for anatomy.; No women-only casts. Pelvy is for everyone with a pelvis.; No generated images of people, ever. Generated photography is limited to rooms and objects, and is labelled.; No posed wellness: no white linen, no hands on a bare belly, no sunrise yoga.; No screen that shows a real patient's name or note..\nThe shot: A clinician's hands setting up a program on a phone, patient out of frame. Why it exists: The clinician page and the deck need the hand-over moment.\nFormat: 16:9, for deck.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nNobody in frame may be presented as a real customer or member of staff: this is a sample of the direction, and it is labelled as generated wherever it appears.",
+      "prompt": null,
+      "promptSource": null,
+      "briefAtPrompt": null,
+      "origin": "dealt",
+      "overrides": [],
+      "blocked": null,
+      "results": [],
+      "failures": [],
+      "modelSource": "fallback"
+    },
+    {
+      "id": "photo-stills-from-the-exercise-videos-re-expor",
+      "kind": "photo",
+      "need": "photo",
+      "title": "Stills from the exercise videos, re-exported without the old logo watermark",
+      "surface": "social",
+      "intent": {
+        "aspect_ratio": "4:5"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "4:5",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 2,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nPositioning: For pelvic health clinicians whose patients lose the thread between appointments, Pelvy is the between-appointments companion that puts the clinician's own advice, exercises and reminders on the patient's phone, because it was built by a practising pelvic health physiotherapist from what patients and clinicians asked for. Unlike a handout or a Kegel timer, it counts the patient through the whole program and keeps the advice where they will find it. Said plainly: what you tell your patients in the room, still with them at home.\nVisual school: Warm humanist.\nSignature element: The clinician's note: the words a clinician gave their patient, set in Literata on a sage card and signed with the clinician's name. It is the app's notes feature promoted to the brand's lead image, because it is the whole promise in one object: what your clinician told you, still with you at home.\nPalette: #41684A, #5E6687, #78A080 (the first is the brand colour). Proportion: Mostly paper and white. Deep sage carries the mark, headings that need colour, and solid buttons. Sage, the 2024 colour, is for large quiet fills behind dark text and for the illustration grounds, and never sits under white text. Slate appears once per view at most, on the one action that matters. Ink carries the reading.\nArt direction: The app is the picture. The lead image on any Pelvy surface is a real screen from the app: the clinician's note, the count, a program. Photography is the setting around it: the corner of a home where the exercises get done, and the treatment room. Rooms, objects and hands before faces. Movement is shown with stills from the app's own exercise videos, never drawn.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nAlways: Lead with a real app screen, flat and legible, at phone proportion with the panel radius.; Photograph the real clinic and the real home setting, including the slightly worn bits.; Use stills from the app's own exercise videos for anything that demonstrates a movement.; Credit clinicians by name and role, with a signed release on file.; Show every kind of body Pelvy is for across a set: different ages, sexes and sizes.; Leave a quiet third of the frame for type..\nNever: No drawn phones and no rendered 3D devices. Show the screen itself, or a real phone in a real photograph.; No illustrated people of any kind.; No fruit, flowers or shells standing in for anatomy.; No women-only casts. Pelvy is for everyone with a pelvis.; No generated images of people, ever. Generated photography is limited to rooms and objects, and is labelled.; No posed wellness: no white linen, no hands on a bare belly, no sunrise yoga.; No screen that shows a real patient's name or note..\nThe shot: Stills from the exercise videos, re-exported without the old logo watermark. Why it exists: Social and the store listing need movement shown by a real person.\nFormat: 4:5, for social.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nNobody in frame may be presented as a real customer or member of staff: this is a sample of the direction, and it is labelled as generated wherever it appears.",
+      "prompt": null,
+      "promptSource": null,
+      "briefAtPrompt": null,
+      "origin": "dealt",
+      "overrides": [],
+      "blocked": null,
+      "results": [],
+      "failures": [],
+      "modelSource": "fallback"
+    },
+    {
+      "id": "photo-the-old-way",
+      "kind": "photo",
+      "need": "photo",
+      "title": "The old way: a creased paper handout on a fridge door or in a kitchen drawer",
+      "surface": "print",
+      "intent": {
+        "aspect_ratio": "2:3"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "2:3",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 1,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nPositioning: For pelvic health clinicians whose patients lose the thread between appointments, Pelvy is the between-appointments companion that puts the clinician's own advice, exercises and reminders on the patient's phone, because it was built by a practising pelvic health physiotherapist from what patients and clinicians asked for. Unlike a handout or a Kegel timer, it counts the patient through the whole program and keeps the advice where they will find it. Said plainly: what you tell your patients in the room, still with them at home.\nVisual school: Warm humanist.\nSignature element: The clinician's note: the words a clinician gave their patient, set in Literata on a sage card and signed with the clinician's name. It is the app's notes feature promoted to the brand's lead image, because it is the whole promise in one object: what your clinician told you, still with you at home.\nPalette: #41684A, #5E6687, #78A080 (the first is the brand colour). Proportion: Mostly paper and white. Deep sage carries the mark, headings that need colour, and solid buttons. Sage, the 2024 colour, is for large quiet fills behind dark text and for the illustration grounds, and never sits under white text. Slate appears once per view at most, on the one action that matters. Ink carries the reading.\nArt direction: The app is the picture. The lead image on any Pelvy surface is a real screen from the app: the clinician's note, the count, a program. Photography is the setting around it: the corner of a home where the exercises get done, and the treatment room. Rooms, objects and hands before faces. Movement is shown with stills from the app's own exercise videos, never drawn.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nAlways: Lead with a real app screen, flat and legible, at phone proportion with the panel radius.; Photograph the real clinic and the real home setting, including the slightly worn bits.; Use stills from the app's own exercise videos for anything that demonstrates a movement.; Credit clinicians by name and role, with a signed release on file.; Show every kind of body Pelvy is for across a set: different ages, sexes and sizes.; Leave a quiet third of the frame for type..\nNever: No drawn phones and no rendered 3D devices. Show the screen itself, or a real phone in a real photograph.; No illustrated people of any kind.; No fruit, flowers or shells standing in for anatomy.; No women-only casts. Pelvy is for everyone with a pelvis.; No generated images of people, ever. Generated photography is limited to rooms and objects, and is labelled.; No posed wellness: no white linen, no hands on a bare belly, no sunrise yoga.; No screen that shows a real patient's name or note..\nThe shot: The old way: a creased paper handout on a fridge door or in a kitchen drawer. Why it exists: The problem, in one picture, for the one-pager.\nFormat: 2:3, for print.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nNobody in frame may be presented as a real customer or member of staff: this is a sample of the direction, and it is labelled as generated wherever it appears.",
+      "prompt": "Photograph of a kitchen fridge door in ordinary daylight: one creased, slightly curled sheet of A4 paper held up by a single plain magnet, half hidden behind a takeaway menu and a child's drawing, the corner of a calendar at the edge of frame. The sheet is a photocopied exercise handout seen from far enough away that its print is only soft grey blocks and simple shapes, impossible to read. Flat natural light from a window on the left, 35mm lens, square-on, slightly cluttered and completely unstyled, true colour. No people. No readable text, no lettering, no logos anywhere in the frame.",
+      "promptSource": "authored",
+      "briefAtPrompt": "bf128c0cb3ea",
+      "origin": "dealt",
+      "overrides": [
+        "count"
+      ],
+      "blocked": null,
+      "results": [
+        {
+          "id": "photo-the-old-way-1",
+          "file": "brand/media/photo/photo-the-old-way-1.png",
+          "preview": "brand/media/photo/photo-the-old-way-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "915b3532-7b8b-4fc5-ab04-30deb3b00bd3",
+          "model": "gpt_image_2_5",
+          "modelName": "GPT Image 2.5",
+          "prompt": "Photograph of a kitchen fridge door in ordinary daylight: one creased, slightly curled sheet of A4 paper held up by a single plain magnet, half hidden behind a takeaway menu and a child's drawing, the corner of a calendar at the edge of frame. The sheet is a photocopied exercise handout seen from far enough away that its print is only soft grey blocks and simple shapes, impossible to read. Flat natural light from a window on the left, 35mm lens, square-on, slightly cluttered and completely unstyled, true colour. No people. No readable text, no lettering, no logos anywhere in the frame.",
+          "credits": 15,
+          "created": "2026-10-11T23:53:05.360948Z"
+        }
+      ],
+      "failures": [],
+      "modelSource": "fallback"
+    },
+    {
+      "id": "photo-amelia-in-her-clinic-looking-at-the-came",
+      "kind": "photo",
+      "need": "photo",
+      "title": "Amelia in her clinic, looking at the camera, credited",
+      "surface": "web",
+      "intent": {
+        "aspect_ratio": "16:9"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "16:9",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 2,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nPositioning: For pelvic health clinicians whose patients lose the thread between appointments, Pelvy is the between-appointments companion that puts the clinician's own advice, exercises and reminders on the patient's phone, because it was built by a practising pelvic health physiotherapist from what patients and clinicians asked for. Unlike a handout or a Kegel timer, it counts the patient through the whole program and keeps the advice where they will find it. Said plainly: what you tell your patients in the room, still with them at home.\nVisual school: Warm humanist.\nSignature element: The clinician's note: the words a clinician gave their patient, set in Literata on a sage card and signed with the clinician's name. It is the app's notes feature promoted to the brand's lead image, because it is the whole promise in one object: what your clinician told you, still with you at home.\nPalette: #41684A, #5E6687, #78A080 (the first is the brand colour). Proportion: Mostly paper and white. Deep sage carries the mark, headings that need colour, and solid buttons. Sage, the 2024 colour, is for large quiet fills behind dark text and for the illustration grounds, and never sits under white text. Slate appears once per view at most, on the one action that matters. Ink carries the reading.\nArt direction: The app is the picture. The lead image on any Pelvy surface is a real screen from the app: the clinician's note, the count, a program. Photography is the setting around it: the corner of a home where the exercises get done, and the treatment room. Rooms, objects and hands before faces. Movement is shown with stills from the app's own exercise videos, never drawn.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nAlways: Lead with a real app screen, flat and legible, at phone proportion with the panel radius.; Photograph the real clinic and the real home setting, including the slightly worn bits.; Use stills from the app's own exercise videos for anything that demonstrates a movement.; Credit clinicians by name and role, with a signed release on file.; Show every kind of body Pelvy is for across a set: different ages, sexes and sizes.; Leave a quiet third of the frame for type..\nNever: No drawn phones and no rendered 3D devices. Show the screen itself, or a real phone in a real photograph.; No illustrated people of any kind.; No fruit, flowers or shells standing in for anatomy.; No women-only casts. Pelvy is for everyone with a pelvis.; No generated images of people, ever. Generated photography is limited to rooms and objects, and is labelled.; No posed wellness: no white linen, no hands on a bare belly, no sunrise yoga.; No screen that shows a real patient's name or note..\nThe shot: Amelia in her clinic, looking at the camera, credited. Why it exists: The About page and press. A founder-led health product needs its founder visible.\nFormat: 16:9, for web.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nNobody in frame may be presented as a real customer or member of staff: this is a sample of the direction, and it is labelled as generated wherever it appears.",
+      "prompt": null,
+      "promptSource": null,
+      "briefAtPrompt": null,
+      "origin": "dealt",
+      "overrides": [],
+      "blocked": null,
+      "results": [],
+      "failures": [],
+      "modelSource": "fallback"
+    },
+    {
+      "id": "scene-waiting-room-poster",
+      "kind": "scene",
+      "need": "scene",
+      "title": "Waiting room poster, blank, for the mockup",
+      "surface": "signage",
+      "intent": {
+        "aspect_ratio": "3:2"
+      },
+      "model": "nano_banana_2_1",
+      "params": {
+        "aspect_ratio": "3:2",
+        "resolution": "4k"
+      },
+      "refs": {},
+      "count": 1,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nThe surface: Waiting room poster (signage), as it really exists for a business like this. It has to: A2 on a clinic wall, drawn at A4 proportion. Shows the app and tells a waiting patient to ask their clinician.\nThe panel where the mark goes must be BLANK, facing the camera closely enough that its four corners can be read, evenly lit, and at least a third of the frame.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nAfterwards: brandi mockup grid <this file>, read the corners, and brandi mockup build composites the real artwork.",
+      "prompt": "Photograph of a physiotherapy clinic waiting room wall, square-on and evenly lit by daylight: one large portrait poster in a thin pale timber frame hangs on a warm white wall, filling more than a third of the frame. The poster inside the frame is completely blank: plain flat white paper with nothing printed on it. Below it two simple timber chairs with sage-green cushions and a low side table with a small plant; a strip of timber floor. Camera exactly perpendicular to the wall so the poster is a true rectangle with straight edges, 35mm lens, no reflections on the frame, soft even light with no hot spots. No people. No text, no lettering, no logos, no other posters or signs.",
+      "promptSource": "authored",
+      "briefAtPrompt": "51941c30d70e",
+      "origin": "dealt",
+      "overrides": [],
+      "blocked": null,
+      "results": [
+        {
+          "id": "scene-waiting-room-poster-1",
+          "file": "brand/media/scene/scene-waiting-room-poster-1.png",
+          "preview": "brand/media/scene/scene-waiting-room-poster-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "7483f153-e749-4f09-a1a1-c3b69903a0ff",
+          "model": "nano_banana_2_1",
+          "modelName": "Nano Banana 2.1",
+          "prompt": "Photograph of a physiotherapy clinic waiting room wall, square-on and evenly lit by daylight: one large portrait poster in a thin pale timber frame hangs on a warm white wall, filling more than a third of the frame. The poster inside the frame is completely blank: plain flat white paper with nothing printed on it. Below it two simple timber chairs with sage-green cushions and a low side table with a small plant; a strip of timber floor. Camera exactly perpendicular to the wall so the poster is a true rectangle with straight edges, 35mm lens, no reflections on the frame, soft even light with no hot spots. No people. No text, no lettering, no logos, no other posters or signs.",
+          "credits": 3,
+          "created": "2026-10-11T23:53:06.253512Z"
+        }
+      ],
+      "failures": [],
+      "modelSource": "newer-in-family"
+    },
+    {
+      "id": "scene-patient-set-up-card",
+      "kind": "scene",
+      "need": "scene",
+      "title": "Patient set-up card, blank, for the mockup",
+      "surface": "card",
+      "intent": {
+        "aspect_ratio": "3:2"
+      },
+      "model": "nano_banana_2_1",
+      "params": {
+        "aspect_ratio": "3:2",
+        "resolution": "4k"
+      },
+      "refs": {},
+      "count": 1,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nThe surface: Patient set-up card (card), as it really exists for a business like this. It has to: The card a clinician hands over at the end of an appointment: your program is on Pelvy, here is how to open it.\nThe panel where the mark goes must be BLANK, facing the camera closely enough that its four corners can be read, evenly lit, and at least a third of the frame.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nAfterwards: brandi mockup grid <this file>, read the corners, and brandi mockup build composites the real artwork.",
+      "prompt": "Overhead photograph looking straight down at a clinic reception desk of pale timber in soft daylight: one blank business card lying flat in the centre, large in the frame, completely plain white matte card with nothing printed on it and square to the camera with straight edges. Around it at the edges of frame: a pen, the corner of an appointment diary, a small sage-green ceramic dish. Even soft light from a window at the top, a faint natural shadow under the card, 50mm lens, everything sharp. No people, no hands. No text, no lettering, no logos anywhere.",
+      "promptSource": "authored",
+      "briefAtPrompt": "6cdfb54e07f2",
+      "origin": "dealt",
+      "overrides": [],
+      "blocked": null,
+      "results": [
+        {
+          "id": "scene-patient-set-up-card-1",
+          "file": "brand/media/scene/scene-patient-set-up-card-1.png",
+          "preview": "brand/media/scene/scene-patient-set-up-card-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "f685b6e5-4e85-496e-9b13-1e760a143889",
+          "model": "nano_banana_2_1",
+          "modelName": "Nano Banana 2.1",
+          "prompt": "Overhead photograph looking straight down at a clinic reception desk of pale timber in soft daylight: one blank business card lying flat in the centre, large in the frame, completely plain white matte card with nothing printed on it and square to the camera with straight edges. Around it at the edges of frame: a pen, the corner of an appointment diary, a small sage-green ceramic dish. Even soft light from a window at the top, a faint natural shadow under the card, 50mm lens, everything sharp. No people, no hands. No text, no lettering, no logos anywhere.",
+          "credits": 3,
+          "created": "2026-10-11T23:54:05.277437Z"
+        }
+      ],
+      "failures": [],
+      "modelSource": "newer-in-family"
+    },
+    {
+      "id": "scene-tote-bag",
+      "kind": "scene",
+      "need": "scene",
+      "title": "Tote bag, blank, for the mockup",
+      "surface": "merch",
+      "intent": {
+        "aspect_ratio": "3:2"
+      },
+      "model": "nano_banana_2_1",
+      "params": {
+        "aspect_ratio": "3:2",
+        "resolution": "4k"
+      },
+      "refs": {},
+      "count": 1,
+      "brief": "Brand: Pelvy, \"Pelvic health, between appointments.\".\nCategory: Digital health, Pelvic health, Clinician tools.\nTreatment: Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.\nThe surface: Tote bag (merch), as it really exists for a business like this. It has to: For clinicians at a conference or a launch event. The mark alone, one colour, screen-printed.\nThe panel where the mark goes must be BLANK, facing the camera closely enough that its four corners can be read, evenly lit, and at least a third of the frame.\nNo text, lettering, logos, signage or watermarks anywhere in frame. The real mark is added afterwards from the vector master, never drawn by the model.\nAfterwards: brandi mockup grid <this file>, read the corners, and brandi mockup build composites the real artwork.",
+      "prompt": "Photograph of one plain natural unbleached cotton canvas tote bag hanging flat from a timber peg on a warm white wall, square-on to the camera and evenly lit by soft daylight. The front of the bag is completely blank: plain flat canvas with nothing printed on it, hanging smooth with very few folds, filling more than a third of the frame, its front panel a true rectangle. Below, the top of a timber bench with a rolled sage-green exercise mat at the edge of frame. 50mm lens, no strong shadows. No people. No text, no lettering, no logos, no print on the bag.",
+      "promptSource": "authored",
+      "briefAtPrompt": "17ca3c553c5e",
+      "origin": "dealt",
+      "overrides": [],
+      "blocked": null,
+      "results": [
+        {
+          "id": "scene-tote-bag-1",
+          "file": "brand/media/scene/scene-tote-bag-1.png",
+          "preview": "brand/media/scene/scene-tote-bag-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "e77c88c4-fa42-4824-b246-980ea2409c8e",
+          "model": "nano_banana_2_1",
+          "modelName": "Nano Banana 2.1",
+          "prompt": "Photograph of one plain natural unbleached cotton canvas tote bag hanging flat from a timber peg on a warm white wall, square-on to the camera and evenly lit by soft daylight. The front of the bag is completely blank: plain flat canvas with nothing printed on it, hanging smooth with very few folds, filling more than a third of the frame, its front panel a true rectangle. Below, the top of a timber bench with a rolled sage-green exercise mat at the edge of frame. 50mm lens, no strong shadows. No people. No text, no lettering, no logos, no print on the bag.",
+          "credits": 3,
+          "created": "2026-10-11T23:54:09.481692Z"
+        }
+      ],
+      "failures": [],
+      "modelSource": "newer-in-family"
+    },
+    {
+      "id": "dir-a-photo",
+      "kind": "photo",
+      "need": "photo",
+      "title": "Direction A, clinic-grade: the treatment room",
+      "surface": null,
+      "intent": {
+        "aspect_ratio": "4:5"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "4:5",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 1,
+      "brief": "Added by hand.",
+      "prompt": "Documentary photograph of a physiotherapy treatment room early in the morning, before the first patient. Square-on view of a desk against a deep eucalypt-green painted wall: an anatomical model of a human pelvis on a small stand, a smartphone lying face down beside it, a folded white towel at the edge of frame on a treatment table. Cool even daylight from a window on the left, soft shadow, 35mm lens, everything sharp, calm and orderly, real and slightly worn surfaces. No people. No text, no lettering, no logos, no screens showing anything.",
+      "promptSource": "authored",
+      "briefAtPrompt": "8a5f71676969",
+      "origin": "added",
+      "overrides": [
+        "params.aspect_ratio",
+        "count"
+      ],
+      "blocked": null,
+      "results": [
+        {
+          "id": "dir-a-photo-1",
+          "file": "brand/media/photo/dir-a-photo-1.png",
+          "preview": "brand/media/photo/dir-a-photo-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "24ad9897-d1e3-4042-88c0-e391193bda1a",
+          "model": "gpt_image_2_5",
+          "modelName": "GPT Image 2.5",
+          "prompt": "Documentary photograph of a physiotherapy treatment room early in the morning, before the first patient. Square-on view of a desk against a deep eucalypt-green painted wall: an anatomical model of a human pelvis on a small stand, a smartphone lying face down beside it, a folded white towel at the edge of frame on a treatment table. Cool even daylight from a window on the left, soft shadow, 35mm lens, everything sharp, calm and orderly, real and slightly worn surfaces. No people. No text, no lettering, no logos, no screens showing anything.",
+          "credits": 15,
+          "created": "2026-10-11T23:31:09.013371Z"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "dir-b-photo",
+      "kind": "photo",
+      "need": "photo",
+      "title": "Direction B, the good physio: at home",
+      "surface": null,
+      "intent": {
+        "aspect_ratio": "4:5"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "4:5",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 1,
+      "brief": "Added by hand.",
+      "prompt": "Photograph taken at home on a bedroom floor in late afternoon: a rolled sage-green exercise mat, a smartphone leaning against a ceramic mug of tea, a paper handout with a soft fold lying half under the mat. Warm low sunlight through a linen curtain, long soft shadows on a pale timber floor, 50mm lens, shallow depth of field, focus on the mat's edge. Quiet, lived-in, a little untidy. No people. No text, no lettering, no logos, the phone screen is dark.",
+      "promptSource": "authored",
+      "briefAtPrompt": "8a5f71676969",
+      "origin": "added",
+      "overrides": [
+        "params.aspect_ratio",
+        "count"
+      ],
+      "blocked": null,
+      "results": [
+        {
+          "id": "dir-b-photo-1",
+          "file": "brand/media/photo/dir-b-photo-1.png",
+          "preview": "brand/media/photo/dir-b-photo-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "da38da15-241f-4f81-b4ca-2dd9e1842120",
+          "model": "gpt_image_2_5",
+          "modelName": "GPT Image 2.5",
+          "prompt": "Photograph taken at home on a bedroom floor in late afternoon: a rolled sage-green exercise mat, a smartphone leaning against a ceramic mug of tea, a paper handout with a soft fold lying half under the mat. Warm low sunlight through a linen curtain, long soft shadows on a pale timber floor, 50mm lens, shallow depth of field, focus on the mat's edge. Quiet, lived-in, a little untidy. No people. No text, no lettering, no logos, the phone screen is dark.",
+          "credits": 15,
+          "created": "2026-10-11T23:31:09.328551Z"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "dir-c-photo",
+      "kind": "photo",
+      "need": "photo",
+      "title": "Direction C, the count: the mat",
+      "surface": null,
+      "intent": {
+        "aspect_ratio": "4:5"
+      },
+      "model": "gpt_image_2_5",
+      "params": {
+        "aspect_ratio": "4:5",
+        "resolution": "4k",
+        "quality": "max"
+      },
+      "refs": {},
+      "count": 1,
+      "brief": "Added by hand.",
+      "prompt": "Black and white overhead photograph, looking straight down: the corner of a dark exercise mat on a pale concrete floor, and a single sheet of white paper folded once lying square beside it. Hard directional light from the top left giving one crisp shadow, high contrast, graphic and almost abstract composition with a lot of empty floor, medium format, everything sharp. No people. No text, no lettering, no logos.",
+      "promptSource": "authored",
+      "briefAtPrompt": "8a5f71676969",
+      "origin": "added",
+      "overrides": [
+        "params.aspect_ratio",
+        "count"
+      ],
+      "blocked": null,
+      "results": [
+        {
+          "id": "dir-c-photo-1",
+          "file": "brand/media/photo/dir-c-photo-1.png",
+          "preview": "brand/media/photo/dir-c-photo-1.preview.webp",
+          "previewKind": "image",
+          "landing": null,
+          "jobId": "5012e96a-0545-47e5-85b8-20688f626fb6",
+          "model": "gpt_image_2_5",
+          "modelName": "GPT Image 2.5",
+          "prompt": "Black and white overhead photograph, looking straight down: the corner of a dark exercise mat on a pale concrete floor, and a single sheet of white paper folded once lying square beside it. Hard directional light from the top left giving one crisp shadow, high contrast, graphic and almost abstract composition with a lot of empty floor, medium format, everything sharp. No people. No text, no lettering, no logos.",
+          "credits": 15,
+          "created": "2026-10-11T23:31:08.781447Z"
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "notes": [
+    "scene: nano_banana_flash -> nano_banana_2_1, a newer version of the same family."
+  ]
+}

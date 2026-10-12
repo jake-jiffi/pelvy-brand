@@ -1,0 +1,2011 @@
+{
+  "$schema": "./brand.schema.json",
+  "brandi": {
+    "version": "1.0.0",
+    "created": "2026-10-11T23:22:49.572Z",
+    "updated": "2026-10-12T01:45:05.190Z",
+    "phase": "publish",
+    "completed": [
+      "recon",
+      "intake",
+      "strategy",
+      "territories",
+      "identity",
+      "voice",
+      "proof",
+      "publish"
+    ]
+  },
+  "meta": {
+    "name": "Pelvy",
+    "slug": "pelvy",
+    "legalName": "PELVY PTY LTD",
+    "tagline": "Pelvic health, between appointments.",
+    "version": "0.1.0",
+    "effectiveDate": null,
+    "owner": "Amelia, founder of Pelvy",
+    "locale": "en-AU",
+    "categories": [
+      "Digital health",
+      "Pelvic health",
+      "Clinician tools"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "e1",
+      "claim": "The only logo file in use is a 228x81px raster PNG (wordmark plus figure symbol, with gradient shading). No vector exists on any public channel.",
+      "provenance": "extracted",
+      "source": "pelvy.app/wp-content/uploads/2024/10/logo.png, header img.hfe-site-logo-img, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.190Z"
+    },
+    {
+      "id": "e2",
+      "claim": "The footer logo is the same artwork at 245x88px. The favicon is the symbol alone at 32x32px.",
+      "provenance": "extracted",
+      "source": "footer-logo.png and favicon.png, pelvy.app uploads, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.270Z"
+    },
+    {
+      "id": "e3",
+      "claim": "The highest-resolution copy of the symbol is the 1024px App Store icon: the figure symbol on white, with gradient shading.",
+      "provenance": "extracted",
+      "source": "App Store artwork for Pelvy Patient (id6752825827), 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.345Z"
+    },
+    {
+      "id": "e4",
+      "claim": "The wordmark is a flat sage green, about #78A080. The symbol runs from #609068 through #88A890 with #507058 in the shadows.",
+      "provenance": "extracted",
+      "source": "pixel sample of logo.png, quantised to 8 levels so accurate to roughly +/-4 per channel, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.443Z"
+    },
+    {
+      "id": "e5",
+      "claim": "Website buttons use sage #789F80; the header pill uses #91AD9D; section grounds use mint #E6F3EA; rules use #C6D7CA.",
+      "provenance": "extracted",
+      "source": "computed background-color on .elementor-button and section backgrounds, pelvy.app home, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.516Z"
+    },
+    {
+      "id": "e6",
+      "claim": "A slate lavender #8C94AB is the secondary colour: the Enquire button and the footer bar.",
+      "provenance": "extracted",
+      "source": "computed background-color on the ENQUIRE button and footer bar, pelvy.app home, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.587Z"
+    },
+    {
+      "id": "e7",
+      "claim": "Website text is near-black: #2E2E2E body, #1E1E1E headings, #181C25 feature text.",
+      "provenance": "extracted",
+      "source": "computed color on body, h2 and feature copy, pelvy.app home, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.661Z"
+    },
+    {
+      "id": "e8",
+      "claim": "Website headings are PT Serif (55px/65px, weight 500 requested, 400 and 700 loaded). Body is DM Sans 20px on a 40px line.",
+      "provenance": "extracted",
+      "source": "computed font-family on h2 and body, document.fonts, pelvy.app home, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.734Z"
+    },
+    {
+      "id": "e9",
+      "claim": "The Elementor theme still carries its unused defaults: accent #61CE70, #2F5AAE, #9463AE, #BE574B.",
+      "provenance": "extracted",
+      "source": null,
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.805Z"
+    },
+    {
+      "id": "e10",
+      "claim": "The app uses a different, yellower green for its header bar and buttons than the website, an orange for Breathe Out and Pause, a lilac-white ground, and purple pagination dots.",
+      "provenance": "extracted",
+      "source": "App Store screenshots 1 to 7 for Pelvy Patient, observed not sampled (JPEG-derived), 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.890Z"
+    },
+    {
+      "id": "e11",
+      "claim": "Website radii are 11px on buttons and 37px on the header pills; feature icons sit in 50% circles.",
+      "provenance": "extracted",
+      "source": "computed border-radius, pelvy.app home, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:41.966Z"
+    },
+    {
+      "id": "e12",
+      "claim": "The home page carries template placeholder content: testimonials from 'Courtney Henry', 'Cody Fisher' and 'Devon Lane', and sixteen stock client logos (Asgardia, Aven, Circle, Code-Lab and others).",
+      "provenance": "extracted",
+      "source": "img sources and h3 text in home.html, pelvy.app, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.046Z"
+    },
+    {
+      "id": "e13",
+      "claim": "Website illustration is stock flat-vector people in sage, white and navy inside a mint circle; the hero is a photograph of a clinician holding a pelvis model.",
+      "provenance": "extracted",
+      "source": "healthcare-group.png, General-Users.png and the hero background, pelvy.app home, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.121Z"
+    },
+    {
+      "id": "e14",
+      "claim": "Pelvy was created by Amelia, a pelvic health physiotherapist.",
+      "provenance": "published",
+      "source": "pelvy.app/about, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.207Z"
+    },
+    {
+      "id": "e15",
+      "claim": "Pelvy positions itself as accessible pelvic health support, built on evidence-based exercises and guidance, for clinicians to support patients and for individuals on their phone.",
+      "provenance": "published",
+      "source": "pelvy.app home hero, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.283Z"
+    },
+    {
+      "id": "e16",
+      "claim": "The stated problem: patients remember less than 20% of what clinicians tell them, and written, printed or emailed education is lost or hard to refer back to. The site attributes this to research without citing it.",
+      "provenance": "published",
+      "source": "pelvy.app/about and /clinicians-and-specialists, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.356Z"
+    },
+    {
+      "id": "e17",
+      "claim": "Pelvy is designed from feedback from patients, clinicians, pelvic health physiotherapists, GPs, and medical and surgical specialists.",
+      "provenance": "published",
+      "source": "pelvy.app/about, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.426Z"
+    },
+    {
+      "id": "e18",
+      "claim": "Pilot features live now: stored clinician education, step-by-step exercise guidance that counts every rep, personalised programs with audio and video, unlimited reminders. Diaries and symptom summaries come after the beta.",
+      "provenance": "published",
+      "source": "pelvy.app/clinician-faqs, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.500Z"
+    },
+    {
+      "id": "e19",
+      "claim": "Pelvy is customised for male and female anatomy and for any pelvic health condition; the App Store line is 'Everyone has a pelvis and pelvic floor'.",
+      "provenance": "published",
+      "source": "pelvy.app/general-users and App Store description, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.574Z"
+    },
+    {
+      "id": "e20",
+      "claim": "Pilot pricing: clinicians pay AUD 20 a month and their patients get six months free. Individuals: AUD 99 for a year. Cancel within seven days for a full refund.",
+      "provenance": "published",
+      "source": "pelvy.app/clinician-faqs and /general-user-faqs, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.650Z"
+    },
+    {
+      "id": "e21",
+      "claim": "Individuals cannot yet use Pelvy without a participating clinician; a waitlist exists. Amelia onboards every clinic herself.",
+      "provenance": "published",
+      "source": "pelvy.app/general-user-faqs and /clinician-faqs, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.723Z"
+    },
+    {
+      "id": "e22",
+      "claim": "Pelvy is not TGA certified to suggest specific exercises, and the App Store listing says it is for informational and educational use only.",
+      "provenance": "published",
+      "source": "pelvy.app/general-user-faqs and App Store description, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.794Z"
+    },
+    {
+      "id": "e23",
+      "claim": "Pelvy does not keep or sell data after an account closes: 'Once it's deleted, it's deleted.'",
+      "provenance": "published",
+      "source": "pelvy.app/general-user-faqs, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.874Z"
+    },
+    {
+      "id": "e24",
+      "claim": "The app is 'Pelvy Patient' by PELVY PTY LTD, free, released 2025-10-09, version 1.3.6, rated 4.9 from 45 ratings on the Australian App Store.",
+      "provenance": "published",
+      "source": "itunes.apple.com lookup id6752825827 country au, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:42.949Z"
+    },
+    {
+      "id": "e25",
+      "claim": "Pelvy is on Instagram (@pelvy.app), Facebook, YouTube (@PelvyApp) and the founder's own LinkedIn profile. There is no company LinkedIn page linked.",
+      "provenance": "published",
+      "source": "footer social links, pelvy.app home, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:43.025Z"
+    },
+    {
+      "id": "e26",
+      "claim": "Pelvy lists 135 Hearl Close, Brinsmead QLD as its address, has held a launch event in Perth WA, and has published a call for a Queensland Health pilot.",
+      "provenance": "published",
+      "source": "pelvy.app footer and /blog, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:25:43.102Z"
+    },
+    {
+      "id": "e27",
+      "claim": "The logo, favicon and site imagery were uploaded in October 2024, so the current identity has been public for about two years.",
+      "provenance": "extracted",
+      "source": "wp-content/uploads/2024/10/ paths on pelvy.app, 2026-10-12",
+      "field": "strategy.distinctiveAssets",
+      "confidence": "high",
+      "recorded": "2026-10-11T23:28:38.598Z"
+    },
+    {
+      "id": "e28",
+      "claim": "Competitor notes: Squeezy is NHS-linked with a professional mode and a separate Squeezy Men app; Perifit and Elvie are device-led strengthening trainers; one buying guide says Perifit is not suitable in pregnancy or chronic pelvic pain.",
+      "provenance": "assumed",
+      "source": "Two web searches of app store listings and buying guides, 2026-10-12. Secondhand summaries, not read at source. Evidence about competitors only.",
+      "field": "strategy.competitors",
+      "confidence": "medium",
+      "recorded": "2026-10-11T23:28:38.673Z"
+    },
+    {
+      "id": "e29",
+      "claim": "The live site fails WCAG AA text contrast in four places: white on the sage buttons is 2.97:1, white on the header pill 2.42:1, white on the lavender Enquire button 3.03:1, and the grey sub-heading on mint 2.01:1. AA needs 4.5:1.",
+      "provenance": "extracted",
+      "source": "contrast computed from the measured colours on pelvy.app home, 2026-10-12",
+      "field": "identity.colour.primary",
+      "confidence": "high",
+      "recorded": "2026-10-11T23:31:30.465Z"
+    },
+    {
+      "id": "e30",
+      "claim": "Jake chose Direction B, The good physio (warm humanist), after seeing the territory canvas.",
+      "provenance": "supplied",
+      "source": "Jake, in session, 2026-10-12",
+      "field": "identity.school",
+      "confidence": "high",
+      "recorded": "2026-10-11T23:41:38.815Z"
+    },
+    {
+      "id": "e31",
+      "claim": "Jake asked that the one-line figures not be leaned on unless they explain what Amelia needs cleanly, and asked for a check against the customer profile.",
+      "provenance": "supplied",
+      "source": "Jake, in session, 2026-10-12",
+      "field": "identity.signature",
+      "confidence": "high",
+      "recorded": "2026-10-11T23:44:29.869Z"
+    },
+    {
+      "id": "e32",
+      "claim": "The app's home screen is 'My Treatment Hub': a Clinician Notes card first, then one card per program showing position, frequency, last updated and counts of strength, relaxation and reminder items.",
+      "provenance": "supplied",
+      "source": "App screenshots supplied by Jake in session, 2026-10-12; the same screens are on the App Store listing",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:48:49.348Z"
+    },
+    {
+      "id": "e33",
+      "claim": "Jake: 'if we are going to show something, we are really promoting the app.' Brand surfaces should lead with the app itself.",
+      "provenance": "supplied",
+      "source": "Jake, in session, 2026-10-12",
+      "field": "identity.imagery.direction",
+      "confidence": "high",
+      "recorded": "2026-10-11T23:48:49.435Z"
+    },
+    {
+      "id": "e34",
+      "claim": "Exercise screens use a filled sage disc for breathe in, a filled orange disc for breathe out, and an outlined ring for squeeze, each with a numeral and a one or two word cue. Exercise videos show a real person on a terracotta mat against a white wall with a timber floor and a plant, and carry the 2024 logo as a watermark.",
+      "provenance": "supplied",
+      "source": "App screenshots supplied by Jake in session, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:48:49.526Z"
+    },
+    {
+      "id": "e35",
+      "claim": "On Google Play the app's line is 'Your all-in-one, evidence-based, pelvic floor app for strength AND relaxation', rated 4.9 from 16 ratings, last updated 20 July 2026.",
+      "provenance": "published",
+      "source": "play.google.com/store/apps/details?id=app.pelvy.patient_app, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:48:49.617Z"
+    },
+    {
+      "id": "e36",
+      "claim": "The sample clinician note in the store screenshots is a flare plan for pelvic pain: let belly go and belly breathing, TENS machine, a body scan for relaxation, medication options from the GP, then bowel advice, bladder urgency advice and other exercises.",
+      "provenance": "published",
+      "source": "App Store screenshot 'My Treatment Hub', Pelvy Patient, 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-11T23:48:49.701Z"
+    },
+    {
+      "id": "e37",
+      "claim": "Patients can now use Pelvy without a subscribing clinic: 'Pelvy Lite'. The app's first question is 'Is your clinic subscribing to Pelvy for you?', and a patient who answers no chooses a plan: $4.99 monthly or $19.99 yearly.",
+      "provenance": "published",
+      "source": "Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": "strategy.audiences",
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.169Z"
+    },
+    {
+      "id": "e38",
+      "claim": "The website's FAQ still says individuals cannot use Pelvy without a participating clinician and offers a waitlist. The March 2026 video and the app contradict it, so the website is out of date.",
+      "provenance": "extracted",
+      "source": "pelvy.app/general-user-faqs read 2026-10-12, against Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.251Z"
+    },
+    {
+      "id": "e39",
+      "claim": "Pelvy Lite is aimed at doctors, specialists and other clinicians who are not physiotherapists, to recommend to patients. Amelia offers a printable sheet with a QR code so patients can download it.",
+      "provenance": "published",
+      "source": "Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": "strategy.audiences",
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.331Z"
+    },
+    {
+      "id": "e40",
+      "claim": "Subscribing clinicians can add custom programs, their own advice and exercises from the library into a patient's app from a computer.",
+      "provenance": "published",
+      "source": "Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": "strategy.differentiators",
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.407Z"
+    },
+    {
+      "id": "e41",
+      "claim": "Amelia says Pelvy has 'over a hundred' clinicians 'in six different countries', and that it 'can't get this into public health yet'.",
+      "provenance": "published",
+      "source": "Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12. A count that will date quickly; no figure behind it was shown.",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.484Z"
+    },
+    {
+      "id": "e42",
+      "claim": "Amelia says 'Pelvy has demonstrated that we increase adherence by five times for daily exercises'. No study or data was cited.",
+      "provenance": "published",
+      "source": "Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.562Z"
+    },
+    {
+      "id": "e43",
+      "claim": "Amelia describes herself as a physiotherapist who has worked in all areas of pelvic health, in recent years with pelvic pain and endometriosis clinics.",
+      "provenance": "published",
+      "source": "Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": "strategy.narrative",
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.635Z"
+    },
+    {
+      "id": "e44",
+      "claim": "The app has three default programs: Pelvic Floor with Breath (contract and relax, a coordination program), Belly Breathing and Downtraining, and Pelvic Floor Strength (quick squeezes, holds, optional submaximal holds, then belly breathing). Each can be edited and given up to three reminder times.",
+      "provenance": "extracted",
+      "source": "frames of Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": "strategy.differentiators",
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.720Z"
+    },
+    {
+      "id": "e45",
+      "claim": "The treatment hub has three tabs: Programs, Videos and Learn. Learn holds five articles in order, tagged Everyone, Pain and relaxation goals, or Strength goals. Videos holds a library of stretches filmed with real people, including men and pregnancy-friendly options, and education videos to camera.",
+      "provenance": "extracted",
+      "source": "frames of Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": null,
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.812Z"
+    },
+    {
+      "id": "e46",
+      "claim": "The exercise player has three states, each in its own hue: breathe in on a green disc, breathe out on an orange disc, hold on a blue disc. Learn articles each use a different header colour (blue, green, teal, purple, orange), the disclaimer box is cream and the time picker is purple.",
+      "provenance": "extracted",
+      "source": "frames of Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": "identity.colour.accents",
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.900Z"
+    },
+    {
+      "id": "e47",
+      "claim": "The Learn section tells people that if they are not improving within three months they should see a pelvic health physiotherapist, and every article carries a disclaimer that it is general education and not individual advice.",
+      "provenance": "published",
+      "source": "Amelia, in Pelvy's own demo video (youtu.be/qEsIuCbE9k8, uploaded 2026-03-29), watched 2026-10-12",
+      "field": "voice.vocabulary.hardThings",
+      "confidence": "high",
+      "recorded": "2026-10-12T00:56:01.976Z"
+    }
+  ],
+  "strategy": {
+    "purpose": "Make sure what a pelvic health physio would tell you in the room is with you at home.",
+    "problem": "A patient leaves a pelvic health appointment with advice, an exercise program and usually a handout. By the time they need any of it, most is forgotten, lost in an inbox or in a drawer, and the program gets abandoned halfway through a set because they lost count. The clinician then spends the next appointment repeating the last one.",
+    "audiences": [
+      {
+        "name": "Pelvic health physiotherapists",
+        "need": "Patients who follow the program between visits, without more admin.",
+        "context": "They subscribe, and set each patient up from a computer with their own programs, advice and exercises from the library. Their patients get six months free. They meet Pelvy through a demo with Amelia."
+      },
+      {
+        "name": "GPs, specialists and other clinicians",
+        "need": "Something sound to recommend when a patient cannot get to a pelvic health physio, or not yet.",
+        "context": "They do not subscribe or customise. They hand over a QR code and the patient subscribes to Pelvy Lite. They need to trust the content in one look, because their name is on the recommendation."
+      },
+      {
+        "name": "People working on their pelvic floor",
+        "need": "To know whether to squeeze or let go, to do it properly, and to keep it private.",
+        "context": "Sent by a clinician or arriving alone. Any sex, any age: pelvic pain, pregnancy, postpartum, menopause, bladder, bowel. Often embarrassed, often overwhelmed. On a phone at home, where a notification on a lock screen is a reason to delete the app."
+      },
+      {
+        "name": "Health services and funded programs",
+        "need": "Something safe to put in front of patients at scale.",
+        "context": "Amelia says Pelvy cannot get into public health yet. These buyers judge a founder-led product on whether it looks like it will still be here in three years."
+      }
+    ],
+    "category": "Stated: a pelvic health app that has it all. Actual: a clinician compares it with the handout and the follow-up email, and a person on their own compares it with a free Kegel timer. Chosen frame: the pelvic floor app that counts you through a program a physio set, for strength or for letting go, with your own clinician's advice beside it when you have one.",
+    "competitors": [
+      {
+        "name": "The handout and the follow-up email",
+        "owns": "Trust, habit and zero cost. Every clinician already has them.",
+        "gap": "They are lost or never opened again, they cannot count a patient through a set, and they cannot remind anyone of anything."
+      },
+      {
+        "name": "Squeezy",
+        "owns": "The NHS-linked pelvic floor exercise reminder, with a professional mode for clinicians.",
+        "gap": "Sold as separate apps for women and men, and built around exercise reminders rather than around the clinician's own advice."
+      },
+      {
+        "name": "Device-led trainers such as Perifit and Elvie",
+        "owns": "Biofeedback and gamified strengthening, bought direct by consumers.",
+        "gap": "Hardware, strengthening only, and no clinician in the loop. A person whose pelvic floor needs to relax is being sold the wrong exercise."
+      },
+      {
+        "name": "General exercise-prescription software",
+        "owns": "A place in the physiotherapist's existing workflow.",
+        "gap": "General purpose, not pelvic health. By Pelvy's own account these tools show a demonstration with the reps written beside it, where Pelvy counts the patient through the whole session."
+      }
+    ],
+    "positioning": "For people working on their pelvic floor, with a clinician or without one yet, Pelvy is the app that counts you through the right program, strength or relaxation, and keeps the advice that goes with it, because it was built by a practising pelvic health physiotherapist who works in pelvic pain. Unlike a Kegel timer, it starts from whether you need to squeeze or to let go. Unlike a handout, it counts and it reminds. Said plainly: squeeze or let go, Pelvy counts you through what the physio set.",
+    "differentiators": [
+      {
+        "claim": "It does relaxation as seriously as strength: belly breathing, downtraining and contract-and-relax sit beside squeezes and holds."
+      },
+      {
+        "claim": "It counts and cues the whole program, breath by breath, and reminds at times the person chooses."
+      },
+      {
+        "claim": "With a subscribing physio, it carries that clinician's own programs and advice."
+      },
+      {
+        "claim": "Without one, it gives a physio-built starting program and tells people when to go and see someone."
+      },
+      {
+        "claim": "It is built by a practising pelvic health physiotherapist, and filmed with real people of more than one sex."
+      },
+      {
+        "claim": "It does not keep or sell data once an account is closed."
+      }
+    ],
+    "promise": "Pelvy counts you through the pelvic floor program a physio set, for strength or for letting go.",
+    "values": [
+      {
+        "name": "Say what it is",
+        "behaviour": "Pelvy is education and support, not treatment, and says so. A feature that has not shipped is labelled as coming, with no date it cannot keep."
+      },
+      {
+        "name": "Every body",
+        "behaviour": "Never assume the reader's sex, age or condition. Anatomy is something the person tells the app, not something the brand guesses from a colour scheme."
+      },
+      {
+        "name": "Plain words for private things",
+        "behaviour": "Bladder, bowel, prolapse, sex and pain are named the way a good physiotherapist names them: once, correctly, without a euphemism and without a wink."
+      },
+      {
+        "name": "The clinician stays in charge",
+        "behaviour": "Pelvy carries the clinician's plan and never competes with it. When someone is not improving, Pelvy sends them to a person."
+      },
+      {
+        "name": "Your information is yours",
+        "behaviour": "Nothing is sold. When an account closes, the data is deleted, and the patient is told how to keep a copy first."
+      }
+    ],
+    "personality": {
+      "attributes": [
+        {
+          "name": "Matter-of-fact",
+          "notThis": "clinical or cold",
+          "meaning": "Talks about a leaking bladder the way you would talk about a sore knee. The subject is ordinary, so the tone is too."
+        },
+        {
+          "name": "Steady",
+          "notThis": "cheerleading",
+          "meaning": "Counts with you and tells you where you are up to. Does not shout encouragement at someone doing a private exercise in their bedroom."
+        },
+        {
+          "name": "Knowledgeable",
+          "notThis": "lecturing",
+          "meaning": "Explains the one thing you need to know right now, then stops. The clinician has already given the lecture."
+        },
+        {
+          "name": "Warm",
+          "notThis": "cute",
+          "meaning": "Kind in what it does: a reminder you can set to say nothing at all. Never kind in the form of pet names for body parts."
+        },
+        {
+          "name": "Discreet",
+          "notThis": "coy",
+          "meaning": "Careful about where words appear, on a lock screen or an envelope, and completely direct once you are inside."
+        }
+      ],
+      "archetype": "Caregiver, with Sage as the second voice. A drafting prompt only; guard against the Caregiver's failure of fussing over the reader."
+    },
+    "narrative": "Amelia is a pelvic health physiotherapist. She kept seeing the same thing: a patient would leave with good advice and a program, then struggle to keep up with it. The handout was lost, the email was buried, and the education was hard to find when it was needed. Patients wanted to get better. What they lacked was one place to keep it all and something to count for them. So she built Pelvy from what her patients and the clinicians around her asked for. A clinician subscribes and sets a patient up. The patient gets their clinician's advice, a program that counts every rep, and reminders they control. The clinician gets a patient who can find what they were told. Where no clinic subscribes, a GP or specialist hands over a QR code and the patient subscribes for themselves, starting on a program a physio built.",
+    "messaging": {
+      "primary": "Squeeze or let go. Pelvy counts you through it.",
+      "pillars": [
+        {
+          "claim": "Set by a physio: yours, or ours",
+          "why": "Clinicians will only recommend content they trust, and people on their own need to know who is behind it.",
+          "proof": [
+            "Subscribing clinicians add their own programs and advice from a computer. [P: Amelia, demo video, 2026-03-29]",
+            "The default programs and the Learn section were written by Amelia, a pelvic health physiotherapist who works with pelvic pain and endometriosis clinics. [P: demo video]",
+            "The current store screenshots show a Clinician Notes card at the top of the hub. [E: App Store, 2026-10-12]"
+          ]
+        },
+        {
+          "claim": "It counts, so you can finish",
+          "why": "The usual reason a program is abandoned is losing count or forgetting. Counting and reminding are what a handout cannot do.",
+          "proof": [
+            "The player counts every rep and cues every breath: breathe in, breathe out, hold. [E: demo video frames]",
+            "Each program takes up to three reminder times a day. [E: demo video frames]",
+            "Amelia says Pelvy has shown five times the adherence for daily exercises. [P: demo video. Unsourced: do not print until she supplies the data.]"
+          ]
+        },
+        {
+          "claim": "Strength, and letting go",
+          "why": "Most pelvic floor apps only train squeezing. People with pelvic pain are often doing the wrong exercise.",
+          "proof": [
+            "Three programs ship in the app: Pelvic Floor Strength, Belly Breathing and Downtraining, and Pelvic Floor with Breath. [E: demo video frames]",
+            "Google Play describes it as 'for strength AND relaxation'. [P: Play listing, 2026-10-12]",
+            "The Learn section sorts its advice into pain and relaxation goals and strength goals. [E: demo video frames]"
+          ]
+        }
+      ],
+      "tagline": "Pelvic health, between appointments."
+    },
+    "distinctiveAssets": [
+      {
+        "asset": "The figure that makes a P",
+        "where": "Logo, app icon, favicon",
+        "status": "Existing and worth keeping. In use since at least October 2024. How unique it is in the category has not been measured (see the open questions). Lead asset: redrawn flat, never re-invented."
+      },
+      {
+        "asset": "The count ring",
+        "where": "Exercise screens today; in the new system, numbered sections, steps and progress everywhere",
+        "status": "Existing in the product, unused in the brand. Investable: it is the one thing Pelvy does that a handout cannot, and it is already how patients experience the app."
+      },
+      {
+        "asset": "Sage, in two depths",
+        "where": "Everywhere",
+        "status": "Existing, but soft sage is the wellness category's shared colour, so it identifies the category more than it identifies Pelvy. Kept and deepened so it can carry text, and never relied on alone."
+      },
+      {
+        "asset": "The line 'between appointments'",
+        "where": "Tagline, deck, app store listing",
+        "status": "Half-existing: the clinician FAQ already says it once. Investable: say it everywhere, unchanged."
+      },
+      {
+        "asset": "The name Pelvy",
+        "where": "Everywhere",
+        "status": "Existing. Says the category in five letters. Not up for discussion."
+      }
+    ]
+  },
+  "identity": {
+    "school": "Warm humanist",
+    "schoolRationale": "Jake chose it. Pelvy is one physiotherapist's care carried into an app, and this direction looks like that: today's sage, serif headings and a soft shape, kept and redrawn properly so they pass contrast and match across the website, the app and the store. The risk is that soft sage and round corners are where every wellness app lives, so three things do the identifying: the clinician's own words set large, the count, and photographs of real rooms.",
+    "signature": "The clinician's note: the words a clinician gave their patient, set in Literata on a sage card and signed with the clinician's name. It is the app's notes feature promoted to the brand's lead image, because it is the whole promise in one object: what your clinician told you, still with you at home.",
+    "colour": {
+      "primary": "#41684A",
+      "accents": [
+        "#5E6687",
+        "#78A080"
+      ],
+      "harmony": "explicit",
+      "accentCount": 2,
+      "neutralHue": "#78A080",
+      "neutralChroma": 0.014,
+      "ratio": "Mostly paper and white. Deep sage is the brand colour: the logo, brand text, progress, and the one main action on a view. Sage, the 2024 colour, means let go: the in-breath, relaxation content, and the quiet ground behind app screens and photographs, with ink type at 24 pixels and above only. Soft sage, a lighter step of it, is the ground for the clinician's note and anything read at text size. Slate means work: the out-breath, the squeeze and strength content, and nothing else. Ink carries the reading. White text sits on deep sage or slate, never on either sage."
+    },
+    "type": {
+      "display": "Literata",
+      "body": "DM Sans",
+      "mono": "DM Mono",
+      "basePx": 17,
+      "baseMaxPx": 19,
+      "ratio": "major-third",
+      "ratioMax": null,
+      "measureChars": 62,
+      "licences": [
+        {
+          "family": "Literata",
+          "source": "TypeTogether for Google, via Google Fonts",
+          "permits": "SIL Open Font Licence 1.1: free for web, app, print and embedding, including commercial use."
+        },
+        {
+          "family": "DM Sans",
+          "source": "Colophon Foundry for DeepMind, via Google Fonts",
+          "permits": "SIL Open Font Licence 1.1, as above. Already in use on pelvy.app."
+        },
+        {
+          "family": "DM Mono",
+          "source": "Colophon Foundry for DeepMind, via Google Fonts",
+          "permits": "SIL Open Font Licence 1.1, as above."
+        }
+      ]
+    },
+    "shape": "rounded",
+    "motion": "fluid",
+    "spaceBase": 4,
+    "logo": {
+      "files": [
+        {
+          "path": "brand/logo/master/primary.svg",
+          "role": "primary"
+        },
+        {
+          "path": "brand/logo/master/mono-black.svg",
+          "role": "mono-black"
+        },
+        {
+          "path": "brand/logo/master/mono-white.svg",
+          "role": "mono-white"
+        },
+        {
+          "path": "brand/logo/lockups/small-grade.svg",
+          "role": "favicon"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Primary",
+          "use": "Everywhere, unless another variant is specifically called for.",
+          "file": "brand/logo/master/primary.svg"
+        },
+        {
+          "name": "One colour, black",
+          "use": "Etching, foil, single-colour print, fax, a black and white printer.",
+          "file": "brand/logo/master/mono-black.svg"
+        },
+        {
+          "name": "Reversed",
+          "use": "Knocked out of the dark surface token, and out of photography above the stated tonal window.",
+          "file": "brand/logo/master/mono-white.svg"
+        },
+        {
+          "name": "Logo",
+          "use": "The default wherever the name has to be read: website header, deck, print, the set-up card. The published arrangement, name first and symbol after, in deep sage with the lighter shapes in sage.",
+          "file": "brand/logo/lockups/pelvy-logo-brand.svg"
+        },
+        {
+          "name": "Logo, one colour",
+          "use": "Deep sage on paper or white where two tones cannot be held: a stamp, a single-colour print.",
+          "file": "brand/logo/lockups/pelvy-logo-deep.svg"
+        },
+        {
+          "name": "Logo on sage",
+          "use": "Ink, on either sage ground.",
+          "file": "brand/logo/lockups/pelvy-logo-ink.svg"
+        },
+        {
+          "name": "Logo, reversed",
+          "use": "White, on deep sage, slate or a dark photograph.",
+          "file": "brand/logo/lockups/pelvy-logo-white.svg"
+        },
+        {
+          "name": "Symbol",
+          "use": "The app icon, the avatar, the tote. Never under 48 pixels.",
+          "file": "brand/logo/lockups/pelvy-symbol-brand.svg"
+        },
+        {
+          "name": "Simplified symbol",
+          "use": "From 20 to 47 pixels, where the fine white lines of the symbol close up: three solid shapes at one weight, redrawn from the same figure.",
+          "file": "brand/logo/lockups/simplified-symbol.svg"
+        },
+        {
+          "name": "Small grade",
+          "use": "16 pixels and under: the favicon and the notification icon. A redraw for the pixel grid.",
+          "file": "brand/logo/lockups/small-grade.svg"
+        },
+        {
+          "name": "The 2024 logo, as published",
+          "use": "Reference only: the vector copy in its original colours and gradients, for checking against old material.",
+          "file": "brand/logo/reference/pelvy-2024-logo-copy-gradient.svg"
+        }
+      ],
+      "clearSpace": "Leave clear space on every side equal to half the height of the mark. Nothing enters it: no type, no rule, no edge of the page, no other logo.",
+      "minSize": {
+        "screenPx": 48,
+        "printMm": 12
+      },
+      "misuse": [
+        {
+          "rule": "Do not use the old 228 pixel image, or any screenshot of it.",
+          "why": "It is the reason the logo looks soft everywhere. The vector copy replaces it."
+        },
+        {
+          "rule": "Do not bring back the gradients.",
+          "why": "The flat version prints, embroiders and etches. The gradient copy is kept for reference only."
+        },
+        {
+          "rule": "Do not set the logo in the 2024 sage on white or paper.",
+          "why": "The 2024 sage measures 2.9 to 1 against white. The logo is deep sage, with sage only for its lighter shapes."
+        },
+        {
+          "rule": "Do not put the white logo on either sage.",
+          "why": "White on sage fails contrast. On sage the logo is ink."
+        },
+        {
+          "rule": "Do not retype the name.",
+          "why": "The wordmark is Sulphur Point Bold, outlined, at a fixed size and position beside the symbol."
+        },
+        {
+          "rule": "Do not move the symbol, change the gap, or use the symbol to the left of the name.",
+          "why": "The published arrangement is the one people know."
+        },
+        {
+          "rule": "Do not shrink the symbol under 48 pixels. Use the simplified symbol, then the small grade.",
+          "why": "Its fine white lines close up and the shapes merge."
+        },
+        {
+          "rule": "Do not rotate, stretch, outline or add a shadow.",
+          "why": "The figure reads as a person reaching up only when it is upright and flat."
+        },
+        {
+          "rule": "Do not use the symbol as a bullet, a pattern or a watermark over video.",
+          "why": "It is a signature, used once per surface. The video thumbnails currently carry it as a watermark."
+        }
+      ],
+      "favicon": "brand/assets/favicon.ico",
+      "minSizes": [
+        {
+          "variant": "Logo",
+          "screenPx": 120,
+          "printMm": 30,
+          "basis": "Width. Below this the white lines inside the symbol close up and the lighter crescent stops reading as a separate shape."
+        },
+        {
+          "variant": "Symbol",
+          "screenPx": 48,
+          "printMm": 12,
+          "basis": "The audit found the symbol's four shapes merge to three by 16 pixels and it fails the 28 pixel icon test. Rendered, it holds from 48."
+        },
+        {
+          "variant": "Simplified symbol",
+          "screenPx": 20,
+          "printMm": 6,
+          "basis": "The gap between the head and the stem is the first thing to close."
+        },
+        {
+          "variant": "Small grade",
+          "screenPx": 16,
+          "printMm": 4,
+          "basis": "Drawn on the 16 pixel grid with two pixel limbs."
+        }
+      ],
+      "provenance": {
+        "id": "T1c",
+        "generatedBy": "The clean-up, redone: a vector copy of Pelvy's published 2024 symbol, fitted with smoothing splines by Claude from the 1024px app icon and the uncropped footer logo. 67 curves. Not a new design.",
+        "generatedOn": "2026-10-12",
+        "slot": {
+          "id": "T1c",
+          "family": null,
+          "architecture": "symbol-only",
+          "register": null,
+          "symbolApproach": null
+        },
+        "prompt": "brand/logo/brief/slots/round-02/T1c.md",
+        "edits": [],
+        "approvedBy": null,
+        "status": "candidate, not approved",
+        "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+      },
+      "rationale": "The logo is the one Pelvy has used since 2024: the name, then a figure reaching up whose body sweeps into the bowl of a P. Nothing about the drawing has been redesigned. It existed only as a 228 pixel image and a cropped app icon, so it has been copied into vector, shape by shape, with its edges fitted as smooth curves and the tip of the arm restored from the one file that had not cropped it. The name is set in Sulphur Point Bold, the typeface the published lettering was made with. What is new is the treatment: flat instead of graded, and in deep sage so it holds against white. A simplified symbol and a small grade, redrawn from the same figure, take over at sizes where the fine lines close up. It is a candidate until Amelia approves it.",
+      "placement": "Top left on the website, the deck and print, with clear space of half the symbol's height around it. Deep sage on paper and white, ink on sage, white on deep sage. Once per surface. In the app it appears on the sign-in screen and as the icon, and nowhere inside the screens.",
+      "monochrome": {
+        "rule": "One colour is deep sage, or black on a mono printer, or white reversed out. The lighter shapes take the same ink.",
+        "knockout": "The white lines inside the symbol are gaps in the artwork, so they stay open when it is reversed. Below 48 pixels they close, which is what the simplified symbol is for.",
+        "minStrokeMm": 0.25
+      },
+      "cobranding": {
+        "rule": "Beside a clinic's logo, on a set-up card or a poster, Pelvy comes second: the clinic's logo on the left, Pelvy's lockup on the right, with the line 'Your program is on Pelvy' doing the joining.",
+        "alignment": "The clinic's logo is centred on the cap height of the Pelvy wordmark.",
+        "gap": "At least the height of the Pelvy symbol between the two.",
+        "partnerMax": "The clinic's logo may be up to one and a half times the height of the Pelvy symbol. The patient knows the clinic, so the clinic leads."
+      }
+    },
+    "imagery": {
+      "direction": "The app is the picture. The lead image on any Pelvy surface is a real screen from the app: the clinician's note, the count, a program. Photography is the setting around it: the corner of a home where the exercises get done, and the treatment room. Rooms, objects and hands before faces. Movement is shown with stills from the app's own exercise videos, never drawn.",
+      "treatment": "Natural light, warm when it is warm: late afternoon through a curtain, morning through a clinic window. True colour, never tinted green. Sage turns up on its own in a mat, a wall or a plant. Lived-in and slightly untidy beats styled. Photographs take the 22 pixel radius and leave a quiet third for type.",
+      "dos": [
+        "Lead with a real app screen, flat and legible, at phone proportion with the panel radius.",
+        "Photograph the real clinic and the real home setting, including the slightly worn bits.",
+        "Use stills from the app's own exercise videos for anything that demonstrates a movement.",
+        "Credit clinicians by name and role, with a signed release on file.",
+        "Show every kind of body Pelvy is for across a set: different ages, sexes and sizes.",
+        "Leave a quiet third of the frame for type."
+      ],
+      "donts": [
+        "No drawn phones and no rendered 3D devices. Show the screen itself, or a real phone in a real photograph.",
+        "No illustrated people of any kind.",
+        "No fruit, flowers or shells standing in for anatomy.",
+        "No women-only casts. Pelvy is for everyone with a pelvis.",
+        "No generated images of people, ever. Generated photography is limited to rooms and objects, and is labelled.",
+        "No posed wellness: no white linen, no hands on a bare belly, no sunrise yoga.",
+        "No screen that shows a real patient's name or note."
+      ],
+      "shotList": [
+        {
+          "shot": "A phone propped up at home showing the treatment hub: mat, mug, late light",
+          "why": "The website hero and the poster need the app in the place it is used.",
+          "surface": "web"
+        },
+        {
+          "shot": "A clinician's hands setting up a program on a phone, patient out of frame",
+          "why": "The clinician page and the deck need the hand-over moment.",
+          "surface": "deck"
+        },
+        {
+          "shot": "Stills from the exercise videos, re-exported without the old logo watermark",
+          "why": "Social and the store listing need movement shown by a real person.",
+          "surface": "social"
+        },
+        {
+          "shot": "The old way: a creased paper handout on a fridge door or in a kitchen drawer",
+          "why": "The problem, in one picture, for the one-pager.",
+          "surface": "print"
+        },
+        {
+          "shot": "Amelia in her clinic, looking at the camera, credited",
+          "why": "The About page and press. A founder-led health product needs its founder visible.",
+          "surface": "web"
+        }
+      ],
+      "rights": {
+        "ownership": "[TO CONFIRM: who owns the photograph in the current website hero, and whether the clinician shown has signed a release]",
+        "modelReleases": "Required for every identifiable person, patients and clinicians alike. No patient is ever photographed in a clinical setting.",
+        "licenceExpiry": null,
+        "stockPolicy": "No stock photography and no stock illustration. A bracketed placeholder is used until a real photograph exists."
+      }
+    },
+    "iconography": {
+      "style": "Outlined, one weight, round caps and joins to match DM Sans. Icons sit bare on the surface and are never placed inside a pastel circle or a tinted tile.",
+      "grid": 24,
+      "strokePx": 2,
+      "source": "Drawn to match DM Sans Regular: a 2 pixel stroke on a 24 pixel grid, round caps and joins.",
+      "starterSet": "Lucide (ISC licence) at its 2 pixel stroke, until a bespoke set of the twelve or so icons the app needs is drawn in the same line as the figures."
+    },
+    "signatureMoves": [
+      {
+        "name": "The clinician's note",
+        "primitive": "A soft sage card (step 8 of the sage ramp, #ABC8B1) with a 22 pixel radius. The clinician's words in Literata, ink. Underneath, in DM Sans, the clinician's name and role. Nothing else on the card.",
+        "howItWorks": "Serif is a person speaking; sans is the app. The biggest words on a Pelvy surface belong to the clinician, and Pelvy's own voice stays small beside them. Every note shown is a real one used with permission, or is marked as a sample.",
+        "useSites": [
+          "Website hero",
+          "The notes screen in the app",
+          "The clinician deck",
+          "The waiting room poster",
+          "The clinic one-pager",
+          "Instagram education posts, quoting Amelia",
+          "Program emails",
+          "The patient set-up card",
+          "App store screenshots"
+        ],
+        "brokenConvention": "Health apps speak in the brand's voice and put their own claims largest. Pelvy gives its biggest type to somebody else: the clinician."
+      },
+      {
+        "name": "The count ring",
+        "primitive": "A circle with a stroke one twelfth of its diameter, holding one numeral in DM Mono Medium. Deep sage on paper or white, or ink on sage.",
+        "howItWorks": "It is the exercise screen patients already use. It marks a position in a real sequence (this rep, this step, this week) and never holds an icon or a tick.",
+        "useSites": [
+          "The rep counter on the exercise screen",
+          "Step markers in app onboarding",
+          "The three steps on the website",
+          "The three steps on the poster and the set-up card",
+          "Slide numbers in the deck",
+          "Week markers in program emails",
+          "Part numbers on a social series",
+          "Session progress in the clinician's patient list"
+        ],
+        "brokenConvention": "Numbers in marketing are usually decoration. In Pelvy a numeral appears only when something is really being counted."
+      },
+      {
+        "name": "Sage behind, ink in front",
+        "primitive": "Two sages, both with a 22 pixel radius. The 2024 sage (#78A080) is the ground behind app screens and photographs and may carry ink type at 24 pixels and above. Soft sage (#ABC8B1) is the ground for anything that carries reading-size text, the note card first. Neither ever carries white text.",
+        "howItWorks": "Sage is the colour people already know Pelvy by, so it stays as the quiet ground. Ink on the 2024 sage measures 4.36 to 1, enough for large type and not for body text, so reading-size text moves to soft sage, where it measures 7.2 to 1.",
+        "useSites": [
+          "The note card",
+          "Website section grounds",
+          "App cards",
+          "Poster ground",
+          "Social post ground",
+          "Deck section slides",
+          "Email headers",
+          "The set-up card"
+        ],
+        "brokenConvention": "The category sets white text on soft colour. Pelvy never does."
+      }
+    ],
+    "motionPrinciple": "Motion in Pelvy breathes. Things ease in and settle the way a slow breath does, at the pace the clinician set, and nothing bounces for attention.",
+    "motionSignature": {
+      "name": "The breath",
+      "description": "The count ring on an exercise screen swells gently on the in-breath and settles on the out-breath, over the hold time the clinician set. In the interface, a card that appears rises 8 pixels and settles once, with a slight overshoot.",
+      "durationMs": 320,
+      "easing": "cubic-bezier(0.34, 1.3, 0.64, 1)"
+    },
+    "illustration": null,
+    "mockups": [
+      {
+        "name": "The app at home",
+        "photo": "brand/mockups/phone-at-home.jpg",
+        "caption": "The treatment hub on a phone at home. The room is a generated scene, not a photograph of a real home; the screen is the real artboard.",
+        "surfaces": [
+          {
+            "name": "Phone screen",
+            "corners": [
+              [
+                36.8,
+                30.6
+              ],
+              [
+                61,
+                30.5
+              ],
+              [
+                61.6,
+                72.7
+              ],
+              [
+                37.7,
+                73.7
+              ]
+            ],
+            "aspect": 2.164,
+            "blend": "multiply",
+            "opacity": 1,
+            "artwork": "brand/mockups/phone-artwork.png",
+            "reviewed": true
+          }
+        ]
+      },
+      {
+        "name": "Waiting room poster",
+        "photo": "brand/mockups/waiting-room.jpg",
+        "caption": "The poster framed in a clinic waiting room. The room is a generated scene; the poster is the real artboard.",
+        "surfaces": [
+          {
+            "name": "Poster",
+            "corners": [
+              [
+                38.6,
+                8.8
+              ],
+              [
+                61.6,
+                8.8
+              ],
+              [
+                61.6,
+                57.3
+              ],
+              [
+                38.6,
+                57.3
+              ]
+            ],
+            "aspect": 1.414,
+            "blend": "multiply",
+            "opacity": 0.97,
+            "artwork": "brand/mockups/poster-artwork.png",
+            "reviewed": true
+          }
+        ]
+      },
+      {
+        "name": "Patient set-up card",
+        "photo": "brand/mockups/card-on-desk.jpg",
+        "caption": "The set-up card on a clinic desk. The desk is a generated scene; the card is the real artboard.",
+        "surfaces": [
+          {
+            "name": "Card",
+            "corners": [
+              [
+                32.4,
+                35
+              ],
+              [
+                67.5,
+                34.8
+              ],
+              [
+                67.6,
+                64.7
+              ],
+              [
+                32.4,
+                64.9
+              ]
+            ],
+            "aspect": 0.571,
+            "blend": "multiply",
+            "opacity": 0.97,
+            "artwork": "brand/mockups/card-artwork.png",
+            "reviewed": true
+          }
+        ]
+      },
+      {
+        "name": "Tote bag",
+        "photo": "brand/mockups/tote-on-peg.jpg",
+        "caption": "The symbol screen-printed in one colour on a canvas tote. The bag is a generated scene; the symbol is the real vector.",
+        "surfaces": [
+          {
+            "name": "Front panel",
+            "corners": [
+              [
+                42.7,
+                50.4
+              ],
+              [
+                57.7,
+                50.4
+              ],
+              [
+                57.7,
+                67.6
+              ],
+              [
+                42.7,
+                67.6
+              ]
+            ],
+            "aspect": 0.771,
+            "blend": "multiply",
+            "opacity": 0.92,
+            "artwork": "brand/mockups/tote-artwork.svg",
+            "reviewed": true
+          }
+        ]
+      }
+    ]
+  },
+  "voice": {
+    "statement": "Say it the way a good physio says it across the plinth: plainly, once, with the reason attached.",
+    "attributes": [
+      {
+        "name": "Plain about bodies",
+        "notThis": "coy",
+        "doThis": "Use the word a patient hears in the room: bladder, bowel, prolapse, sex, pain. Say it once, correctly, and move on. Already how the site writes. [P: pelvy.app/features, 2026-10-12]",
+        "examples": [
+          "Track your bladder, bowel, pain, prolapse and sexual health symptoms.",
+          "Some pelvic floors are too tight, not too weak. Those need to learn to let go."
+        ]
+      },
+      {
+        "name": "Honest about limits",
+        "notThis": "apologetic",
+        "doThis": "Say what Pelvy cannot do, or cannot do yet, in the first few words, then say what happens instead. No sorry, no unfortunately. Already how the FAQs and the Learn disclaimer write. [P: pelvy.app/general-user-faqs, 2026-10-12; demo video, 2026-03-29]",
+        "examples": [
+          "If anything worsens your symptoms, stop the exercises and seek professional support.",
+          "Once it's deleted, it's deleted."
+        ]
+      },
+      {
+        "name": "Steady",
+        "notThis": "cheerleading",
+        "doThis": "Count, say where the person is up to, and stop. Praise is a full stop, not an exclamation mark. The app screens already do this; the website does not yet. [E: App Store screenshots 5 to 7. Aspirational for marketing copy.]",
+        "examples": [
+          "Rep 3 of 10. Hold.",
+          "That's today's program done. The next one is tomorrow."
+        ]
+      },
+      {
+        "name": "Reasoned",
+        "notThis": "lecturing",
+        "doThis": "Give the instruction and the reason in the same sentence, the way a clinician does, and leave the lecture to the clinician. Already how the site writes. [P: pelvy.app/general-users, 2026-10-12]",
+        "examples": [
+          "Choose your anatomy when you set up, so the cues and the symptom tracker match your body.",
+          "Save your program before you close your account, because we delete everything when you go."
+        ]
+      },
+      {
+        "name": "Specific",
+        "notThis": "selling",
+        "doThis": "A number, a date or a named feature. Never a superlative, never capitals for emphasis. The pricing answers already do this; the headlines do not yet. [P: pelvy.app/clinician-faqs. Aspirational for headlines.]",
+        "examples": [
+          "$20 a month for the clinic. Free for your patients for their first six months.",
+          "Cancel within seven days for a full refund."
+        ]
+      }
+    ],
+    "tone": [
+      {
+        "situation": "A patient opening the app for the first time",
+        "reader": "Just out of an appointment, unsure, possibly embarrassed.",
+        "sound": "Warm and brief. Confirm they are in the right place and that it is private, then give one next step. Never excitement they have not earned."
+      },
+      {
+        "situation": "During an exercise",
+        "reader": "Concentrating, maybe with eyes closed.",
+        "sound": "Nearly silent. The count and the cue, verb first. Never praise mid-set, never a sentence."
+      },
+      {
+        "situation": "A reminder on a lock screen",
+        "reader": "In public. Someone else may see the phone.",
+        "sound": "Discreet by default: 'Time for your program.' Never the condition, a body part or the word pelvic unless the person wrote the reminder themselves."
+      },
+      {
+        "situation": "A clinician reading the website or the deck",
+        "reader": "Sceptical, short of time, protective of their patients.",
+        "sound": "Peer to peer. What it does, what it costs, what it does not do yet. Never hype, and never a statistic without its source."
+      },
+      {
+        "situation": "After a missed week",
+        "reader": "Guilty, and close to giving up.",
+        "sound": "Matter-of-fact. Say how long it has been and where to pick up. Never guilt, never a streak that has been broken."
+      },
+      {
+        "situation": "Symptoms are not improving, or something hurts",
+        "reader": "Worried.",
+        "sound": "Clear and directive. Stop, and see your clinician. Never reassurance about a symptom, because Pelvy cannot assess anyone."
+      },
+      {
+        "situation": "Price, renewal or the end of the free period",
+        "reader": "Alert and calculating.",
+        "sound": "The number and the date first, then the reason, then the choice. Never 'we're excited to announce'."
+      },
+      {
+        "situation": "Closing an account",
+        "reader": "Decided.",
+        "sound": "Quick and quiet. What happens to their information and how to keep a copy. Never a retention offer."
+      },
+      {
+        "situation": "Something did not work",
+        "reader": "Interrupted.",
+        "sound": "What happened, then what to do. Three sentences at most. Never 'oops', never an apology with no information in it."
+      },
+      {
+        "situation": "A health service assessing Pelvy",
+        "reader": "Risk-averse, reading for the catch.",
+        "sound": "Formal and complete. State the limits before being asked: education and support, not TGA certified, data deleted on exit."
+      }
+    ],
+    "vocabulary": {
+      "use": [
+        "your clinician (name the profession when you know it: your physio, your GP)",
+        "program (the exercises a clinician set)",
+        "pelvic floor exercises (and 'Kegels' only once, to say they are the same thing)",
+        "let go, relax (for a pelvic floor that needs to release)",
+        "your clinician's advice, your clinician's notes",
+        "between appointments",
+        "you (to a patient), your patients (to a clinician)",
+        "set up (what a clinician does for a patient)",
+        "reminders",
+        "anatomy (when an instruction depends on it)",
+        "the pilot (while it is one)"
+      ],
+      "avoid": [
+        {
+          "word": "journey",
+          "because": "The site says 'pelvic health journey' eight times. It is what the person is going through, not a trip.",
+          "instead": "name the thing: your program, your care, your recovery"
+        },
+        {
+          "word": "empower",
+          "because": "A claim about the reader's feelings.",
+          "instead": "say what they can now do"
+        },
+        {
+          "word": "mega app",
+          "because": "A feature count, and it sounds like a supermarket.",
+          "instead": "one app"
+        },
+        {
+          "word": "the only app",
+          "because": "Unprovable, and half of 'has it all' has not shipped.",
+          "instead": "say what it does"
+        },
+        {
+          "word": "treats",
+          "because": "Pelvy is education and support, and is not certified to treat.",
+          "instead": "supports, guides, reminds, keeps"
+        },
+        {
+          "word": "cure",
+          "because": "As above.",
+          "instead": "delete"
+        },
+        {
+          "word": "diagnose",
+          "because": "As above.",
+          "instead": "your clinician can assess"
+        },
+        {
+          "word": "optimise",
+          "because": "Nobody optimises a bladder.",
+          "instead": "improve, look after"
+        },
+        {
+          "word": "elevate",
+          "because": "Brochure language to a clinician who checks claims.",
+          "instead": "say what changes for their patients"
+        },
+        {
+          "word": "down there",
+          "because": "Coy. The reader has a clinician who uses the real word.",
+          "instead": "the real word"
+        },
+        {
+          "word": "general users",
+          "because": "Nobody thinks of themselves as a general user.",
+          "instead": "you, or people without a clinician"
+        },
+        {
+          "word": "simply",
+          "because": "Tells the reader their difficulty is their own fault.",
+          "instead": "delete"
+        },
+        {
+          "word": "miss a beat",
+          "because": "Filler.",
+          "instead": "delete"
+        },
+        {
+          "word": "wellness",
+          "because": "The category Pelvy is leaving.",
+          "instead": "health, care"
+        }
+      ],
+      "hardThings": [
+        {
+          "situation": "Someone whose clinic does not subscribe",
+          "say": "You can still use Pelvy. It's $4.99 a month or $19.99 a year, and it starts you on a physio-built program. If your clinic joins later, your clinician's own programs and notes appear here."
+        },
+        {
+          "situation": "Symptoms are worse, or an exercise hurts",
+          "say": "Stop the program and see a pelvic health physio. Exercises that aren't helping may be the wrong ones for you, and they can check. Pelvy can't."
+        },
+        {
+          "situation": "No change after three months",
+          "say": "Three months of regular exercises should change something. If it hasn't, that's the signal to see a pelvic health physio, who can make the program specific to you."
+        },
+        {
+          "situation": "What Pelvy is, legally",
+          "say": "Pelvy is education and support between appointments. It isn't medical advice and it doesn't replace your clinician."
+        },
+        {
+          "situation": "A patient's free period is ending",
+          "say": "Your six free months end on [DATE]. To keep your program and your clinician's notes it's [PRICE, to be confirmed by Amelia] a year. If you'd rather stop, save your program first."
+        },
+        {
+          "situation": "Closing an account",
+          "say": "When you close your account we delete your information. We don't keep it and we don't sell it. Save anything you want first."
+        },
+        {
+          "situation": "A clinic asks about its clinical software",
+          "say": "Pelvy doesn't connect to clinical software yet. Tell us what you use. In a demo Amelia can show you how clinics run the two side by side."
+        },
+        {
+          "situation": "A feature on the website is not in the app yet",
+          "say": "Symptom tracking isn't in the app yet. It comes after the pilot."
+        },
+        {
+          "situation": "A patient has not opened the app for a while",
+          "say": "It's been nine days. Pick up at the start of this week's program, or ask your clinician to adjust it."
+        }
+      ]
+    },
+    "mechanics": {
+      "spelling": "Australian English: colour, organise, centre, program, physiotherapist. Licence as a noun, license as a verb.",
+      "contractions": "Yes, always. 'It isn't in the app yet', never 'it is not'.",
+      "sentenceLength": "12 to 18 words on average, 25 at most. In the app during an exercise, five at most.",
+      "emphasis": "Never capitals. The site's ONE, ALL and ONLY become ordinary words. If a sentence needs emphasis, shorten it.",
+      "exclamationMarks": "None in the app, none in clinician copy, none about money. One per page elsewhere, and prefer none.",
+      "dashes": "No em dashes. A comma, a full stop or brackets.",
+      "headings": "Sentence case, in Literata. 'What Pelvy helps with', never 'Explore The Ecosystem'.",
+      "buttons": "Sentence case, verb first, no punctuation, and say what really happens. 'Book a demo', not 'TRY PELVY!'.",
+      "numerals": "Always numerals for reps, holds, days, prices and times: Rep 3 of 10, hold for 5 seconds. Words for one to nine in ordinary prose.",
+      "money": "$4.99 a month, $19.99 a year. Keep the cents a price really has and drop them on whole dollars: $20, never $20.00. Say AUD once on any page read outside Australia.",
+      "datesAndTimes": "3 October 2026. 7am, 5.30pm.",
+      "pronouns": "We for Pelvy. Amelia by name when it is Amelia. You for the reader. Your clinician, never the provider.",
+      "anatomy": "Name anatomy only when the instruction depends on it, and never use gender as a stand-in for it. Never address readers as ladies or mums.",
+      "claims": "Pelvy guides, counts, reminds, keeps and explains. It does not treat, cure, fix or diagnose, and it never promises a result.",
+      "serifAndSans": "Literata is for words a person says: headlines and clinicians' notes. DM Sans is for everything the app says.",
+      "emoji": "None, anywhere in the product or in headings."
+    },
+    "examples": [
+      {
+        "bad": "Accessible pelvic health support, built on evidence-based exercises and guidance",
+        "good": "What your clinician told you, still with you at home."
+      },
+      {
+        "bad": "Pelvy is the ONLY app that has it all.",
+        "good": "Your clinician's advice, your exercises and your reminders, in one app."
+      },
+      {
+        "bad": "Never forget a thing with unlimited exercise, appointment, and medication reminders – customised to your preferences. You won't miss a beat!",
+        "good": "Set as many reminders as you need for exercises, appointments and medication. You choose the times, and what each one says."
+      },
+      {
+        "bad": "Differentiate yourself from other professionals by subscribing to Pelvy and elevate your quality of service to your patients by giving them the tools they need to succeed.",
+        "good": "Subscribe, and your patients get your advice and their program on their phone, free for six months."
+      },
+      {
+        "bad": "Improving your pelvic health is often complex – we're here to make the journey simple.",
+        "good": "Pelvic health care comes with a lot to remember. Pelvy remembers it for you."
+      },
+      {
+        "bad": "There are apps for symptom tracking, pelvic floor exercises, bladder and bowel diaries, but no app has it all—until Pelvy!",
+        "good": "Most people end up with one app for exercises, another for reminders and a folder of handouts. Pelvy puts them in one place."
+      },
+      {
+        "bad": "Pelvy is a mega app thoughtfully designed for individuals AND clinicians based on clinical research and feedback from actual patients",
+        "good": "Pelvy was designed with patients, physiotherapists, GPs and specialists, and built by a pelvic health physio."
+      },
+      {
+        "bad": "In the pilot, it is $20 subscription per month early adopters. Afterwards and with further development there will likely be price increases. All involved in the pilot will NOT have any price increases",
+        "good": "$20 a month during the pilot. Join now and that stays your price. Clinics that join later will pay more."
+      },
+      {
+        "bad": "Pelvy helps you track, treat, and thrive with your pelvic health.",
+        "good": "Pelvy keeps your clinician's advice, your exercises and your reminders in one place between appointments."
+      },
+      {
+        "bad": "This empowers the patient to take control of their pelvic health journey- leading to more confidence, consistency, and progress.",
+        "good": "Patients have their program, your advice and their reminders in one place, so there's less to hold in their head."
+      },
+      {
+        "bad": "Do you want to optimise your pelvic health? Our customisable features can help individuals of all sexes, ages, and pelvic health conditions through their pelvic health journey.",
+        "good": "Pelvy works for every body. Tell it your anatomy and what you're working on, and it adjusts the cues and the program."
+      },
+      {
+        "bad": "Explore The Ecosystem And Benefits Of Pelvy",
+        "good": "What Pelvy helps with"
+      },
+      {
+        "bad": "TRY PELVY!",
+        "good": "Book a demo"
+      },
+      {
+        "bad": "If you are a clinician and want to start subscribing to Pelvy, Click on the sign up or try Pelvy buttons. Amelia will be in touch as she is manually onboarding all clinics at this stage",
+        "good": "Sign up and Amelia will email you. She sets up every clinic herself at the moment, so check your junk folder for amelia@pelvy.app."
+      },
+      {
+        "bad": "We will not keep or sell your data in the future. Once it's deleted, it's deleted.",
+        "good": "We don't keep your data and we don't sell it. Once it's deleted, it's deleted."
+      },
+      {
+        "bad": "Not at this stage. Let us know what you're using.",
+        "good": "Not yet. Tell us what you use."
+      }
+    ],
+    "boilerplate": {
+      "words25": "Pelvy is a pelvic floor app built by a pelvic health physiotherapist. It counts you through strength and relaxation programs, with your own clinician's advice when you have one.",
+      "words50": "Pelvy is a pelvic floor app built by a pelvic health physiotherapist. It counts you through programs for strength and for relaxation, breath by breath, and reminds you when to do them. When your clinic subscribes, your clinician's own programs and advice appear in the app. It works for every body.",
+      "words100": "Pelvy is a pelvic floor app built by Amelia, a pelvic health physiotherapist who works with pelvic pain. It counts you through programs for strength and for relaxation, breath by breath, with video for every stretch and reminders at the times you choose. When your clinic subscribes, your clinician adds their own programs and advice and your first six months are free. When it doesn't, Pelvy Lite gives you a physio-built starting program for $4.99 a month or $19.99 a year. Pelvy is education and support: it does not give individual medical advice, and it tells you when to see a pelvic health physio."
+    },
+    "elevatorPitch": "Most pelvic floor apps just tell you to squeeze. Plenty of people need to learn to let go first. Pelvy counts you through whichever program you need, breath by breath, and reminds you. If your physio subscribes, their program and their advice are in there too.",
+    "keyMessages": [
+      {
+        "audience": "Pelvic health clinicians",
+        "message": "Your advice and your program go home with your patient.",
+        "proof": "Stored advice, a program that counts every rep and unlimited reminders are live in the pilot. [P: pelvy.app/clinician-faqs, 2026-10-12]"
+      },
+      {
+        "audience": "GPs, specialists and other clinicians",
+        "message": "A physio-built pelvic floor program you can recommend in one scan.",
+        "proof": "Amelia supplies a printable QR code, and the patient subscribes for themselves. [P: demo video, 2026-03-29]"
+      },
+      {
+        "audience": "Patients sent by their clinician",
+        "message": "Everything your clinician gave you, in one place, and it counts for you.",
+        "proof": "The app's exercise screens count each rep and hold. [E: App Store screenshots, 2026-10-12]"
+      },
+      {
+        "audience": "Health services and funded programs",
+        "message": "Pelvy says exactly what it is: education and support between appointments, with patient data deleted on exit.",
+        "proof": "Stated on the App Store listing and in the FAQs. [P: 2026-10-12]"
+      },
+      {
+        "audience": "People without a subscribing clinic",
+        "message": "Start with Pelvy. It will tell you when to see a physio.",
+        "proof": "Pelvy Lite is in the app at $4.99 a month or $19.99 a year, and its Learn section says to see a physio if nothing changes in three months. [P: demo video, 2026-03-29]"
+      }
+    ],
+    "tagline": {
+      "line": "Pelvic health, between appointments.",
+      "usage": "On the deck cover, the poster, the app store subtitle and the website footer. Not inside the app, and never rewritten into a promise about results.",
+      "lockup": "Not locked to the mark. Set in DM Sans Regular, in ink or deep sage, on its own line.",
+      "locked": false,
+      "translations": []
+    }
+  },
+  "applications": [
+    {
+      "name": "App: my treatment hub",
+      "surface": "app",
+      "file": "AppHub.dc.html",
+      "frame": "390x844",
+      "purpose": "The home screen of the next version: Programs, Videos and Learn, with the clinician's note first for a clinic patient."
+    },
+    {
+      "name": "App: a program",
+      "surface": "app",
+      "file": "AppProgram.dc.html",
+      "frame": "390x844",
+      "purpose": "The parts of a program in order, numbered with the count ring, with hold, rest and reps for each."
+    },
+    {
+      "name": "App: breathing in",
+      "surface": "app",
+      "file": "AppBreatheIn.dc.html",
+      "frame": "390x844",
+      "purpose": "Sage means let go: the filled sage disc on the in-breath."
+    },
+    {
+      "name": "App: breathing out",
+      "surface": "app",
+      "file": "AppBreatheOut.dc.html",
+      "frame": "390x844",
+      "purpose": "Slate means work: the slate disc on the out-breath and the squeeze."
+    },
+    {
+      "name": "App: hold",
+      "surface": "app",
+      "file": "AppHold.dc.html",
+      "frame": "390x844",
+      "purpose": "The ring means hold. Three states told apart by colour, lightness, shape and word."
+    },
+    {
+      "name": "App: a Learn article",
+      "surface": "app",
+      "file": "AppLearn.dc.html",
+      "frame": "390x844",
+      "purpose": "Long reading in the app: one header for every article, a goal chip, and the standing disclaimer."
+    },
+    {
+      "name": "App: choose a plan",
+      "surface": "app",
+      "file": "AppSubscribe.dc.html",
+      "frame": "390x844",
+      "purpose": "Pelvy Lite: the number first, for someone whose clinic does not subscribe."
+    },
+    {
+      "name": "Website home page",
+      "surface": "web",
+      "file": "Main.dc.html",
+      "frame": "1440x2700",
+      "purpose": "Show the app in the first screen, and serve a clinician and a person on their own from one page."
+    },
+    {
+      "name": "Website on a phone",
+      "surface": "web",
+      "file": "Mobile.dc.html",
+      "frame": "390x844",
+      "purpose": "The same promise and action at phone width, where most patients arrive from a clinician's link or a QR code."
+    },
+    {
+      "name": "App store listing",
+      "surface": "marketplace",
+      "file": "Profile.dc.html",
+      "frame": "1080x1080",
+      "purpose": "The icon in a rounded square and a circle crop, with the listing's title and subtitle, above the first three store screenshots."
+    },
+    {
+      "name": "Clinician demo deck",
+      "surface": "deck",
+      "file": "Deck.dc.html",
+      "frame": "1920x1080",
+      "purpose": "The slide Amelia opens a demo on: the app on screen, read from the back of a clinic meeting room."
+    },
+    {
+      "name": "Clinic one-pager",
+      "surface": "print",
+      "file": "Print.dc.html",
+      "frame": "794x1123",
+      "purpose": "A4, left with a practice manager after a demo. Works in greyscale on the clinic's own printer."
+    },
+    {
+      "name": "Instagram post",
+      "surface": "social",
+      "file": "Social.dc.html",
+      "frame": "1080x1080",
+      "purpose": "One app screen and one line, readable in a feed without the caption."
+    },
+    {
+      "name": "Waiting room poster",
+      "surface": "signage",
+      "file": "Poster.dc.html",
+      "frame": "794x1123",
+      "purpose": "A2 on a clinic wall, drawn at A4 proportion. Shows the app and tells a waiting patient to ask their clinician."
+    },
+    {
+      "name": "Patient set-up card",
+      "surface": "card",
+      "file": "Card.dc.html",
+      "frame": "336x192",
+      "purpose": "The card a clinician hands over at the end of an appointment: your program is on Pelvy, here is how to open it."
+    },
+    {
+      "name": "Tote bag",
+      "surface": "merch",
+      "purpose": "For clinicians at a conference or a launch event. The symbol alone, one colour, screen-printed.",
+      "file": "MockupTotebag.dc.html"
+    },
+    {
+      "name": "The app at home",
+      "surface": "environment",
+      "file": "MockupTheappathome.dc.html",
+      "purpose": "The treatment hub on a phone, in the place it is used. The lead image for the website and the store listing once it is shot for real."
+    },
+    {
+      "name": "The poster in a waiting room",
+      "surface": "signage",
+      "file": "MockupWaitingroomposter.dc.html",
+      "purpose": "The poster framed on a clinic wall, read from a chair."
+    },
+    {
+      "name": "The set-up card on a clinic desk",
+      "surface": "card",
+      "file": "MockupPatientsetupcard.dc.html",
+      "purpose": "The card as it is handed over, at real size."
+    }
+  ],
+  "governance": {
+    "decisions": [
+      {
+        "id": "d1",
+        "date": "2026-10-12",
+        "decision": "Position Pelvy as the between-appointments companion for pelvic health care, prescribed by the clinician.",
+        "rationale": "It is the one frame the evidence supports today: the clinician pays, the patient cannot yet join alone, and the shipped features (stored advice, a program that counts, reminders) are all about the time between visits. The clinician FAQ already uses the phrase once.",
+        "alternatives": [
+          "The only app that has it all (the site's current line: unprovable, and half of 'all' has not shipped)",
+          "A women's wellness app (excludes half the people Pelvy is built for)",
+          "A patient-first consumer app (individuals cannot sign up yet)"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d2",
+        "date": "2026-10-12",
+        "decision": "Draft the voice as a Caregiver with a Sage second voice, and keep the label out of the book.",
+        "rationale": "It forces one character: someone who looks after you and knows the subject. The named failure to guard against is fussing over the reader, which in health copy reads as patronising.",
+        "alternatives": [
+          "Sage alone (too cold for a patient at home)",
+          "Everyman (too light for a clinician deciding whether to trust it with patients)"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d3",
+        "date": "2026-10-12",
+        "decision": "State the problem without the '20 per cent' statistic until it is sourced.",
+        "rationale": "The site quotes it two ways and cites neither. Clinicians are the buyers and they check references.",
+        "alternatives": [
+          "Lead the deck with the number as published"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d4",
+        "date": "2026-10-12",
+        "decision": "Build the identity on direction A, Clinic-grade (corporate trust), with the count ring as its one repeated device.",
+        "rationale": "It answers the two intake assumptions directly: buyers pick what feels bigger or safer, and the brand needs to look like it came from one place. It is also the only direction that fixes the measured contrast failures without leaning on a soft palette. Chosen without a check-in because the run was requested as autonomous; Amelia can overrule it from the territory canvas.",
+        "alternatives": [
+          "B, The good physio (warm humanist): closest to today, least change, and the category's default look",
+          "C, The count (Swiss editorial): most distinctive, coldest, no gentle way to draw anatomy"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d5",
+        "date": "2026-10-12",
+        "decision": "Pelvy green is #336841: the 2024 logo's sage at the same hue, taken from 67 to 47 per cent lightness.",
+        "rationale": "The sage has two years of use behind it, so the hue stays. At its original lightness white text on it measures 2.97 to 1 and fails accessibility; deepened, it measures 6.57 to 1. The old sage survives as steps 7 and 8 of the same ramp.",
+        "alternatives": [
+          "Keep sage #789F80 and put dark text on it (keeps the wellness look the brand needs to leave)",
+          "A bluer bottle green #2F6B4E as sketched in the territory round (ten degrees off the logo's own hue for no gain)"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d6",
+        "date": "2026-10-12",
+        "decision": "One accent, Exhale amber #EFA23F, taken from the orange the app already uses for breathe out. The website's slate lavender and the app's lilac ground and purple dots are retired.",
+        "rationale": "The app has already taught patients that green means in and orange means out, so the accent arrives with a meaning. Lavender and lilac pull the palette toward the pastel look of the category and carry no meaning. Amber always carries dark text, and is never the only signal: it is paired with a word.",
+        "alternatives": [
+          "Keep slate lavender as the secondary",
+          "No accent at all"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d7",
+        "date": "2026-10-12",
+        "decision": "In dark mode the mark, the ring and brand text use the light green of step 11 (#93C29D), not Pelvy green.",
+        "rationale": "The system audit measured Pelvy green at 2.86 to 1 on the dark ground, too low to carry meaning. Step 11 is close to the 2024 sage, so the old colour becomes the dark-mode brand colour.",
+        "alternatives": [
+          "Use Pelvy green in dark mode with a white keyline"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d8",
+        "date": "2026-10-12",
+        "decision": "One type family: Atkinson Hyperlegible Next for display and text, Atkinson Hyperlegible Mono for counts and timers. PT Serif and DM Sans are retired.",
+        "rationale": "The site's first word about itself is 'accessible', and many of the people Pelvy serves are older. Atkinson was drawn by the Braille Institute for low-vision readers, and its numerals and letters cannot be mistaken for one another, which matters in a product whose main screen is a number. One open-licensed family is also one thing for the app and the website to load, which is how they come to match.",
+        "alternatives": [
+          "Keep PT Serif and DM Sans (two years of use, but the app never adopted them)",
+          "Literata and DM Sans (direction B)",
+          "Archivo (direction C)"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d9",
+        "date": "2026-10-12",
+        "decision": "Build the identity on direction B, The good physio (warm humanist). This replaces d4, and with it d5 to d8.",
+        "rationale": "Jake picked it from the territory canvas. It keeps the most of what Pelvy has spent two years building (the sage, serif headings, DM Sans) and fixes the execution. The named risk still stands and is managed in the system: soft sage and round corners are the wellness category's default, so the identifying work is done by the one-line figures, the writing and real photography, and no text is ever set white on sage.",
+        "alternatives": [
+          "A, Clinic-grade (corporate trust): the working choice made before Jake had seen the sketches",
+          "C, The count (Swiss editorial)"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d10",
+        "date": "2026-10-12",
+        "decision": "Three colours and a paper. Deep sage #41684A is the brand solid; Sage #78A080, the 2024 colour, is kept for large fills under dark text; Slate #5E6687 is the one accent. This replaces d5 and d6.",
+        "rationale": "Deep sage is the logo's own sage at the same hue and chroma, taken from 67 to 48 per cent lightness, so white text on it measures 6.36 to 1 where the original measured 2.97. The original sage stays in the system because two years of use is worth keeping, with the rule that only dark text sits on it. Slate is the website's lavender button colour deepened until white text passes at 5.64 to 1. The app's orange, lilac ground and purple dots are retired so the app and the website finally share one palette.",
+        "alternatives": [
+          "Sage as the solid with dark text on buttons (keeps the exact colour, but every button becomes low-contrast against paper)",
+          "Exhale amber as the accent, from the app's breathe-out state (direction A)"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d11",
+        "date": "2026-10-12",
+        "decision": "Literata for headings, DM Sans for text, DM Mono for counts and timers. PT Serif is retired. This replaces d8.",
+        "rationale": "The serif-heading, sans-body pairing is what the site has used since 2024 and it stays. PT Serif goes because the site asks it for a medium weight it does not have, so headings fall back to regular; Literata is a variable face built for reading on screens, with the weights and optical sizes to work on a phone and on a poster. DM Sans is already the site's text face and becomes the app's too, which is how the two come to match. All three are open-licensed.",
+        "alternatives": [
+          "Keep PT Serif (two years of use, two weights, no optical sizes)",
+          "Atkinson Hyperlegible Next throughout (direction A)"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d12",
+        "date": "2026-10-12",
+        "decision": "In dark mode the mark and brand text use step 11 of the ramp (#9BBFA2), not deep sage. This replaces d7.",
+        "rationale": "The audit measured deep sage at 2.96 to 1 on the dark ground. Step 11 is close to the 2024 sage and reads clearly.",
+        "alternatives": [
+          "Deep sage with a light keyline"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d13",
+        "date": "2026-10-12",
+        "decision": "Pelvy does not illustrate. The one-line figure sketched in direction B is dropped, and the signature becomes the clinician's note, with the count ring beside it.",
+        "rationale": "Checked against the three audiences. Clinicians prescribe from video and anatomy and judge exercise content on precision, which a faceless line figure cannot give; the central exercise is internal and cannot be drawn at all. Patients already get real video and the count in the app. Health services do not buy on illustration. A figure would therefore be decoration, and decoration is what makes a clinical tool read as a consumer wellness app. The note and the count are real objects from the product, and each explains half of what Pelvy does.",
+        "alternatives": [
+          "Keep the one-line figure as the signature (as sketched)",
+          "Keep a small set of position icons (lying, sitting, kneeling, standing) in the same line: possibly useful in the exercise library, not tested here"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d14",
+        "date": "2026-10-12",
+        "decision": "The voice is derived from Pelvy's own published writing, and two of its five attributes are changes, not descriptions.",
+        "rationale": "Plain about bodies, honest about limits and reasoned are already how the site and FAQs write. Steady (no cheerleading, no exclamation marks) and specific (no capitals, no superlatives) describe the app's exercise screens and the pricing answers, but not the website's headlines, so for marketing copy they are a decision to change. Confidence is medium: seven pieces of site and store copy, none of it email, SMS or review replies, and it is not confirmed that Amelia wrote all of it.",
+        "alternatives": [
+          "Document the site's current voice as it is, capitals and exclamation marks included"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d15",
+        "date": "2026-10-12",
+        "decision": "The app is the hero of every surface. The proof set starts with four app screens redrawn in the system, and every other piece leads with one of them.",
+        "rationale": "Jake's steer: anything Pelvy shows is really promoting the app. The review agreed: the app already holds the two objects that explain the product (the clinician's note and the count) and real exercise video, and it is also where the brand is least consistent today, with its own green, an orange, a lilac ground and neither of the website's typefaces.",
+        "alternatives": [
+          "Lead with photography and treat the app as one application among ten"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d16",
+        "date": "2026-10-12",
+        "decision": "In the app, breathing in is a filled sage disc and breathing out is the same disc emptied to a pale tint with an outline. The orange is retired.",
+        "rationale": "Full on the in-breath and empty on the out-breath is a difference of shape, so it survives colour blindness and greyscale, and the words 'Breathe in' and 'Breathe out' are always there. The app's orange cue text on its lilac ground measured well under the contrast floor, and orange appears nowhere else in the brand.",
+        "alternatives": [
+          "Slate for the out-breath (uses the accent twice on one screen)",
+          "Keep the orange as a product-only colour"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d17",
+        "date": "2026-10-12",
+        "decision": "The mark is concept T1w from logo round 2.",
+        "rationale": "Generated against a planned concept brief and measured against the application context matrix. NOBODY HAS APPROVED IT YET, and it must not be published as the mark until somebody has.",
+        "alternatives": [
+          "the other concepts in the round, kept under brand/logo/concepts"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d18",
+        "date": "2026-10-12",
+        "decision": "The candidate mark is T1w: the 2024 figure redrawn flat at one even weight, with the name in DM Sans 600 to its right.",
+        "rationale": "Five refinements of a trace of the published app icon were drawn and measured. T1w cleared every audit test, holds at small sizes, and sits comfortably beside a medium-weight sans. T1p keeps more of the original's brush taper and is thinner at small sizes; T1sq was ruled out at favicon size; T1c is the faithful clean-up and fails the app icon tests. The symbol moves from the right of the name to the left, which is where an app icon and a website header expect it. Not approved by a person yet: recorded as a candidate.",
+        "alternatives": [
+          "T1p, proportion (closest to the original's brush character)",
+          "T1sq, the square alternate",
+          "T1c, the trace cleaned up",
+          "Keep the 2024 raster logo and commission a vector redraw"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d19",
+        "date": "2026-10-12",
+        "decision": "Reposition from 'between appointments, prescribed by the clinician' to 'the pelvic floor app that counts you through a physio-set program, for strength or for letting go'. This replaces d1.",
+        "rationale": "The demo video Jake supplied shows Pelvy Lite: people can subscribe without a clinic, and GPs and specialists are being asked to recommend it. The old frame described one of three routes in. Strength and relaxation, counted, is true of all three, and it is the difference from a Kegel timer. 'Between appointments' stays as the line for the physiotherapy channel.",
+        "alternatives": [
+          "Keep the between-appointments frame and treat Lite as a side door",
+          "Two separate brands, Pelvy and Pelvy Lite"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d20",
+        "date": "2026-10-12",
+        "decision": "Sage means let go and slate means work, in the player and in the content. Hold is a ring. This replaces d16.",
+        "rationale": "The next version marks breathe in, breathe out and hold in green, orange and blue, and tags content as relaxation or strength in purple and orange, with three more hues elsewhere. Those are two real distinctions wearing eight colours. The system carries them with its own two: sage for the in-breath, letting go and relaxation content, slate for the out-breath, the squeeze and strength content, and an empty deep sage ring for hold. Each state also differs in lightness and carries its word, so it survives colour blindness.",
+        "alternatives": [
+          "Keep orange and blue as product-only state colours",
+          "Distinguish states by shape alone, with no second colour"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d21",
+        "date": "2026-10-12",
+        "decision": "The mark is concept T1c from logo round 2.",
+        "rationale": "Generated against a planned concept brief and measured against the application context matrix. NOBODY HAS APPROVED IT YET, and it must not be published as the mark until somebody has.",
+        "alternatives": [
+          "the other concepts in the round, kept under brand/logo/concepts"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d22",
+        "date": "2026-10-12",
+        "decision": "The working logo is the 2024 logo itself, copied exactly into vector and made flat in deep sage, with the name in its original typeface, Sulphur Point Bold. The redraw (T1w) becomes the simplified symbol for small sizes. This replaces d18.",
+        "rationale": "Jake asked for the copy to be smooth, to match the published logo and to be shown in colour so it could be checked. Done carefully, the copy is good enough to be the logo: direction B is about keeping what exists and making it properly, and this keeps the drawing, the arrangement and the lettering. The audit rules the exact symbol out under 28 pixels, where its shapes merge, so the simpler redraw and the 16 pixel grade take over there. Not approved by a person yet: recorded as a candidate.",
+        "alternatives": [
+          "T1w, the even-weight redraw, as the logo at every size, with the name in DM Sans",
+          "Keep the gradients",
+          "Keep the 2024 sage as the logo colour"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d23",
+        "date": "2026-10-12",
+        "decision": "Main actions are deep sage. Slate is not a button colour: it means work, and appears only on the out-breath, the squeeze and strength content. This amends d10 and d20.",
+        "rationale": "Once slate was given a meaning in the app, using it for 'Book a demo' and 'Subscribe' as well would have made it mean two things. The generated tokens already make the primary button the brand colour, so this also keeps the artboards and the tokens a developer receives in step.",
+        "alternatives": [
+          "Slate for every primary action, as in the direction B sketch",
+          "A third colour for actions"
+        ],
+        "owner": null
+      },
+      {
+        "id": "d24",
+        "date": "2026-10-12",
+        "decision": "Brought the last clinic-only lines in line with the positioning: the purpose, the story, the Pelvy Lite non-goal, the money rule and one voice example.",
+        "rationale": "An adversarial pass found five live fields still written for the brand before Pelvy Lite: a non-goal that put self-subscribers on a waitlist, a money rule quoting the retired $99 price, and a voice example telling people they need a participating clinician. Each contradicted Pelvy's own March 2026 demo, and the book prints them.",
+        "alternatives": [
+          "Leave them and flag them in the handover",
+          "Remove the fields"
+        ],
+        "owner": null
+      }
+    ],
+    "openQuestions": [
+      {
+        "id": "q1",
+        "question": "Intake 1: what are we doing here, tidying up or replacing?",
+        "whyItMatters": "Decides whether the existing logo, green and typefaces are constraints or candidates for retirement.",
+        "assumedMeanwhile": "Modernising. Keep the equity that has been accumulating (the name, the sage green family, the figure that makes a P) and replace the execution (raster gradient logo, template website, stock illustration, the app and site not matching). Brief said 'modernising her brand end to end'; intake was not asked because the run was requested as autonomous.",
+        "whoCanAnswer": "Amelia, relayed by Jake",
+        "changesIf": "If Amelia wants a clean break, the green and the figure are released and the Identity phase reruns from the logo forge. If she wants the logo untouched, the redrawn mark is dropped and the existing artwork needs a professional vector redraw before anything is printed. Show her the proof canvas and ask which.",
+        "status": "open"
+      },
+      {
+        "id": "q2",
+        "question": "Intake 2: where does most of the work actually come from today?",
+        "whyItMatters": "Decides the application set and which surfaces get proven.",
+        "assumedMeanwhile": "A referral partner: clinicians subscribe and put their patients on Pelvy, and Amelia recruits clinics herself by demo. Inferred from the site: individuals cannot yet join without a clinician, and she onboards every clinic manually. So the proof set leads with the clinician demo deck, the app store profile, and the card a clinician hands a patient.",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "If most sign-ups are actually arriving from Instagram or search, add a Story artboard and a search listing and move the deck down. Ask her where the last ten clinics heard of Pelvy.",
+        "status": "open"
+      },
+      {
+        "id": "q3",
+        "question": "Intake 3: when a clinic or a health service picks something else, why?",
+        "whyItMatters": "Decides whether the job is differentiation or being credible enough to be considered.",
+        "assumedMeanwhile": "They pick what feels bigger or safer: an established exercise-prescription platform, an NHS-backed app such as Squeezy, or paper handouts they already trust. Pelvy is a founder-led pilot asking for a place inside hospital and clinic workflows, so the identity has to read as clinically serious before it reads as friendly.",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "If the real answer is price or 'never heard of you', the craft budget moves from credibility to reach. Ask her what the last three clinics that said no gave as their reason.",
+        "status": "open"
+      },
+      {
+        "id": "q4",
+        "question": "Intake 4: a year from now, which matters most?",
+        "whyItMatters": "Decides where the craft budget goes.",
+        "assumedMeanwhile": "Everything looks like it came from the same place. The website, the app and the store listing currently use three different greens, two type systems and an orange and a purple that appear nowhere else. A developer getting it right first time is the close second, because the app is built by someone other than Amelia.",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "If she would rather be able to charge more, more goes into photography and materials and less into tokens. Confirm with her.",
+        "status": "open"
+      },
+      {
+        "id": "q5",
+        "question": "Is the '20% of what clinicians say' figure sourced?",
+        "whyItMatters": "The whole problem statement leans on it, and the site says both 'less than 20%' remembered and 'up to 80%' forgotten without a citation. A health brand quoting an unsourced statistic to clinicians is a credibility risk.",
+        "assumedMeanwhile": "A real study sits behind it and Amelia can name it. Until she does, brand copy states the problem without the number.",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "With a citation, the figure can lead the clinician deck. Without one, it stays out of every headline. Ask her for the paper.",
+        "status": "open"
+      },
+      {
+        "id": "q6",
+        "question": "Are the three testimonials and sixteen client logos on the home page real?",
+        "whyItMatters": "They read as template placeholders (Courtney Henry, Cody Fisher, Devon Lane; Asgardia, Aven, Circle). On a health product that is a trust problem, and no brand copy can quote them.",
+        "assumedMeanwhile": "They are leftovers from the website template and are not Pelvy customers.",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "If any are real, they can be quoted with permission. If not, remove them from the live site now; this does not need to wait for the rebrand.",
+        "status": "open"
+      },
+      {
+        "id": "q7",
+        "question": "Does Amelia hold the original logo artwork as a vector, and who drew it?",
+        "whyItMatters": "Only a 228px raster and a 1024px app icon are public. A redrawn mark needs her approval and, if a designer drew the original, a check on who owns it.",
+        "assumedMeanwhile": "No vector exists and Amelia owns the artwork outright. The modernised mark in this system is a new drawing built on the same idea, proposed for her approval, not a trace of the old file.",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "If a vector exists, compare it with the redrawn master before choosing. If a third party owns the original, get the assignment in writing before the new mark ships.",
+        "status": "open"
+      },
+      {
+        "id": "q8",
+        "question": "What may Pelvy claim clinically, given it is not TGA certified?",
+        "whyItMatters": "Voice and messaging have to stay inside 'education and support between appointments' and never promise treatment or outcomes. The wrong verb on a poster is a regulatory problem, not a style one.",
+        "assumedMeanwhile": "Pelvy can say it guides, reminds, stores and educates. It does not say it treats, diagnoses, fixes or cures, and it does not promise symptom improvement.",
+        "whoCanAnswer": "Amelia, with regulatory advice",
+        "changesIf": "If Pelvy is later listed with the TGA, the vocabulary list is revisited. Have the claims list in the voice chapter checked by whoever advises her on TGA and AHPRA advertising rules before print.",
+        "status": "open"
+      },
+      {
+        "id": "q9",
+        "question": "How unique is the figure-P symbol, and is sage green ownable, among pelvic health and women's health apps?",
+        "whyItMatters": "The symbol is named as the lead distinctive asset and the green as a supporting one. Neither has been checked against the category.",
+        "assumedMeanwhile": "The figure is unique enough to keep. Soft sage is shared across wellness brands, so the system deepens it and pairs it with the count ring instead of relying on it alone.",
+        "whoCanAnswer": "Jake or Amelia, with twenty minutes",
+        "changesIf": "If three or more competitors use a figure built from an initial, the count ring becomes the lead asset. Screenshot the icons of the first twenty results for 'pelvic floor' on the App Store and lay them in a grid beside Pelvy's.",
+        "status": "open"
+      },
+      {
+        "id": "q10",
+        "question": "Is 'five times the adherence' backed by data, and how many clinicians are subscribed today?",
+        "whyItMatters": "Amelia says both in her demo video. They are the two most persuasive facts Pelvy has for a GP or a health service, and neither can be printed without a source and a date.",
+        "assumedMeanwhile": "Both are true as she stated them in March 2026. Neither appears in any artboard or in the tagline until she supplies the numbers behind them.",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "With a source, 'five times' leads the clinician deck and the one-pager. Ask her what was measured, over how long, in how many patients.",
+        "status": "open"
+      },
+      {
+        "id": "q11",
+        "question": "Do clinic-subscribed patients still get the Clinician Notes card in the version with the Programs, Videos and Learn tabs, and where does it sit?",
+        "whyItMatters": "The clinician's note is the brand's signature. The demo shows the Lite path, where there is no clinician and no note.",
+        "assumedMeanwhile": "Yes: for a clinic patient the note sits above the programs on the Programs tab, as in the current store screenshots. In Lite its place is taken by Amelia's own guidance in Learn.",
+        "whoCanAnswer": "Amelia or her developer",
+        "changesIf": "If notes have moved or gone, the hub artboard is redrawn and the signature leans on the Learn articles instead. Ask for a screen recording of a clinic patient's hub.",
+        "status": "open"
+      },
+      {
+        "id": "q12",
+        "question": "Should the tagline stay 'Pelvic health, between appointments' now that people can use Pelvy without a clinician?",
+        "whyItMatters": "It describes the physiotherapy route exactly and the Lite route only loosely.",
+        "assumedMeanwhile": "It stays, as the line for clinics and clinicians. Patient-facing surfaces lead with 'Squeeze or let go. Pelvy counts you through it.'",
+        "whoCanAnswer": "Amelia",
+        "changesIf": "If she wants one line everywhere, the candidates are 'Strength and relaxation for your pelvic floor' and the squeeze-or-let-go line. Put both on the store listing for a fortnight each and compare installs.",
+        "status": "open"
+      },
+      {
+        "id": "q13",
+        "question": "Are the clinic price ($20 a month in the pilot), the six free months for patients and the word 'pilot' still current?",
+        "whyItMatters": "The voice chapter rewrites real pricing copy from the clinician FAQ. The patient FAQ on the same site is already out of date against the app, so the clinic numbers may be too, and a wrong price in print is the costly kind of mistake.",
+        "assumedMeanwhile": "Treated as current because pelvy.app/clinician-faqs still publishes them. Check with Amelia before any clinic price is printed.",
+        "whoCanAnswer": null,
+        "changesIf": null,
+        "status": "open"
+      }
+    ],
+    "nonGoals": [
+      "Renaming Pelvy, or changing the idea behind the symbol.",
+      "Redesigning the app's flows. This system gives the app its colours, type and components; what each screen does is product work.",
+      "Clinical content. The education and exercise library are Amelia's, and nothing here rewrites them.",
+      "A regulatory review. The claims guidance in the voice chapter is a writing rule, not legal or TGA advice.",
+      "A separate identity for Pelvy Lite. People who subscribe themselves and people set up by a clinic get the same brand."
+    ],
+    "antiPatterns": [
+      "White text on sage. It is how Pelvy looked in 2024, how every wellness app looks, and it fails contrast at 2.9 to 1.",
+      "Pink or coral anywhere, and the app's lilac ground and purple dots. They say women's wellness, and Pelvy is for everyone with a pelvis.",
+      "Icons in pastel circles, in rows of three.",
+      "Illustrated people of any kind: stock, flat, faceless or line-drawn. A drawing cannot show a pelvic floor exercise, so Pelvy shows the real app, real video and real rooms.",
+      "A clinician's note that nobody wrote. A note is real and used with permission, or it is marked as a sample.",
+      "A count ring holding anything except a numeral that is really counting something.",
+      "A fourth radius. Panels and photographs take 22 pixels, buttons are pills, fields take 10.",
+      "A testimonial, client logo or statistic that Amelia cannot source.",
+      "The words treat, cure, fix or diagnose.",
+      "CAPITALS for emphasis and exclamation marks to carry enthusiasm."
+    ],
+    "changeLog": [],
+    "colophon": {
+      "madeBy": null
+    }
+  }
+}

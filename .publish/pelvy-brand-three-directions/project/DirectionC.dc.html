@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400;75..125,600;75..125,800&display=swap">
+  <style>
+    /*
+      Direction C: The count (Swiss editorial: Mueller-Brockmann, Vignelli's standards manuals)
+      Type:      Archivo, one family. 800 condensed for numerals and headlines, 400 for text.
+      Colour:    Paper and ink. One green, allowed twice per view.
+      Grid:      Six columns you can see, hairline rules, absolute left flush.
+      Signature: Oversized numerals in the margin, because counting is what Pelvy does.
+    */
+    :root {
+      --paper: #F5F5F2;
+      --ink: #1C1C1A;
+      --muted: #5A5A55;
+      --accent: #2F6B4E;
+      --rule: #1C1C1A;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .c { width: 900px; min-height: 1100px; background: var(--paper); color: var(--ink); font-family: 'Archivo', 'Helvetica Neue', Helvetica, sans-serif; padding: 48px; display: flex; flex-direction: column; gap: 22px; }
+    .c h1, .c h2, .c p { margin: 0; }
+    .num { font-stretch: 75%; font-weight: 800; line-height: 0.8; letter-spacing: -0.03em; }
+    .row { display: flex; gap: 24px; border-top: 1px solid var(--rule); padding-top: 8px; align-items: baseline; }
+  </style>
+</helmet>
+<div class="c">
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <p style="font-size: 15px; color: var(--muted);">Direction C</p>
+    <h1 style="font-size: 56px; line-height: 1; font-weight: 800; font-stretch: 85%; letter-spacing: -0.02em;">The count</h1>
+    <p style="font-size: 20px; line-height: 1.4; max-width: 640px;">Built on the one thing only Pelvy does: it counts. Big numerals, hairline rules, one typeface and almost no colour.</p>
+  </div>
+
+  <div style="display: flex; gap: 24px; height: 330px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 20px 0;">
+    <div style="width: 210px; display: flex; flex-direction: column; justify-content: space-between;">
+      <p style="font-size: 20px; font-weight: 800;">Pelvy</p>
+      <div style="display: flex; align-items: flex-end; gap: 6px;">
+        <span class="num" style="font-size: 210px; color: var(--accent);">3</span>
+        <span style="font-size: 20px; font-weight: 600; padding-bottom: 6px;">of 10</span>
+      </div>
+    </div>
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
+      <h2 style="font-size: 46px; line-height: 1; font-weight: 800; font-stretch: 85%; letter-spacing: -0.02em; max-width: 320px;">It counts, so you can finish.</h2>
+      <p style="font-size: 17px; line-height: 1.45; max-width: 300px;">Squeeze, hold, let go. Pelvy keeps count of every rep your clinician set, so you are never the one keeping track.</p>
+    </div>
+    <div style="width: 250px; position: relative; background: var(--ink);">
+      <img src="dir-c.jpg" alt="An exercise mat and a folded sheet of paper seen from above, generated as a sketch of the direction" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <p style="position: absolute; left: 0; bottom: 0; background: var(--paper); font-size: 12px; padding: 4px 8px;">Generated sketch, not brand photography</p>
+    </div>
+  </div>
+
+  <div style="display: flex; border: 1px solid var(--rule);">
+    <div style="flex: 2.4; background: var(--paper); padding: 14px 16px; font-size: 14px;"><b>Paper</b><br>#F5F5F2</div>
+    <div style="flex: 1.6; background: var(--ink); color: var(--paper); padding: 14px 16px; font-size: 14px;"><b>Ink</b><br>#1C1C1A</div>
+    <div style="flex: 0.8; background: #5A5A55; color: var(--paper); padding: 14px 16px; font-size: 14px;"><b>Grey</b><br>#5A5A55</div>
+    <div style="flex: 0.5; background: #2F6B4E; color: var(--paper); padding: 14px 16px; font-size: 14px;"><b>Green</b><br>#2F6B4E</div>
+  </div>
+
+  <div style="display: flex; gap: 40px; align-items: baseline;">
+    <p style="font-size: 44px; font-weight: 800; font-stretch: 85%; letter-spacing: -0.02em; line-height: 1;">Hold for 5</p>
+    <p style="font-size: 17px; line-height: 1.5; max-width: 420px;">Archivo throughout: condensed and heavy for numbers and headlines, regular for reading. Hierarchy comes from size and weight, never from colour.</p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div class="row"><span class="num" style="font-size: 52px; width: 90px;">1</span><p style="font-size: 20px; font-weight: 600; width: 200px;">Breathe in</p><p style="font-size: 16px; color: var(--muted);">Widen your belly as the air comes in.</p></div>
+    <div class="row"><span class="num" style="font-size: 52px; width: 90px;">2</span><p style="font-size: 20px; font-weight: 600; width: 200px;">Squeeze</p><p style="font-size: 16px; color: var(--muted);">Lift and hold while Pelvy counts to five.</p></div>
+    <div class="row"><span class="num" style="font-size: 52px; width: 90px;">3</span><p style="font-size: 20px; font-weight: 600; width: 200px;">Let go</p><p style="font-size: 16px; color: var(--muted);">Release fully before the next one starts.</p></div>
+    <p style="font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 12px;">Signature: the margin numeral. Every program, step and page is counted in the open, at three to five times the size of the text.</p>
+  </div>
+
+  <p style="font-size: 14px; line-height: 1.45; color: var(--muted); max-width: 720px;">The tradeoff: nobody else in pelvic health looks like this, and it is the coldest of the three. A nervous patient may find it stark, and it has no gentle way to draw anatomy.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":900,"height":1100}}'>
+class Component extends DCLogic {
+}
+</script>
+</body>
+</html>

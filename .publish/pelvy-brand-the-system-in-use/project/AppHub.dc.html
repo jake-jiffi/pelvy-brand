@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <title>Pelvy app, my treatment hub</title>
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=DM+Sans:wght@400;500;600&display=swap">
+  <style>
+    /*
+      Pelvy app: My treatment hub, Programs tab, for a patient whose clinic subscribes.
+      Drawn from the next version (Programs, Videos, Learn) shown in Pelvy's March 2026 demo.
+      Type:      Literata for the clinician's words and titles, DM Sans for everything the app says.
+      Colour:    Paper ground, white cards, soft sage for the note. Sage chips mean relaxation, slate chips mean strength.
+      Shape:     22px on cards, pills on chips.
+      Signature: The clinician's note, first on the screen. The note is the sample from Pelvy's store listing, shortened.
+    */
+    :root {
+      --deep: #41684A;
+      --soft: #ABC8B1;
+      --mint: #EDF5EE;
+      --paper: #F8F9F8;
+      --white: #FFFFFF;
+      --ink: #263529;
+      --muted: #6B726D;
+      --line: #DADDDA;
+      --accent: #5E6687;
+      --work: #F0F2FA;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .app { width: 390px; height: 844px; overflow: hidden; background: var(--paper); color: var(--ink); font-family: 'DM Sans', 'Trebuchet MS', sans-serif; display: flex; flex-direction: column; }
+    .app h1, .app h2, .app h3, .app p { margin: 0; }
+    .serif { font-family: 'Literata', Georgia, serif; }
+    .card { background: var(--white); border: 1px solid var(--line); border-radius: 22px; padding: 16px 18px 15px; display: flex; flex-direction: column; gap: 9px; }
+    .meta { font-size: 15px; line-height: 1.35; }
+    .meta b { font-weight: 400; color: var(--muted); }
+    .chip { font-size: 13px; font-weight: 500; padding: 4px 12px; border-radius: 999px; }
+    .relax { background: var(--mint); color: var(--deep); }
+    .work { background: var(--work); color: var(--accent); }
+    .tab { flex: 1; height: 44px; border: 0; background: transparent; font-family: inherit; font-size: 16px; font-weight: 500; color: var(--muted); border-bottom: 2px solid var(--line); }
+    .tab.on { color: var(--ink); font-weight: 600; border-bottom: 3px solid var(--deep); }
+    .iconbtn { width: 44px; height: 44px; border: 0; background: transparent; color: var(--ink); display: flex; align-items: center; justify-content: center; padding: 0; }
+  </style>
+</helmet>
+<div class="app">
+  <div style="padding: 56px 12px 6px 20px; display: flex; align-items: center; justify-content: space-between;">
+    <h1 class="serif" style="font-size: 26px; font-weight: 600; letter-spacing: -0.01em;">My treatment hub</h1>
+    <button class="iconbtn" aria-label="Settings">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
+    </button>
+  </div>
+  <div style="display: flex; padding: 0 16px;">
+    <button class="tab on">Programs</button>
+    <button class="tab">Videos</button>
+    <button class="tab">Learn</button>
+  </div>
+
+  <div style="padding: 14px 16px 0 16px; display: flex; flex-direction: column; gap: 10px;">
+    <div style="background: var(--soft); border-radius: 22px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px;">
+      <p style="font-size: 14px; font-weight: 600;">From your clinician</p>
+      <h2 class="serif" style="font-size: 20px; line-height: 1.2; font-weight: 600;">Your flare plan for pelvic pain</h2>
+      <p class="serif" style="font-size: 16px; line-height: 1.38;">Let your belly go, then belly breathing. Use your guided program.</p>
+      <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; font-size: 14px;">
+        <span>Amelia Godfrey, physiotherapist</span>
+        <a href="#more" style="color: var(--ink); font-weight: 600; white-space: nowrap;">Read all</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
+        <h3 class="serif" style="font-size: 19px; line-height: 1.2; font-weight: 600;">Pelvic floor with breath</h3>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="m9 6 6 6-6 6"/></svg>
+      </div>
+      <p class="meta"><b>Position</b> Lying down</p>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; gap: 6px;"><span class="chip work">Contract</span><span class="chip relax">Relax</span></div>
+        <span style="font-size: 14px; color: var(--muted);">2 times daily</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
+        <h3 class="serif" style="font-size: 19px; line-height: 1.2; font-weight: 600;">Belly breathing and downtraining</h3>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="m9 6 6 6-6 6"/></svg>
+      </div>
+      <p class="meta"><b>Position</b> Supported sitting, butterfly or on your side, hands on your lower belly</p>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <span class="chip relax">Relaxation</span>
+        <span style="font-size: 14px; color: var(--muted);">5 times daily</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
+        <h3 class="serif" style="font-size: 19px; line-height: 1.2; font-weight: 600;">Pelvic floor strength</h3>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none;"><path d="m9 6 6 6-6 6"/></svg>
+      </div>
+      <p class="meta"><b>Position</b> Lying down or sitting, progressing to standing</p>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <span class="chip work">Strength</span>
+        <span style="font-size: 14px; color: var(--muted);">3 times daily</span>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1841 @@
+{
+  "version": 1,
+  "brand": {
+    "name": "Pelvy",
+    "category": "Stated: a pelvic health app that has it all. Actual: what a clinician compares it with is the handout and the follow-up email, and what a patient compares it with is a free Kegel timer. Chosen frame: the between-appointments companion for pelvic health care, prescribed by the clinician and carried by the patient.",
+    "oneLiner": "For pelvic health clinicians whose patients lose the thread between appointments, Pelvy is the between-appointments companion that puts the clinician's own advice, exercises and reminders on the patient's phone, because it was built by a practising pelvic health physiotherapist from what patients and clinicians asked for. Unlike a handout or a Kegel timer, it counts the patient through the whole program and keeps the advice where they will find it. Said plainly: what you tell your patients in the room, still with them at home.",
+    "audience": "Pelvic health clinicians",
+    "style": "The chosen direction: Corporate trust."
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "plannedOn": "2026-10-12",
+      "seed": null,
+      "count": 12,
+      "rules": [
+        "Design the small-grade asset first. The harshest application drives the construction of the largest, not the other way round.",
+        "All three assets in a concept share one letterform language, one construction grid and one optical weight class.",
+        "Black on white only. Colour is decided later and must not be allowed to rescue a weak silhouette.",
+        "One idea per mark. Two at the very most. Three is committee work."
+      ],
+      "slots": [
+        {
+          "id": "A1",
+          "index": 0,
+          "family": "wordmark",
+          "familyName": "Wordmark",
+          "question": "Can the name itself carry the identity?",
+          "architecture": "wordmark",
+          "architectureName": "Wordmark only",
+          "register": "old-style-serif",
+          "registerName": "Old-style serif",
+          "faces": [
+            "EB Garamond",
+            "Cormorant Garamond",
+            "Libre Caslon Text",
+            "Cardo",
+            "Crimson Pro",
+            "Gentium Book Plus"
+          ],
+          "surgery": false,
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "inCategory": false,
+          "signals": "Heritage, institutional, unhurried.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "letterform-as-symbol",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Fake heritage, if the brand has none.",
+          "deRisk": "Set it in a modern layout. The face carries the age, the composition carries the present."
+        },
+        {
+          "id": "B1",
+          "index": 1,
+          "family": "letterform",
+          "familyName": "Letterform and monogram",
+          "question": "What does the name become when it is reduced to one shape?",
+          "architecture": "letterform-as-symbol",
+          "architectureName": "Letterform as symbol",
+          "register": "humanist",
+          "registerName": "Humanist sans",
+          "faces": [
+            "Cabin",
+            "Nunito Sans",
+            "Josefin Sans",
+            "Julius Sans One",
+            "Marcellus"
+          ],
+          "surgery": false,
+          "symbolApproach": "letterform-derived",
+          "symbolBrief": "Built out of the name's own letters, so the symbol and the wordmark are one identity.",
+          "inCategory": true,
+          "signals": "Professional but warm.",
+          "position": "Inside the healthcare convention, which reads as competence.",
+          "smallGrade": "wordmark",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Reads as safe when the brief wanted a position.",
+          "deRisk": "Push the case or the weight further than feels comfortable."
+        },
+        {
+          "id": "C1",
+          "index": 2,
+          "family": "symbolic",
+          "familyName": "Symbolic",
+          "question": "What thing does this business actually put in front of people?",
+          "architecture": "lockup",
+          "architectureName": "Lockup, wordmark plus symbol",
+          "register": "humanist",
+          "registerName": "Humanist sans",
+          "faces": [
+            "Cabin",
+            "Nunito Sans",
+            "Josefin Sans",
+            "Julius Sans One",
+            "Marcellus"
+          ],
+          "surgery": false,
+          "symbolApproach": "literal",
+          "symbolBrief": "Depict the actual thing, specifically. Not \"a leaf\" but the leaf of the plant this business grows.",
+          "inCategory": true,
+          "signals": "Professional but warm.",
+          "position": "Inside the healthcare convention, which reads as competence.",
+          "smallGrade": "symbol-only",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Reads as safe when the brief wanted a position.",
+          "deRisk": "Push the case or the weight further than feels comfortable."
+        },
+        {
+          "id": "D1",
+          "index": 3,
+          "family": "abstract",
+          "familyName": "Abstract",
+          "question": "What quality can be made into a form that is only ours?",
+          "architecture": "lockup",
+          "architectureName": "Lockup, wordmark plus symbol",
+          "register": "transitional-serif",
+          "registerName": "Transitional serif",
+          "faces": [
+            "Newsreader",
+            "Literata",
+            "Baskervville",
+            "Libre Baskerville",
+            "Libre Caslon Display",
+            "Source Serif 4",
+            "IBM Plex Serif",
+            "Charis SIL"
+          ],
+          "surgery": false,
+          "symbolApproach": "geometric-reduction",
+          "symbolBrief": "A constructed form with no referent, built on a stated grid.",
+          "inCategory": false,
+          "signals": "Editorial, considered, intellectual.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "symbol-only",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Fine strokes die at small sizes and under thread.",
+          "deRisk": "Pick a screen cut, and check the thinnest stroke before committing."
+        },
+        {
+          "id": "A2",
+          "index": 4,
+          "family": "wordmark",
+          "familyName": "Wordmark",
+          "question": "Can the name itself carry the identity?",
+          "architecture": "wordmark",
+          "architectureName": "Wordmark only",
+          "register": "transitional-serif",
+          "registerName": "Transitional serif",
+          "faces": [
+            "Newsreader",
+            "Literata",
+            "Baskervville",
+            "Libre Baskerville",
+            "Libre Caslon Display",
+            "Source Serif 4",
+            "IBM Plex Serif",
+            "Charis SIL"
+          ],
+          "surgery": false,
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "inCategory": false,
+          "signals": "Editorial, considered, intellectual.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "letterform-as-symbol",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Fine strokes die at small sizes and under thread.",
+          "deRisk": "Pick a screen cut, and check the thinnest stroke before committing."
+        },
+        {
+          "id": "B2",
+          "index": 5,
+          "family": "letterform",
+          "familyName": "Letterform and monogram",
+          "question": "What does the name become when it is reduced to one shape?",
+          "architecture": "letterform-as-symbol",
+          "architectureName": "Letterform as symbol",
+          "register": "display-drawn",
+          "registerName": "Drawn display",
+          "faces": [
+            "Syne",
+            "Bricolage Grotesque",
+            "Instrument Sans"
+          ],
+          "surgery": true,
+          "symbolApproach": "monogram",
+          "symbolBrief": "The initials as a single constructed shape.",
+          "inCategory": false,
+          "signals": "A wordmark nobody else has.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "wordmark",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Custom for novelty reads as a gimmick.",
+          "deRisk": "Every modified glyph names the problem it solves. Two is the ceiling; three is a redesign."
+        },
+        {
+          "id": "C2",
+          "index": 6,
+          "family": "symbolic",
+          "familyName": "Symbolic",
+          "question": "What thing does this business actually put in front of people?",
+          "architecture": "lockup",
+          "architectureName": "Lockup, wordmark plus symbol",
+          "register": "neo-grotesque",
+          "registerName": "Neo-grotesque sans",
+          "faces": [
+            "Archivo",
+            "Libre Franklin",
+            "Geist",
+            "IBM Plex Sans",
+            "Source Sans 3"
+          ],
+          "surgery": false,
+          "symbolApproach": "letterform-derived",
+          "symbolBrief": "Built out of the name's own letters, so the symbol and the wordmark are one identity.",
+          "inCategory": false,
+          "signals": "Competent and contemporary.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "symbol-only",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "The modern default. Generic unless something else is carrying.",
+          "deRisk": "Only pick this when the symbol or the colour is doing the distinctive work."
+        },
+        {
+          "id": "D2",
+          "index": 7,
+          "family": "abstract",
+          "familyName": "Abstract",
+          "question": "What quality can be made into a form that is only ours?",
+          "architecture": "lockup",
+          "architectureName": "Lockup, wordmark plus symbol",
+          "register": "old-style-serif",
+          "registerName": "Old-style serif",
+          "faces": [
+            "EB Garamond",
+            "Cormorant Garamond",
+            "Libre Caslon Text",
+            "Cardo",
+            "Crimson Pro",
+            "Gentium Book Plus"
+          ],
+          "surgery": false,
+          "symbolApproach": "geometric-reduction",
+          "symbolBrief": "A constructed form with no referent, built on a stated grid.",
+          "inCategory": false,
+          "signals": "Heritage, institutional, unhurried.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "symbol-only",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Fake heritage, if the brand has none.",
+          "deRisk": "Set it in a modern layout. The face carries the age, the composition carries the present."
+        },
+        {
+          "id": "A3",
+          "index": 8,
+          "family": "wordmark",
+          "familyName": "Wordmark",
+          "question": "Can the name itself carry the identity?",
+          "architecture": "wordmark",
+          "architectureName": "Wordmark only",
+          "register": "slab",
+          "registerName": "Slab serif",
+          "faces": [
+            "Bitter",
+            "Zilla Slab",
+            "Rokkitt",
+            "Bree Serif",
+            "Josefin Slab"
+          ],
+          "surgery": false,
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "inCategory": false,
+          "signals": "Strong, declarative, journalistic.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "letterform-as-symbol",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Shouty at large sizes.",
+          "deRisk": "Drop a weight and open the tracking."
+        },
+        {
+          "id": "B3",
+          "index": 9,
+          "family": "letterform",
+          "familyName": "Letterform and monogram",
+          "question": "What does the name become when it is reduced to one shape?",
+          "architecture": "letterform-as-symbol",
+          "architectureName": "Letterform as symbol",
+          "register": "transitional-serif",
+          "registerName": "Transitional serif",
+          "faces": [
+            "Newsreader",
+            "Literata",
+            "Baskervville",
+            "Libre Baskerville",
+            "Libre Caslon Display",
+            "Source Serif 4",
+            "IBM Plex Serif",
+            "Charis SIL"
+          ],
+          "surgery": false,
+          "symbolApproach": "letterform-derived",
+          "symbolBrief": "Built out of the name's own letters, so the symbol and the wordmark are one identity.",
+          "inCategory": false,
+          "signals": "Editorial, considered, intellectual.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "wordmark",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Fine strokes die at small sizes and under thread.",
+          "deRisk": "Pick a screen cut, and check the thinnest stroke before committing."
+        },
+        {
+          "id": "C3",
+          "index": 10,
+          "family": "symbolic",
+          "familyName": "Symbolic",
+          "question": "What thing does this business actually put in front of people?",
+          "architecture": "lockup",
+          "architectureName": "Lockup, wordmark plus symbol",
+          "register": "transitional-serif",
+          "registerName": "Transitional serif",
+          "faces": [
+            "Newsreader",
+            "Literata",
+            "Baskervville",
+            "Libre Baskerville",
+            "Libre Caslon Display",
+            "Source Serif 4",
+            "IBM Plex Serif",
+            "Charis SIL"
+          ],
+          "surgery": false,
+          "symbolApproach": "literal",
+          "symbolBrief": "Depict the actual thing, specifically. Not \"a leaf\" but the leaf of the plant this business grows.",
+          "inCategory": false,
+          "signals": "Editorial, considered, intellectual.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "symbol-only",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Fine strokes die at small sizes and under thread.",
+          "deRisk": "Pick a screen cut, and check the thinnest stroke before committing."
+        },
+        {
+          "id": "D3",
+          "index": 11,
+          "family": "abstract",
+          "familyName": "Abstract",
+          "question": "What quality can be made into a form that is only ours?",
+          "architecture": "lockup",
+          "architectureName": "Lockup, wordmark plus symbol",
+          "register": "geometric",
+          "registerName": "Geometric sans",
+          "faces": [
+            "Jost",
+            "Outfit",
+            "Mulish",
+            "DM Sans",
+            "Work Sans",
+            "Familjen Grotesk"
+          ],
+          "surgery": false,
+          "symbolApproach": "geometric-reduction",
+          "symbolBrief": "A constructed form with no referent, built on a stated grid.",
+          "inCategory": false,
+          "signals": "Modern, considered, optimistic.",
+          "position": "Outside the healthcare convention. Established care, not a startup.",
+          "smallGrade": "symbol-only",
+          "mustNotBe": [
+            "swoosh",
+            "letter with an angled cut corner",
+            "monogram in a heavy ring",
+            "shield with the year founded",
+            "filigree monogram",
+            "shield",
+            "infinity loop",
+            "handshake",
+            "medical cross",
+            "caduceus",
+            "heartbeat line",
+            "neural network of circles and lines",
+            "brain with circuit traces",
+            "triangle with an eye",
+            "sparkle or four-pointed star",
+            "abstract globe of curved lines"
+          ],
+          "risk": "Cold, or generic startup, if nothing warms it up.",
+          "deRisk": "One warmed letterform, or a warm palette, or a symbol with a hand in it."
+        },
+        {
+          "id": "T1",
+          "origin": "trace",
+          "traceOf": "brand/logo/reference/pelvy-symbol-2024-appicon.png",
+          "crop": {
+            "x": 81.92,
+            "y": 153.6,
+            "w": 860.16,
+            "h": 716.8
+          },
+          "tracedFrom": null,
+          "architecture": "symbol-only",
+          "architectureName": "Symbol only",
+          "familyName": "Traced from the reference",
+          "question": "The reference the person picked, as a clean vector. The drawing itself, not a new idea."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "T1",
+          "file": "brand/logo/concepts/round-01/T1.svg",
+          "provenance": {
+            "id": "T1",
+            "generatedBy": "traced from Pelvy's published 2024 app icon",
+            "generatedOn": "2026-10-12",
+            "slot": {
+              "id": "T1",
+              "architecture": "symbol-only"
+            },
+            "prompt": "brand/logo/brief/slots/round-01/T1.md",
+            "edits": [],
+            "approvedBy": null,
+            "status": "candidate, not approved",
+            "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+          },
+          "trace": {
+            "source": "brand/logo/reference/pelvy-symbol-2024-appicon.png",
+            "crop": {
+              "x": 81.92,
+              "y": 153.6,
+              "w": 860.16,
+              "h": 716.8
+            },
+            "overlap": 0.9645,
+            "curves": 60,
+            "lines": 0,
+            "overlay": "brand/logo/trials/trace/T1-overlay.png"
+          },
+          "audit": {
+            "verdict": "contender-with-notes",
+            "findings": [],
+            "contexts": [
+              {
+                "context": "favicon-16",
+                "name": "16px favicon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "app-icon-28",
+                "name": "28px app icon",
+                "status": "fail",
+                "expectation": "pass",
+                "reasons": [
+                  "the mark reads as 4 shapes at 256px and 3 at 32px, so its counters close"
+                ],
+                "mechanical": true
+              },
+              {
+                "context": "patch-1.5in",
+                "name": "1.5 inch embroidered patch",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "single-colour",
+                "name": "One colour",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "reverse-dark",
+                "name": "Reversed on dark",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "signage-large",
+                "name": "Large format signage",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "motion",
+                "name": "Motion lockup",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": false
+              },
+              {
+                "context": "social-square",
+                "name": "Square social avatar",
+                "status": "fail",
+                "expectation": "pass",
+                "reasons": [
+                  "the mark reads as 4 shapes at 256px and 3 at 64px, so its counters close"
+                ],
+                "mechanical": true
+              },
+              {
+                "context": "apparel-embroidery",
+                "name": "Embroidery on fabric",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "foil-stamp",
+                "name": "Foil stamp",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              }
+            ],
+            "metrics": {
+              "16": {
+                "coverage": 0.20703125,
+                "regions": 4,
+                "colourRegions": 1,
+                "solidRegions": 1,
+                "minFeature": 3,
+                "hash": "6eaa93e66e606040",
+                "box": {
+                  "x": 0,
+                  "y": 2,
+                  "width": 16,
+                  "height": 12
+                }
+              },
+              "32": {
+                "coverage": 0.2158203125,
+                "regions": 3,
+                "colourRegions": 6,
+                "solidRegions": 6,
+                "minFeature": 5,
+                "hash": "6ecab3a6eee04040",
+                "box": {
+                  "x": 0,
+                  "y": 3,
+                  "width": 32,
+                  "height": 25
+                }
+              },
+              "64": {
+                "coverage": 0.218017578125,
+                "regions": 3,
+                "colourRegions": 4,
+                "solidRegions": 4,
+                "minFeature": 9,
+                "hash": "4ecab2aeee604040",
+                "box": {
+                  "x": 0,
+                  "y": 7,
+                  "width": 64,
+                  "height": 50
+                }
+              },
+              "256": {
+                "coverage": 0.223876953125,
+                "regions": 4,
+                "colourRegions": 5,
+                "solidRegions": 5,
+                "minFeature": 35,
+                "hash": "4ecab2acee404040",
+                "box": {
+                  "x": 0,
+                  "y": 27,
+                  "width": 256,
+                  "height": 202
+                }
+              }
+            }
+          }
+        }
+      ],
+      "shortlist": [
+        "T1"
+      ],
+      "duplicates": [],
+      "auditedOn": "2026-10-12",
+      "rendered": true,
+      "pickedOn": "2026-10-12"
+    },
+    {
+      "round": 2,
+      "kind": "refinement",
+      "refines": 1,
+      "plannedOn": "2026-10-12",
+      "count": 5,
+      "rules": [
+        "A refinement that nobody recognises as the same mark has failed, however good it is.",
+        "The small-grade redraw is a redraw on the pixel grid, never a scaled copy.",
+        "Still black on white. Colour is decided after the mark is right."
+      ],
+      "slots": [
+        {
+          "id": "T1c",
+          "refines": "T1",
+          "refinesFile": "brand/logo/concepts/round-01/T1.svg",
+          "traceOf": "brand/logo/reference/pelvy-symbol-2024-appicon.png",
+          "family": null,
+          "familyName": "The clean-up",
+          "question": "This mark is a trace of a drawing the person picked because they wanted that drawing. Keep it: every curve, terminal, join, gap and proportion stays where it is. Straighten only what was plainly meant to be straight, even out a stroke weight that wavers by accident, and drop nodes the shape does not need. Lay your result over the trace before you stop.",
+          "architecture": "symbol-only",
+          "architectureName": "Symbol only",
+          "register": null,
+          "registerName": null,
+          "faces": [],
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "smallGrade": null,
+          "signals": null,
+          "position": null,
+          "risk": null,
+          "deRisk": null,
+          "mustNotBe": [],
+          "gate": "Laid over the trace, nobody can point to a difference except a wobble that has gone.",
+          "task": "This mark is a trace of a drawing the person picked because they wanted that drawing. Keep it: every curve, terminal, join, gap and proportion stays where it is. Straighten only what was plainly meant to be straight, even out a stroke weight that wavers by accident, and drop nodes the shape does not need. Lay your result over the trace before you stop."
+        },
+        {
+          "id": "T1sm",
+          "refines": "T1",
+          "refinesFile": "brand/logo/concepts/round-01/T1.svg",
+          "traceOf": "brand/logo/reference/pelvy-symbol-2024-appicon.png",
+          "family": null,
+          "familyName": "The small-grade redraw",
+          "question": "Redraw the mark for 16 pixels, on the pixel grid, with whole-pixel widths and no sub-pixel optical corrections. This is a redraw, not a scale-down: simplify until it survives, and accept losing detail that only reads at large sizes.",
+          "architecture": "symbol-only",
+          "architectureName": "Symbol only",
+          "register": null,
+          "registerName": null,
+          "faces": [],
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "smallGrade": null,
+          "signals": null,
+          "position": null,
+          "risk": null,
+          "deRisk": null,
+          "mustNotBe": [],
+          "gate": "At 16px it must be one identifiable shape with its counters still open.",
+          "task": "Redraw the mark for 16 pixels, on the pixel grid, with whole-pixel widths and no sub-pixel optical corrections. This is a redraw, not a scale-down: simplify until it survives, and accept losing detail that only reads at large sizes."
+        },
+        {
+          "id": "T1p",
+          "refines": "T1",
+          "refinesFile": "brand/logo/concepts/round-01/T1.svg",
+          "traceOf": "brand/logo/reference/pelvy-symbol-2024-appicon.png",
+          "family": null,
+          "familyName": "Proportion",
+          "question": "Same idea, better proportioned. Work the ratios: the relationship between the parts, the width against the height, where the mass sits. Change nothing about the concept.",
+          "architecture": "symbol-only",
+          "architectureName": "Symbol only",
+          "register": null,
+          "registerName": null,
+          "faces": [],
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "smallGrade": null,
+          "signals": null,
+          "position": null,
+          "risk": null,
+          "deRisk": null,
+          "mustNotBe": [],
+          "gate": "Somebody who saw the original must recognise this as the same mark.",
+          "task": "Same idea, better proportioned. Work the ratios: the relationship between the parts, the width against the height, where the mass sits. Change nothing about the concept."
+        },
+        {
+          "id": "T1w",
+          "refines": "T1",
+          "refinesFile": "brand/logo/concepts/round-01/T1.svg",
+          "traceOf": "brand/logo/reference/pelvy-symbol-2024-appicon.png",
+          "family": null,
+          "familyName": "Weight",
+          "question": "Same idea, one step heavier or one step lighter, whichever the original needed. Apply the optical corrections properly: horizontals slightly thinner than verticals, curves overshooting flats.",
+          "architecture": "symbol-only",
+          "architectureName": "Symbol only",
+          "register": null,
+          "registerName": null,
+          "faces": [],
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "smallGrade": null,
+          "signals": null,
+          "position": null,
+          "risk": null,
+          "deRisk": null,
+          "mustNotBe": [],
+          "gate": "The optical weight must read as even, which is not the same as the numbers being equal.",
+          "task": "Same idea, one step heavier or one step lighter, whichever the original needed. Apply the optical corrections properly: horizontals slightly thinner than verticals, curves overshooting flats."
+        },
+        {
+          "id": "T1sq",
+          "refines": "T1",
+          "refinesFile": "brand/logo/concepts/round-01/T1.svg",
+          "traceOf": "brand/logo/reference/pelvy-symbol-2024-appicon.png",
+          "family": null,
+          "familyName": "The square alternate",
+          "question": "Recompose the mark for a square field: an app icon, a social avatar, a stamp. This is a composition, not a crop.",
+          "architecture": "symbol-only",
+          "architectureName": "Symbol only",
+          "register": null,
+          "registerName": null,
+          "faces": [],
+          "symbolApproach": null,
+          "symbolBrief": null,
+          "smallGrade": null,
+          "signals": null,
+          "position": null,
+          "risk": null,
+          "deRisk": null,
+          "mustNotBe": [],
+          "gate": "Everything must sit inside the circle inscribed in the square, because launchers and social platforms crop to it.",
+          "task": "Recompose the mark for a square field: an app icon, a social avatar, a stamp. This is a composition, not a crop."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "T1c",
+          "file": "brand/logo/concepts/round-02/T1c.svg",
+          "provenance": {
+            "id": "T1c",
+            "generatedBy": "The clean-up, redone: a vector copy of Pelvy's published 2024 symbol, fitted with smoothing splines by Claude from the 1024px app icon and the uncropped footer logo. 67 curves. Not a new design.",
+            "generatedOn": "2026-10-12",
+            "slot": {
+              "id": "T1c",
+              "family": null,
+              "architecture": "symbol-only",
+              "register": null,
+              "symbolApproach": null
+            },
+            "prompt": "brand/logo/brief/slots/round-02/T1c.md",
+            "edits": [],
+            "approvedBy": null,
+            "status": "candidate, not approved",
+            "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+          },
+          "audit": {
+            "verdict": "rejected",
+            "findings": [
+              {
+                "severity": "error",
+                "id": "regions-collapse",
+                "message": "The mark has 4 separate shapes at 256px and 3 at 16px.",
+                "fix": "The counters close at favicon size. Open them, thicken the mark, or draw a dedicated 16px redraw.",
+                "basis": "rampstack APP:23-27"
+              }
+            ],
+            "contexts": [
+              {
+                "context": "favicon-16",
+                "name": "16px favicon",
+                "status": "fail",
+                "expectation": "pass",
+                "reasons": [
+                  "the mark reads as 4 shapes at 256px and 3 at 16px, so its counters close"
+                ],
+                "mechanical": true
+              },
+              {
+                "context": "app-icon-28",
+                "name": "28px app icon",
+                "status": "fail",
+                "expectation": "pass",
+                "reasons": [
+                  "the thinnest feature measures 3px when rendered at 32px, under the 3.4px this context needs",
+                  "the mark reads as 4 shapes at 256px and 3 at 32px, so its counters close"
+                ],
+                "mechanical": true
+              },
+              {
+                "context": "patch-1.5in",
+                "name": "1.5 inch embroidered patch",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "single-colour",
+                "name": "One colour",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "reverse-dark",
+                "name": "Reversed on dark",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "signage-large",
+                "name": "Large format signage",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "motion",
+                "name": "Motion lockup",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": false
+              },
+              {
+                "context": "social-square",
+                "name": "Square social avatar",
+                "status": "fail",
+                "expectation": "pass",
+                "reasons": [
+                  "the mark reads as 4 shapes at 256px and 3 at 64px, so its counters close"
+                ],
+                "mechanical": true
+              },
+              {
+                "context": "apparel-embroidery",
+                "name": "Embroidery on fabric",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "foil-stamp",
+                "name": "Foil stamp",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              }
+            ],
+            "metrics": {
+              "16": {
+                "coverage": 0.19921875,
+                "regions": 3,
+                "colourRegions": 2,
+                "solidRegions": 2,
+                "minFeature": 3,
+                "hash": "6eacaad3e4666060",
+                "box": {
+                  "x": 0,
+                  "y": 2,
+                  "width": 16,
+                  "height": 10
+                }
+              },
+              "32": {
+                "coverage": 0.208984375,
+                "regions": 3,
+                "colourRegions": 8,
+                "solidRegions": 8,
+                "minFeature": 3,
+                "hash": "6eaa93e6e6606060",
+                "box": {
+                  "x": 0,
+                  "y": 4,
+                  "width": 32,
+                  "height": 24
+                }
+              },
+              "64": {
+                "coverage": 0.21044921875,
+                "regions": 3,
+                "colourRegions": 4,
+                "solidRegions": 4,
+                "minFeature": 9,
+                "hash": "6eaab2a6e6604040",
+                "box": {
+                  "x": 0,
+                  "y": 8,
+                  "width": 64,
+                  "height": 48
+                }
+              },
+              "256": {
+                "coverage": 0.2121124267578125,
+                "regions": 4,
+                "colourRegions": 5,
+                "solidRegions": 5,
+                "minFeature": 37,
+                "hash": "6eeab2acee604040",
+                "box": {
+                  "x": 0,
+                  "y": 30,
+                  "width": 256,
+                  "height": 196
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "T1p",
+          "file": "brand/logo/concepts/round-02/T1p.svg",
+          "provenance": {
+            "id": "T1p",
+            "generatedBy": "Claude Opus, as Claude Code drawing agents, each refining a trace of Pelvy's published 2024 app icon",
+            "generatedOn": "2026-10-12",
+            "slot": {
+              "id": "T1p",
+              "family": null,
+              "architecture": "symbol-only",
+              "register": null,
+              "symbolApproach": null
+            },
+            "prompt": "brand/logo/brief/slots/round-02/T1p.md",
+            "edits": [],
+            "approvedBy": null,
+            "status": "candidate, not approved",
+            "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+          },
+          "audit": {
+            "verdict": "contender",
+            "findings": [],
+            "contexts": [
+              {
+                "context": "favicon-16",
+                "name": "16px favicon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "app-icon-28",
+                "name": "28px app icon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "patch-1.5in",
+                "name": "1.5 inch embroidered patch",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "single-colour",
+                "name": "One colour",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "reverse-dark",
+                "name": "Reversed on dark",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "signage-large",
+                "name": "Large format signage",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "motion",
+                "name": "Motion lockup",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": false
+              },
+              {
+                "context": "social-square",
+                "name": "Square social avatar",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "apparel-embroidery",
+                "name": "Embroidery on fabric",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "foil-stamp",
+                "name": "Foil stamp",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              }
+            ],
+            "metrics": {
+              "16": {
+                "coverage": 0.24609375,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 3,
+                "hash": "66ae9bd660606060",
+                "box": {
+                  "x": 0,
+                  "y": 1,
+                  "width": 16,
+                  "height": 14
+                }
+              },
+              "32": {
+                "coverage": 0.248046875,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 5,
+                "hash": "6eab93b6e0606060",
+                "box": {
+                  "x": 0,
+                  "y": 2,
+                  "width": 32,
+                  "height": 28
+                }
+              },
+              "64": {
+                "coverage": 0.249755859375,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 9,
+                "hash": "6e2b93b6e0606060",
+                "box": {
+                  "x": 0,
+                  "y": 5,
+                  "width": 64,
+                  "height": 54
+                }
+              },
+              "256": {
+                "coverage": 0.25335693359375,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 37,
+                "hash": "6e2b93b6e0606040",
+                "box": {
+                  "x": 0,
+                  "y": 18,
+                  "width": 256,
+                  "height": 220
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "T1sm",
+          "file": "brand/logo/concepts/round-02/T1sm.svg",
+          "provenance": {
+            "id": "T1sm",
+            "generatedBy": "Claude Opus, as Claude Code drawing agents, each refining a trace of Pelvy's published 2024 app icon",
+            "generatedOn": "2026-10-12",
+            "slot": {
+              "id": "T1sm",
+              "family": null,
+              "architecture": "symbol-only",
+              "register": null,
+              "symbolApproach": null
+            },
+            "prompt": "brand/logo/brief/slots/round-02/T1sm.md",
+            "edits": [],
+            "approvedBy": null,
+            "status": "candidate, not approved",
+            "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+          },
+          "audit": {
+            "verdict": "contender",
+            "findings": [],
+            "contexts": [
+              {
+                "context": "favicon-16",
+                "name": "16px favicon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "app-icon-28",
+                "name": "28px app icon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "patch-1.5in",
+                "name": "1.5 inch embroidered patch",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "single-colour",
+                "name": "One colour",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "reverse-dark",
+                "name": "Reversed on dark",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "signage-large",
+                "name": "Large format signage",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "motion",
+                "name": "Motion lockup",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": false
+              },
+              {
+                "context": "social-square",
+                "name": "Square social avatar",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "apparel-embroidery",
+                "name": "Embroidery on fabric",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "foil-stamp",
+                "name": "Foil stamp",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              }
+            ],
+            "metrics": {
+              "16": {
+                "coverage": 0.25390625,
+                "regions": 3,
+                "colourRegions": 4,
+                "solidRegions": 4,
+                "minFeature": 3,
+                "hash": "6e2b9bd2f2302020",
+                "box": {
+                  "x": 0,
+                  "y": 2,
+                  "width": 16,
+                  "height": 12
+                }
+              },
+              "32": {
+                "coverage": 0.2685546875,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 5,
+                "hash": "6e6b9b96f6202020",
+                "box": {
+                  "x": 0,
+                  "y": 3,
+                  "width": 32,
+                  "height": 26
+                }
+              },
+              "64": {
+                "coverage": 0.276123046875,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 11,
+                "hash": "6c6b9b96f6206060",
+                "box": {
+                  "x": 0,
+                  "y": 6,
+                  "width": 64,
+                  "height": 52
+                }
+              },
+              "256": {
+                "coverage": 0.278228759765625,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 43,
+                "hash": "6c6a9396f6206060",
+                "box": {
+                  "x": 0,
+                  "y": 24,
+                  "width": 256,
+                  "height": 208
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "T1sq",
+          "file": "brand/logo/concepts/round-02/T1sq.svg",
+          "provenance": {
+            "id": "T1sq",
+            "generatedBy": "Claude Opus, as Claude Code drawing agents, each refining a trace of Pelvy's published 2024 app icon",
+            "generatedOn": "2026-10-12",
+            "slot": {
+              "id": "T1sq",
+              "family": null,
+              "architecture": "symbol-only",
+              "register": null,
+              "symbolApproach": null
+            },
+            "prompt": "brand/logo/brief/slots/round-02/T1sq.md",
+            "edits": [],
+            "approvedBy": null,
+            "status": "candidate, not approved",
+            "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+          },
+          "audit": {
+            "verdict": "rejected",
+            "findings": [
+              {
+                "severity": "error",
+                "id": "thin-at-16",
+                "message": "The thinnest feature is 1px at favicon size.",
+                "fix": "Anything under two pixels disappears in a browser tab.",
+                "basis": "rampstack APP:16"
+              }
+            ],
+            "contexts": [
+              {
+                "context": "favicon-16",
+                "name": "16px favicon",
+                "status": "fail",
+                "expectation": "pass",
+                "reasons": [
+                  "the thinnest feature measures 1px when rendered at 16px, under the 2.0px this context needs"
+                ],
+                "mechanical": true
+              },
+              {
+                "context": "app-icon-28",
+                "name": "28px app icon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "patch-1.5in",
+                "name": "1.5 inch embroidered patch",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "single-colour",
+                "name": "One colour",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "reverse-dark",
+                "name": "Reversed on dark",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "signage-large",
+                "name": "Large format signage",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "motion",
+                "name": "Motion lockup",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": false
+              },
+              {
+                "context": "social-square",
+                "name": "Square social avatar",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "apparel-embroidery",
+                "name": "Embroidery on fabric",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "foil-stamp",
+                "name": "Foil stamp",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              }
+            ],
+            "metrics": {
+              "16": {
+                "coverage": 0.3203125,
+                "regions": 3,
+                "colourRegions": 8,
+                "solidRegions": 8,
+                "minFeature": 1,
+                "hash": "642c9b93f6303020",
+                "box": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "32": {
+                "coverage": 0.337890625,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 5,
+                "hash": "6c6cb397b4302020",
+                "box": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 32,
+                  "height": 32
+                }
+              },
+              "64": {
+                "coverage": 0.34228515625,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 9,
+                "hash": "6c6cb3b7b4202020",
+                "box": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 64,
+                  "height": 64
+                }
+              },
+              "256": {
+                "coverage": 0.3444976806640625,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 37,
+                "hash": "6c6cb3b7b4202060",
+                "box": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 256,
+                  "height": 256
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "T1w",
+          "file": "brand/logo/concepts/round-02/T1w.svg",
+          "provenance": {
+            "id": "T1w",
+            "generatedBy": "Claude Opus, as Claude Code drawing agents, each refining a trace of Pelvy's published 2024 app icon",
+            "generatedOn": "2026-10-12",
+            "slot": {
+              "id": "T1w",
+              "family": null,
+              "architecture": "symbol-only",
+              "register": null,
+              "symbolApproach": null
+            },
+            "prompt": "brand/logo/brief/slots/round-02/T1w.md",
+            "edits": [],
+            "approvedBy": null,
+            "status": "candidate, not approved",
+            "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+          },
+          "audit": {
+            "verdict": "contender",
+            "findings": [],
+            "contexts": [
+              {
+                "context": "favicon-16",
+                "name": "16px favicon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "app-icon-28",
+                "name": "28px app icon",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "patch-1.5in",
+                "name": "1.5 inch embroidered patch",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "single-colour",
+                "name": "One colour",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "reverse-dark",
+                "name": "Reversed on dark",
+                "status": "pass",
+                "expectation": "cond",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "signage-large",
+                "name": "Large format signage",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "motion",
+                "name": "Motion lockup",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": false
+              },
+              {
+                "context": "social-square",
+                "name": "Square social avatar",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              },
+              {
+                "context": "apparel-embroidery",
+                "name": "Embroidery on fabric",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": "partly"
+              },
+              {
+                "context": "foil-stamp",
+                "name": "Foil stamp",
+                "status": "pass",
+                "expectation": "pass",
+                "reasons": [],
+                "mechanical": true
+              }
+            ],
+            "metrics": {
+              "16": {
+                "coverage": 0.2734375,
+                "regions": 3,
+                "colourRegions": 7,
+                "solidRegions": 7,
+                "minFeature": 3,
+                "hash": "2eac9bd3f6363020",
+                "box": {
+                  "x": 0,
+                  "y": 2,
+                  "width": 16,
+                  "height": 12
+                }
+              },
+              "32": {
+                "coverage": 0.2841796875,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 5,
+                "hash": "2ea89b93b6302020",
+                "box": {
+                  "x": 0,
+                  "y": 4,
+                  "width": 32,
+                  "height": 24
+                }
+              },
+              "64": {
+                "coverage": 0.28515625,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 9,
+                "hash": "6eaa9b97b6242020",
+                "box": {
+                  "x": 0,
+                  "y": 8,
+                  "width": 64,
+                  "height": 48
+                }
+              },
+              "256": {
+                "coverage": 0.2891845703125,
+                "regions": 3,
+                "colourRegions": 3,
+                "solidRegions": 3,
+                "minFeature": 39,
+                "hash": "6caa9b96b4242020",
+                "box": {
+                  "x": 0,
+                  "y": 31,
+                  "width": 256,
+                  "height": 194
+                }
+              }
+            }
+          }
+        }
+      ],
+      "shortlist": [
+        "T1c"
+      ],
+      "auditedOn": "2026-10-12",
+      "rendered": true,
+      "canvas": "brand/logo/canvas",
+      "pickedOn": "2026-10-12",
+      "duplicates": []
+    }
+  ],
+  "wordmark": {
+    "text": "Pelvy",
+    "letterCase": "as-given",
+    "family": "DM Sans",
+    "weight": 600,
+    "unitsPerEm": 1000,
+    "setAt": 200,
+    "tracking": -10,
+    "pairAdjust": {},
+    "capHeight": 140,
+    "outlined": true,
+    "note": "Keep the live-text source beside the outlined file. Without the face, its version, the size and the tracking, this wordmark cannot be rebuilt or extended.",
+    "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRSW3z.ttf",
+    "file": "brand/logo/master/wordmark.svg"
+  },
+  "master": {
+    "chosenFrom": "T1c",
+    "round": 2,
+    "approvedBy": null,
+    "approvedOn": null,
+    "provenance": {
+      "id": "T1c",
+      "generatedBy": "The clean-up, redone: a vector copy of Pelvy's published 2024 symbol, fitted with smoothing splines by Claude from the 1024px app icon and the uncropped footer logo. 67 curves. Not a new design.",
+      "generatedOn": "2026-10-12",
+      "slot": {
+        "id": "T1c",
+        "family": null,
+        "architecture": "symbol-only",
+        "register": null,
+        "symbolApproach": null
+      },
+      "prompt": "brand/logo/brief/slots/round-02/T1c.md",
+      "edits": [],
+      "approvedBy": null,
+      "status": "candidate, not approved",
+      "caveat": "A generated mark is a starting point somebody approved, not a drawn one. Before it is registered or put on a building, run the similarity and trade mark searches and have a professional look at it."
+    },
+    "files": {
+      "primary": "brand/logo/master/primary.svg",
+      "black": "brand/logo/master/mono-black.svg",
+      "white": "brand/logo/master/mono-white.svg"
+    },
+    "clearSpace": {
+      "element": "the height of the mark",
+      "ratio": 0.5,
+      "sentence": "Leave clear space on every side equal to half the height of the mark. Nothing enters it: no type, no rule, no edge of the page, no other logo.",
+      "units": 423.15,
+      "inkHeight": 846.31
+    },
+    "minimumSizes": {
+      "screenPx": 10,
+      "printMm": 1.8,
+      "basis": "the thinnest stroke or limb",
+      "ratio": 7,
+      "measuredAt": 512,
+      "measured": true,
+      "isFloor": true,
+      "note": "This is a floor, not an answer. It is the size at which the thinnest feature is one pixel; a lockup with type in it usually stops being readable well above it. Render at this size, look, and publish the number that survives. The print figure assumes offset litho holding a 0.25mm positive line, and screen print, embroidery and foil each need more."
+    }
+  },
+  "rights": {
+    "searchesRun": [],
+    "note": "No similarity or trade mark search has been run. Nothing here has been cleared for registration."
+  }
+}

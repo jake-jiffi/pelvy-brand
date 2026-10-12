@@ -1,0 +1,270 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 2700,
+      "page": "work"
+    },
+    {
+      "file": "AppHub.dc.html",
+      "x": 1560,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "AppProgram.dc.html",
+      "x": 2050,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "AppBreatheIn.dc.html",
+      "x": 2540,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "AppBreatheOut.dc.html",
+      "x": 3030,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "AppHold.dc.html",
+      "x": 1560,
+      "y": 1004,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "AppLearn.dc.html",
+      "x": 2050,
+      "y": 1004,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "AppSubscribe.dc.html",
+      "x": 2540,
+      "y": 1004,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "Mobile.dc.html",
+      "x": 3030,
+      "y": 1004,
+      "w": 390,
+      "h": 844,
+      "page": "work"
+    },
+    {
+      "file": "Deck.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "page": "use"
+    },
+    {
+      "file": "Profile.dc.html",
+      "x": 2040,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "page": "use"
+    },
+    {
+      "file": "Social.dc.html",
+      "x": 3240,
+      "y": 0,
+      "w": 1080,
+      "h": 1080,
+      "page": "use"
+    },
+    {
+      "file": "Print.dc.html",
+      "x": 0,
+      "y": 1240,
+      "w": 794,
+      "h": 1123,
+      "page": "use",
+      "print": "fixed"
+    },
+    {
+      "file": "Poster.dc.html",
+      "x": 914,
+      "y": 1240,
+      "w": 794,
+      "h": 1123,
+      "page": "use",
+      "print": "fixed"
+    },
+    {
+      "file": "Card.dc.html",
+      "x": 1828,
+      "y": 1240,
+      "w": 336,
+      "h": 192,
+      "page": "use",
+      "print": "fixed"
+    },
+    {
+      "file": "MockupTheappathome.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1400,
+      "h": 1750,
+      "page": "world"
+    },
+    {
+      "file": "MockupWaitingroomposter.dc.html",
+      "x": 1520,
+      "y": 0,
+      "w": 1400,
+      "h": 939,
+      "page": "world"
+    },
+    {
+      "file": "MockupPatientsetupcard.dc.html",
+      "x": 1520,
+      "y": 1079,
+      "w": 1400,
+      "h": 939,
+      "page": "world"
+    },
+    {
+      "file": "MockupTotebag.dc.html",
+      "x": 3040,
+      "y": 0,
+      "w": 1400,
+      "h": 939,
+      "page": "world"
+    },
+    {
+      "file": "Logo.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1200,
+      "h": 2456,
+      "page": "spec"
+    },
+    {
+      "file": "Palette.dc.html",
+      "x": 1320,
+      "y": 0,
+      "w": 1200,
+      "h": 4352,
+      "page": "spec"
+    },
+    {
+      "file": "Typography.dc.html",
+      "x": 2640,
+      "y": 0,
+      "w": 1200,
+      "h": 2372,
+      "page": "spec"
+    },
+    {
+      "file": "Components.dc.html",
+      "x": 3960,
+      "y": 0,
+      "w": 1200,
+      "h": 2140,
+      "page": "spec"
+    },
+    {
+      "file": "ComponentsDark.dc.html",
+      "x": 5280,
+      "y": 0,
+      "w": 1200,
+      "h": 2140,
+      "page": "spec"
+    },
+    {
+      "file": "Tokens.dc.html",
+      "x": 6600,
+      "y": 0,
+      "w": 1200,
+      "h": 1780,
+      "page": "spec"
+    },
+    {
+      "file": "Voice.dc.html",
+      "x": 7920,
+      "y": 0,
+      "w": 1200,
+      "h": 1980,
+      "page": "spec"
+    },
+    {
+      "file": "Icons.dc.html",
+      "x": 9240,
+      "y": 0,
+      "w": 1200,
+      "h": 1180,
+      "page": "spec"
+    },
+    {
+      "file": "Production.dc.html",
+      "x": 10560,
+      "y": 0,
+      "w": 1200,
+      "h": 1716,
+      "page": "spec"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "read-me",
+      "x": 0,
+      "y": -330,
+      "w": 640,
+      "text": "Pelvy, direction B. The app screens are redrawn from the next version (the Pelvy Lite demo of March 2026): sage means let go, slate means work, a ring means hold.\nThe logo is the 2024 logo copied into vector and made flat. It is a candidate until it is approved."
+    },
+    {
+      "id": "world-note",
+      "x": 0,
+      "y": -260,
+      "w": 560,
+      "page": "world",
+      "text": "The rooms are generated scenes with nobody in them, used only as settings. Everything Pelvy on them is the real artwork, composited on."
+    }
+  ],
+  "pages": [
+    {
+      "id": "work",
+      "name": "The app and the website"
+    },
+    {
+      "id": "use",
+      "name": "Brand in use"
+    },
+    {
+      "id": "world",
+      "name": "On real things"
+    },
+    {
+      "id": "spec",
+      "name": "Specification"
+    }
+  ],
+  "launch": {
+    "view": "canvas",
+    "page": "work"
+  }
+}

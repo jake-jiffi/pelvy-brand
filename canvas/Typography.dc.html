@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<!--
+  Specification sheet, generated from the resolved system.
+-->
+<x-dc>
+<helmet>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    img, svg { max-width: 100%; }
+    a { color: inherit; text-decoration-thickness: 0.06em; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 0.12em; }
+
+    body {
+      background: #FCFDFC;
+      color: #2E312F;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-synthesis: none;
+      font-size: 14px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .sheet { padding: 56px 56px 72px; display: flex; flex-direction: column; gap: 48px; }
+    .sheet__head { display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid #2E312F; padding-bottom: 14px; }
+    .sheet__title { font-family: 'Literata', Georgia, serif; font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 0; }
+    .sheet__sub { color: #6B726D; font-size: 13px; max-width: 62ch; margin: 0; }
+    .eyebrow {
+      font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.14em;
+      text-transform: uppercase; color: #6B726D;
+    }
+    .block { display: flex; flex-direction: column; gap: 18px; }
+    .block__title { display: flex; align-items: baseline; gap: 14px; border-bottom: 1px solid #DADDDA; padding-bottom: 8px; }
+    .block__title h2 { font-family: 'Literata', Georgia, serif; font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+    .block__note { color: #6B726D; font-size: 12px; max-width: 70ch; margin: 0; }
+    .mono { font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
+    .grid { display: grid; gap: 2px; }
+
+  </style>
+</helmet>
+<div class="sheet">
+  <div class="sheet__head">
+    <span class="eyebrow">Pelvy / typography</span>
+    <h1 class="sheet__title">Type system</h1>
+    <p class="sheet__sub">A major third scale from a 17px base. Line height loosens as type gets smaller and tightens as it gets larger, because a single multiplier cannot serve both.</p>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Faces</h2><span class="eyebrow">3 roles</span></div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px;">
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <span class="eyebrow">Display</span>
+        <div style="font-family: 'Literata', Georgia, serif; font-size: 46px; line-height: 1.05; letter-spacing: -0.022em;">Handgloves</div>
+        <div class="mono" style="font-size: 11px; color: #6B726D;">Literata</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <span class="eyebrow">Body</span>
+        <div style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 46px; line-height: 1.05; letter-spacing: -0.022em;">Handgloves</div>
+        <div class="mono" style="font-size: 11px; color: #6B726D;">DM Sans</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <span class="eyebrow">Mono</span>
+        <div style="font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 46px; line-height: 1.05; letter-spacing: -0.022em;">0123456789</div>
+        <div class="mono" style="font-size: 11px; color: #6B726D;">DM Mono</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Scale</h2><span class="eyebrow">10 issued steps</span></div>
+    
+    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">4xl</div>
+        <div>64.85px to 72.48px</div>
+        <div>1.05 / -0.022em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'Literata', Georgia, serif; font-size: 64.85px; line-height: 1.05; letter-spacing: -0.022em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Display, one per page at most</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">3xl</div>
+        <div>51.88px to 57.98px</div>
+        <div>1.125 / -0.022em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'Literata', Georgia, serif; font-size: 51.88px; line-height: 1.125; letter-spacing: -0.022em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Hero headings</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">2xl</div>
+        <div>41.5px to 46.39px</div>
+        <div>1.202 / -0.017em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'Literata', Georgia, serif; font-size: 41.5px; line-height: 1.202; letter-spacing: -0.017em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Page headings</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">xl</div>
+        <div>33.2px to 37.11px</div>
+        <div>1.28 / -0.017em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'Literata', Georgia, serif; font-size: 33.2px; line-height: 1.28; letter-spacing: -0.017em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Sub-headings</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">lg</div>
+        <div>26.56px to 29.69px</div>
+        <div>1.357 / -0.012em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'Literata', Georgia, serif; font-size: 26.56px; line-height: 1.357; letter-spacing: -0.012em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Card and section headings</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">md</div>
+        <div>21.25px to 23.75px</div>
+        <div>1.434 / -0.006em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'DM Sans', system-ui, sans-serif; font-size: 21.25px; line-height: 1.434; letter-spacing: -0.006em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Lead paragraphs, large UI text</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">base</div>
+        <div>17px to 19px</div>
+        <div>1.511 / -0.006em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'DM Sans', system-ui, sans-serif; font-size: 17px; line-height: 1.511; letter-spacing: -0.006em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Body copy. Everything is measured from here</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">sm</div>
+        <div>15.21px to 16.99px</div>
+        <div>1.55 / 0em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'DM Sans', system-ui, sans-serif; font-size: 15.21px; line-height: 1.55; letter-spacing: 0em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Secondary UI text, labels</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">xs</div>
+        <div>13.6px to 15.2px</div>
+        <div>1.55 / 0em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'DM Sans', system-ui, sans-serif; font-size: 13.6px; line-height: 1.55; letter-spacing: 0em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Captions, helper text, badges</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 28px; border-bottom: 1px solid #DADDDA; padding: 16px 0;">
+      <div class="mono" style="width: 210px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.5;">
+        <div style="color: inherit; letter-spacing: 0.08em; text-transform: uppercase;">2xs</div>
+        <div>12.16px to 13.6px</div>
+        <div>1.55 / 0.01em</div>
+      </div>
+      <div style="flex: 1; min-width: 0; font-family: 'DM Sans', system-ui, sans-serif; font-size: 12.16px; line-height: 1.55; letter-spacing: 0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Handgloves</div>
+      <div style="width: 200px; flex: none; font-size: 11px; color: #6B726D; line-height: 1.4;">Legal lines, dense table metadata</div>
+    </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Weight</h2><span class="eyebrow">3 loaded, and only these</span></div>
+    <p class="block__note">A weight that is not downloaded is a weight the browser fakes, and a faked bold is thinner and wider than a real one. These three are what the font request asks for; if the brand needs a fourth, load it and add it to the system rather than writing the number and hoping.</p>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div style="display: flex; align-items: baseline; gap: 18px;">
+        <span class="mono" style="width: 190px; flex: none; font-size: 11px;">--font-weight-regular</span>
+        <span class="mono" style="width: 42px; flex: none; font-size: 11px; color: #6B726D;">400</span>
+        <span style="font-family: 'Literata', Georgia, serif; font-weight: 400; font-size: 26px; flex: none;">Pelvy</span>
+        <span style="font-size: 12px; color: #6B726D;">Body text, and everything that is not asking for attention</span>
+      </div>
+      <div style="display: flex; align-items: baseline; gap: 18px;">
+        <span class="mono" style="width: 190px; flex: none; font-size: 11px;">--font-weight-medium</span>
+        <span class="mono" style="width: 42px; flex: none; font-size: 11px; color: #6B726D;">500</span>
+        <span style="font-family: 'Literata', Georgia, serif; font-weight: 500; font-size: 26px; flex: none;">Pelvy</span>
+        <span style="font-size: 12px; color: #6B726D;">UI labels, buttons, table headers: emphasis without shouting</span>
+      </div>
+      <div style="display: flex; align-items: baseline; gap: 18px;">
+        <span class="mono" style="width: 190px; flex: none; font-size: 11px;">--font-weight-bold</span>
+        <span class="mono" style="width: 42px; flex: none; font-size: 11px; color: #6B726D;">700</span>
+        <span style="font-family: 'Literata', Georgia, serif; font-weight: 700; font-size: 26px; flex: none;">Pelvy</span>
+        <span style="font-size: 12px; color: #6B726D;">Display type and the one word in a sentence that carries it</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Measure</h2><span class="eyebrow">62ch</span></div>
+    <p class="block__note">Bringhurst, The Elements of Typographic Style, 2.1.2. Set columns in ch, not pixels: ch is the width of a zero in the face actually rendering, so the count holds when the face changes.</p>
+    <p style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 17px; line-height: 1.511; max-width: 62ch; margin: 0;">A column this wide holds roughly 17 pixel type at 62 characters a line. Below about forty-five characters the eye returns to the left margin too often and the rhythm of reading breaks. Above about seventy-five it loses its place on the way back. Neither failure announces itself: the page simply feels tiring, and nobody can say why.</p>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+
+}
+</script>
+</body>
+</html>

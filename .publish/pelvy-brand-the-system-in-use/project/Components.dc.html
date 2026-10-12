@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<!--
+  Specification sheet, generated from the resolved system.
+-->
+<x-dc>
+<helmet>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    img, svg { max-width: 100%; }
+    a { color: inherit; text-decoration-thickness: 0.06em; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 0.12em; }
+
+    body {
+      background: #FCFDFC;
+      color: #2E312F;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-synthesis: none;
+      font-size: 14px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .sheet { padding: 56px 56px 72px; display: flex; flex-direction: column; gap: 48px; }
+    .sheet__head { display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid #2E312F; padding-bottom: 14px; }
+    .sheet__title { font-family: 'Literata', Georgia, serif; font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 0; }
+    .sheet__sub { color: #6B726D; font-size: 13px; max-width: 62ch; margin: 0; }
+    .eyebrow {
+      font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.14em;
+      text-transform: uppercase; color: #6B726D;
+    }
+    .block { display: flex; flex-direction: column; gap: 18px; }
+    .block__title { display: flex; align-items: baseline; gap: 14px; border-bottom: 1px solid #DADDDA; padding-bottom: 8px; }
+    .block__title h2 { font-family: 'Literata', Georgia, serif; font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+    .block__note { color: #6B726D; font-size: 12px; max-width: 70ch; margin: 0; }
+    .mono { font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
+    .grid { display: grid; gap: 2px; }
+
+  </style>
+</helmet>
+<div class="sheet">
+  <div class="sheet__head">
+    <span class="eyebrow">Pelvy / components, light</span>
+    <h1 class="sheet__title">Components and states</h1>
+    <p class="sheet__sub">Every control is drawn in every state it can reach. A component documented only at rest is a component nobody can build, and the states are where a design system either holds together or does not.</p>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Buttons</h2><span class="eyebrow">3 emphases, 6 states</span></div>
+    <p class="block__note">The primary fill is the brand colour itself: a white label on it reaches Lc -86.65, comfortably past the Lc 60 a button label needs, so nothing had to be adjusted.</p>
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+        <span class="eyebrow" style="width: 90px; flex: none;">primary</span>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #41684A; color: #FFFFFF; border: 1px solid transparent;">Book a demo</span><span class="mono" style="font-size: 10px; opacity: 0.55;">rest</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #395F42; color: #FFFFFF; border: 1px solid transparent;">Book a demo</span><span class="mono" style="font-size: 10px; opacity: 0.55;">hover</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #395F42; color: #FFFFFF; border: 1px solid transparent; transform: translateY(1px);">Book a demo</span><span class="mono" style="font-size: 10px; opacity: 0.55;">active</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #41684A; color: #FFFFFF; border: 1px solid transparent; outline: 2px solid #41684A; outline-offset: 2px;">Book a demo</span><span class="mono" style="font-size: 10px; opacity: 0.55;">focus</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #F1F3F1; color: #BBC1BC; border: 1px solid transparent; cursor: not-allowed;">Book a demo</span><span class="mono" style="font-size: 10px; opacity: 0.55;">disabled</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span role="button" aria-busy="true" style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #41684A; color: #FFFFFF; border: 1px solid transparent; cursor: progress;"><span style="width: 13px; height: 13px; flex: none; border-radius: 9999px; border: 2px solid #FFFFFF; border-top-color: transparent; opacity: .85; display: inline-block;"></span>Book a demo</span><span class="mono" style="font-size: 10px; opacity: 0.55;">loading</span></div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+        <span class="eyebrow" style="width: 90px; flex: none;">secondary</span>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #FCFDFC; color: #2E312F; border: 1px solid #CED2CE;">Learn more</span><span class="mono" style="font-size: 10px; opacity: 0.55;">rest</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #EAEDEB; color: #2E312F; border: 1px solid #BBC1BC;">Learn more</span><span class="mono" style="font-size: 10px; opacity: 0.55;">hover</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #E3E6E3; color: #2E312F; border: 1px solid #BBC1BC; transform: translateY(1px);">Learn more</span><span class="mono" style="font-size: 10px; opacity: 0.55;">active</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #FCFDFC; color: #2E312F; border: 1px solid #CED2CE; outline: 2px solid #41684A; outline-offset: 2px;">Learn more</span><span class="mono" style="font-size: 10px; opacity: 0.55;">focus</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #FCFDFC; color: #BBC1BC; border: 1px solid #DADDDA; cursor: not-allowed;">Learn more</span><span class="mono" style="font-size: 10px; opacity: 0.55;">disabled</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span role="button" aria-busy="true" style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #FCFDFC; color: #6B726D; border: 1px solid #CED2CE; cursor: progress;"><span style="width: 13px; height: 13px; flex: none; border-radius: 9999px; border: 2px solid #6B726D; border-top-color: transparent; opacity: .85; display: inline-block;"></span>Learn more</span><span class="mono" style="font-size: 10px; opacity: 0.55;">loading</span></div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+        <span class="eyebrow" style="width: 90px; flex: none;">quiet</span>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: transparent; color: #587A5F; border: 1px solid transparent;">Skip</span><span class="mono" style="font-size: 10px; opacity: 0.55;">rest</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #EDF5EE; color: #587A5F; border: 1px solid transparent;">Skip</span><span class="mono" style="font-size: 10px; opacity: 0.55;">hover</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: #E4F0E6; color: #587A5F; border: 1px solid transparent;">Skip</span><span class="mono" style="font-size: 10px; opacity: 0.55;">active</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: transparent; color: #587A5F; border: 1px solid transparent; outline: 2px solid #41684A; outline-offset: 2px;">Skip</span><span class="mono" style="font-size: 10px; opacity: 0.55;">focus</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: transparent; color: #BBC1BC; border: 1px solid transparent; cursor: not-allowed;">Skip</span><span class="mono" style="font-size: 10px; opacity: 0.55;">disabled</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;"><span role="button" aria-busy="true" style="font-family: 'DM Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; padding: 0 16px; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 10px; cursor: pointer; white-space: nowrap; background: transparent; color: #6B726D; border: 1px solid transparent; cursor: progress;"><span style="width: 13px; height: 13px; flex: none; border-radius: 9999px; border: 2px solid #6B726D; border-top-color: transparent; opacity: .85; display: inline-block;"></span>Skip</span><span class="mono" style="font-size: 10px; opacity: 0.55;">loading</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Fields</h2><span class="eyebrow">4 states</span></div>
+    <p class="block__note">Errors say what happened and what to do. They do not apologise, and they never say "invalid input".</p>
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px;">
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label style="font-size: 12px; font-weight: 500; color: #2E312F;">Email address</label>
+        <div style="border: 1px solid #CED2CE; background: #FCFDFC; border-radius: 10px; height: 40px; display: flex; align-items: center; padding: 0 12px; font-size: 14px; color: #2E312F;">jane@example.com</div>
+        <span style="font-size: 11px; color: #6B726D;">We only use this to send your receipt.</span>
+        <span class="mono" style="font-size: 10px; opacity: 0.55;">rest</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label style="font-size: 12px; font-weight: 500; color: #2E312F;">Email address</label>
+        <div style="border: 1px solid #41684A; background: #FCFDFC; outline: 2px solid #41684A; outline-offset: 1px; border-radius: 10px; height: 40px; display: flex; align-items: center; padding: 0 12px; font-size: 14px; color: #2E312F;">jane@example.com</div>
+        <span style="font-size: 11px; color: #6B726D;">We only use this to send your receipt.</span>
+        <span class="mono" style="font-size: 10px; opacity: 0.55;">focus</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label style="font-size: 12px; font-weight: 500; color: #2E312F;">Email address</label>
+        <div style="border: 1px solid #EFC6C0; background: #FCFDFC; border-radius: 10px; height: 40px; display: flex; align-items: center; padding: 0 12px; font-size: 14px; color: #2E312F;">jane.example.com</div>
+        <span style="font-size: 11px; color: #985F58; display: inline-flex; align-items: center; gap: 5px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#985F58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L14.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>That address is missing an @ symbol.</span>
+        <span class="mono" style="font-size: 10px; opacity: 0.55;">error</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label style="font-size: 12px; font-weight: 500; color: #BBC1BC;">Email address</label>
+        <div style="border: 1px solid #DADDDA; background: #F1F3F1; border-radius: 10px; height: 40px; display: flex; align-items: center; padding: 0 12px; font-size: 14px; color: #BBC1BC;">jane@example.com</div>
+        <span style="font-size: 11px; color: #BBC1BC;">Sign in to change this.</span>
+        <span class="mono" style="font-size: 10px; opacity: 0.55;">disabled</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Waiting</h2><span class="eyebrow">the state everyone forgets</span></div>
+    <p class="block__note">Anything that fetches has a state between pressed and done. Show the shape of what is coming, not a spinner over an empty page: a skeleton keeps the layout still, so nothing jumps when the content lands. Never animate faster than 1.5s, and honour <span class="mono">prefers-reduced-motion</span> by holding the shapes still rather than removing them.</p>
+    <div style="display: flex; flex-direction: column; gap: 10px;" aria-busy="true">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="width: 34px; height: 34px; flex: none; border-radius: 10px; background: #F1F3F1;"></span>
+        <span style="flex: 1; display: flex; flex-direction: column; gap: 6px;">
+          <span style="height: 10px; width: 100%; border-radius: 7.5px; background: #F1F3F1;"></span>
+          <span style="height: 8px; width: 55%; border-radius: 7.5px; background: #F1F3F1; opacity: .7;"></span>
+        </span>
+        <span class="mono" style="font-size: 10px; color: #6B726D; flex: none;">aria-busy="true"</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="width: 34px; height: 34px; flex: none; border-radius: 10px; background: #F1F3F1;"></span>
+        <span style="flex: 1; display: flex; flex-direction: column; gap: 6px;">
+          <span style="height: 10px; width: 82%; border-radius: 7.5px; background: #F1F3F1;"></span>
+          <span style="height: 8px; width: 45%; border-radius: 7.5px; background: #F1F3F1; opacity: .7;"></span>
+        </span>
+        
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="width: 34px; height: 34px; flex: none; border-radius: 10px; background: #F1F3F1;"></span>
+        <span style="flex: 1; display: flex; flex-direction: column; gap: 6px;">
+          <span style="height: 10px; width: 64%; border-radius: 7.5px; background: #F1F3F1;"></span>
+          <span style="height: 8px; width: 35%; border-radius: 7.5px; background: #F1F3F1; opacity: .7;"></span>
+        </span>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Status</h2><span class="eyebrow">icon plus word, always</span></div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+      <div style="display: flex; align-items: flex-start; gap: 10px; background: #FEEEEC; border: 1px solid #EFC6C0; border-radius: 10px; padding: 12px 14px;">
+        <span style="flex: none; line-height: 0; padding-top: 1px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#985F58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L14.7 3.9a2 2 0 0 0-3.4 0Z"/></svg></span>
+        <div style="display: flex; flex-direction: column; gap: 2px;">
+          <strong style="color: #985F58; font-size: 13px;">Danger</strong>
+          <span style="color: #6B726D; font-size: 12px;">Carried by an icon and a word, never by colour alone.</span>
+        </div>
+      </div>
+      <div style="display: flex; align-items: flex-start; gap: 10px; background: #F9F1E5; border: 1px solid #E3CEAE; border-radius: 10px; padding: 12px 14px;">
+        <span style="flex: none; line-height: 0; padding-top: 1px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#886B39" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L14.7 3.9a2 2 0 0 0-3.4 0Z"/></svg></span>
+        <div style="display: flex; flex-direction: column; gap: 2px;">
+          <strong style="color: #886B39; font-size: 13px;">Warning</strong>
+          <span style="color: #6B726D; font-size: 12px;">Carried by an icon and a word, never by colour alone.</span>
+        </div>
+      </div>
+      <div style="display: flex; align-items: flex-start; gap: 10px; background: #EBF6EC; border: 1px solid #BCDAC0; border-radius: 10px; padding: 12px 14px;">
+        <span style="flex: none; line-height: 0; padding-top: 1px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#507D57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <div style="display: flex; flex-direction: column; gap: 2px;">
+          <strong style="color: #507D57; font-size: 13px;">Success</strong>
+          <span style="color: #6B726D; font-size: 12px;">Carried by an icon and a word, never by colour alone.</span>
+        </div>
+      </div>
+      <div style="display: flex; align-items: flex-start; gap: 10px; background: #E9F4FE; border: 1px solid #B7D5EF; border-radius: 10px; padding: 12px 14px;">
+        <span style="flex: none; line-height: 0; padding-top: 1px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#48759A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></span>
+        <div style="display: flex; flex-direction: column; gap: 2px;">
+          <strong style="color: #48759A; font-size: 13px;">Info</strong>
+          <span style="color: #6B726D; font-size: 12px;">Carried by an icon and a word, never by colour alone.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Surface and elevation</h2><span class="eyebrow">5 levels</span></div>
+    <p class="block__note">Shadows are tinted with the brand hue at very low chroma. A pure black shadow over a coloured surface reads as dirt rather than depth.</p>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; padding: 8px 0 24px;">
+      <div style="width: 168px; background: #FCFDFC; border: 1px solid #DADDDA; border-radius: 15px; box-shadow: none; padding: 16px; display: flex; flex-direction: column; gap: 6px;">
+        <span class="eyebrow">none</span>
+        <span style="font-size: 11px; color: #6B726D; line-height: 1.4;">Flat. The default for most things</span>
+      </div>
+      <div style="width: 168px; background: #FCFDFC; border: 1px solid #DADDDA; border-radius: 15px; box-shadow: 0 1px 2px rgb(11 32 17 / 0.06), 0 1px 1px rgb(11 32 17 / 0.04); padding: 16px; display: flex; flex-direction: column; gap: 6px;">
+        <span class="eyebrow">sm</span>
+        <span style="font-size: 11px; color: #6B726D; line-height: 1.4;">A card that is merely not the page</span>
+      </div>
+      <div style="width: 168px; background: #FCFDFC; border: 1px solid #DADDDA; border-radius: 15px; box-shadow: 0 2px 4px rgb(11 32 17 / 0.06), 0 4px 12px rgb(11 32 17 / 0.08); padding: 16px; display: flex; flex-direction: column; gap: 6px;">
+        <span class="eyebrow">md</span>
+        <span style="font-size: 11px; color: #6B726D; line-height: 1.4;">Menus, popovers</span>
+      </div>
+      <div style="width: 168px; background: #FCFDFC; border: 1px solid #DADDDA; border-radius: 15px; box-shadow: 0 4px 8px rgb(11 32 17 / 0.06), 0 12px 32px rgb(11 32 17 / 0.1); padding: 16px; display: flex; flex-direction: column; gap: 6px;">
+        <span class="eyebrow">lg</span>
+        <span style="font-size: 11px; color: #6B726D; line-height: 1.4;">Dialogs</span>
+      </div>
+      <div style="width: 168px; background: #FCFDFC; border: 1px solid #DADDDA; border-radius: 15px; box-shadow: 0 8px 16px rgb(11 32 17 / 0.08), 0 24px 64px rgb(11 32 17 / 0.12); padding: 16px; display: flex; flex-direction: column; gap: 6px;">
+        <span class="eyebrow">xl</span>
+        <span style="font-size: 11px; color: #6B726D; line-height: 1.4;">One per screen, at most</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Radius and rhythm</h2><span class="eyebrow">rounded</span></div>
+    <p class="block__note">Friendly, consumer, approachable. A box nested inside another takes the outer radius minus the gap between them, or the inner corner looks too round.</p>
+    <div style="display: flex; gap: 14px; align-items: flex-end;">
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 64px; height: 64px; background: #EDF5EE; border: 1px solid #C1D8C5; border-radius: 0px;"></div>
+        <span class="mono" style="font-size: 10px; opacity: 0.6;">none 0</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 64px; height: 64px; background: #EDF5EE; border: 1px solid #C1D8C5; border-radius: 5px;"></div>
+        <span class="mono" style="font-size: 10px; opacity: 0.6;">xs 5</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 64px; height: 64px; background: #EDF5EE; border: 1px solid #C1D8C5; border-radius: 7.5px;"></div>
+        <span class="mono" style="font-size: 10px; opacity: 0.6;">sm 7.5</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 64px; height: 64px; background: #EDF5EE; border: 1px solid #C1D8C5; border-radius: 10px;"></div>
+        <span class="mono" style="font-size: 10px; opacity: 0.6;">md 10</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 64px; height: 64px; background: #EDF5EE; border: 1px solid #C1D8C5; border-radius: 15px;"></div>
+        <span class="mono" style="font-size: 10px; opacity: 0.6;">lg 15</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 64px; height: 64px; background: #EDF5EE; border: 1px solid #C1D8C5; border-radius: 22.5px;"></div>
+        <span class="mono" style="font-size: 10px; opacity: 0.6;">xl 22.5</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 64px; height: 64px; background: #EDF5EE; border: 1px solid #C1D8C5; border-radius: 35px;"></div>
+        <span class="mono" style="font-size: 10px; opacity: 0.6;">2xl 35</span>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+
+}
+</script>
+</body>
+</html>

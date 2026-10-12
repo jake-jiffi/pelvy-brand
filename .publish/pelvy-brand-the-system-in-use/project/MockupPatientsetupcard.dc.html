@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<!--
+  Composited from corners read off the photograph and checked in the render.
+-->
+<x-dc>
+<helmet>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    img, svg { max-width: 100%; }
+    a { color: inherit; text-decoration-thickness: 0.06em; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 0.12em; }
+
+  </style>
+</helmet>
+<div style="position:relative;width:1400px;height:939px;overflow:hidden;background:#111">
+  <img src="patientsetupcard-card-on-desk.jpg" alt="" style="position:absolute;inset:0;
+    width:100%;height:100%;object-fit:contain;transform:rotate(0deg)">
+  <div data-surface="Card" data-artwork="yes" style="position:absolute;left:0;top:0;width:1400px;height:939px;pointer-events:none">
+    <div style="position:absolute;left:0;top:0;width:1000px;height:571px;
+      transform-origin:0 0;
+      transform:matrix3d(491.382043, -1.884209, 0, -0.000019, -1.288612, 279.029752, 0, -0.002841, 0, 0, 1, 0, 453.6, 328.65, 0, 1) scale(0.00100000,0.00175131);
+      mix-blend-mode:multiply;opacity:0.97">
+<img src="patientsetupcard-art-0-card-artwork.png" alt="" style="display:block;width:100%;height:100%;object-fit:contain">
+    </div>
+  </div>
+  <div style="position:absolute;left:0;right:0;bottom:0;padding:16px 20px;background:rgba(12,12,12,.86);color:#fff;font:13px/1.5 system-ui,sans-serif">The set-up card on a clinic desk. The desk is a generated scene; the card is the real artboard.</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+
+}
+</script>
+</body>
+</html>

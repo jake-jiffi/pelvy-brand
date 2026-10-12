@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <title>Pelvy app, a Learn article</title>
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=DM+Sans:wght@400;500;600&display=swap">
+  <style>
+    /*
+      Pelvy app: a Learn article, Pelvic pain and relaxation.
+      Drawn from the next version shown in Pelvy's March 2026 demo, where each article has its own header colour.
+      Here every article shares one paper header, and the goal is said by a chip: sage for relaxation, slate for strength.
+      Type:      Literata for headings, because a physio is speaking. DM Sans for the reading text.
+      Colour:    Paper ground, mint for the video card, a ruled neutral panel for the standing disclaimer.
+      Content:   Headings, the list and the disclaimer are Pelvy's own, read from the demo. The video still is a placeholder.
+    */
+    :root {
+      --deep: #41684A;
+      --sage: #78A080;
+      --mint: #EDF5EE;
+      --paper: #F8F9F8;
+      --white: #FFFFFF;
+      --ink: #263529;
+      --muted: #6B726D;
+      --line: #DADDDA;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #41684A; }
+    a:hover { color: #376041; }
+    .app { width: 390px; height: 844px; overflow: hidden; background: var(--paper); color: var(--ink); font-family: 'DM Sans', 'Trebuchet MS', sans-serif; font-size: 17px; line-height: 1.5; display: flex; flex-direction: column; }
+    .app h1, .app h2, .app p, .app ul { margin: 0; }
+    .serif { font-family: 'Literata', Georgia, serif; }
+    .iconbtn { width: 44px; height: 44px; border: 0; background: transparent; color: var(--ink); display: flex; align-items: center; justify-content: center; padding: 0; }
+  </style>
+</helmet>
+<div class="app">
+  <div style="padding: 54px 8px 0 8px; display: flex; align-items: center;">
+    <button class="iconbtn" aria-label="Back to Learn">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>
+    </button>
+    <p style="font-size: 16px; font-weight: 500; color: var(--muted);">Learn</p>
+  </div>
+
+  <div style="padding: 10px 20px 34px 20px; display: flex; flex-direction: column; gap: 16px;">
+    <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
+      <span style="font-size: 13px; font-weight: 500; padding: 4px 12px; border-radius: 999px; background: var(--mint); color: var(--deep);">Pain and relaxation goals</span>
+      <h1 class="serif" style="font-size: 30px; line-height: 1.12; font-weight: 600; letter-spacing: -0.01em;">Pelvic pain and relaxation</h1>
+    </div>
+
+    <h2 class="serif" style="font-size: 21px; line-height: 1.25; font-weight: 600; color: var(--deep);">Improve this with belly breathing</h2>
+    <p>Belly breathing helps your pelvic floor and abdominal muscles:</p>
+    <ul style="padding-left: 22px; display: flex; flex-direction: column; gap: 4px;">
+      <li>Soften</li>
+      <li>Lengthen</li>
+      <li>Let go</li>
+      <li>Reduce protective tension</li>
+    </ul>
+
+    <div style="background: var(--mint); border-radius: 22px; padding: 16px 18px; display: flex; align-items: center; gap: 14px;">
+      <span style="width: 48px; height: 48px; border-radius: 999px; background: var(--deep); color: var(--white); display: flex; align-items: center; justify-content: center; flex: none;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+      <p style="font-size: 16px; line-height: 1.35; font-weight: 600;">Watch: relax your abs and pelvic floor with belly breathing</p>
+    </div>
+
+    <div style="border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); padding: 14px 0; display: flex; flex-direction: column; gap: 6px;">
+      <p style="font-size: 15px; font-weight: 600;">General education, not individual advice</p>
+      <p style="font-size: 15px; line-height: 1.45;">We always recommend a 1:1 assessment with a pelvic health physiotherapist. If anything worsens your symptoms, stop the exercises and seek professional support.</p>
+    </div>
+
+    <p style="font-size: 15px;">Need help finding a clinician? <a href="mailto:support@pelvy.app" style="font-weight: 600;">support@pelvy.app</a></p>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+}
+</script>
+</body>
+</html>

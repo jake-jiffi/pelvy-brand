@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<!--
+  Each traced concept beside its reference, generated from the resolved system round and the trace records.
+  Do not hand-edit: logo board rebuilds it.
+-->
+<x-dc>
+<helmet>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&amp;display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    img, svg { max-width: 100%; }
+    a { color: inherit; text-decoration-thickness: 0.06em; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 0.12em; }
+
+      * { box-sizing: border-box; }
+      .board {
+        font-family: 'Archivo', ui-sans-serif, sans-serif;
+        background: #FFFFFF;
+        color: #111111;
+        padding: 56px;
+        min-height: 100%;
+        -webkit-font-smoothing: antialiased;
+      }
+      .eyebrow {
+        font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+        color: #6B6B6B; font-weight: 500;
+      }
+      h1 { font-size: 40px; line-height: 1.1; margin: 10px 0 0; font-weight: 600; letter-spacing: -0.02em; }
+      h2 { font-size: 15px; margin: 0; font-weight: 600; letter-spacing: -0.01em; }
+      .lede { font-size: 16px; line-height: 1.5; max-width: 62ch; color: #3A3A3A; margin: 14px 0 0; }
+      .rule { height: 1px; background: #E4E4E4; margin: 36px 0; }
+      .grid { display: grid; gap: 28px; }
+      .cell { border: 1px solid #E4E4E4; padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+      .cell__art { display: flex; align-items: center; justify-content: center; min-height: 200px; }
+      .cell__id { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #6B6B6B; }
+      .cell__meta { font-size: 12px; line-height: 1.5; color: #3A3A3A; }
+      .cell__meta b { font-weight: 600; color: #111111; }
+      .verdict { display: inline-block; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+        padding: 3px 8px; border: 1px solid currentColor; }
+      .v-contender { color: #1B6B3A; }
+      .v-notes { color: #8A5A00; }
+      .v-weak { color: #8A2B14; }
+      .v-rejected { color: #8A2B14; }
+      table { border-collapse: collapse; width: 100%; font-size: 12px; }
+      th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid #E4E4E4; vertical-align: top; }
+      th { font-weight: 600; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: #6B6B6B; }
+      /* A table with no caption reaches a screen reader as an unnamed grid of
+         cells, so every table these boards emit carries one. */
+      caption { text-align: left; font-size: 13px; color: #3A3A3A; padding: 0 0 10px; }
+      code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
+
+  </style>
+</helmet>
+<div class="board">
+  <div>
+    <span class="eyebrow">Pelvy / reference</span>
+    <h1>The drawing that was picked, and its trace</h1>
+    <p class="lede">Left, the reference as it was made. Middle, the trace, as the vector the round measures. Right, the two laid over each other: black where both have ink, red where only the reference does, blue where only the trace does.</p>
+  </div>
+  <div class="rule"></div>
+  <div style="display:flex;flex-direction:column;gap:40px;">
+    <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:32px;align-items:center;">
+      <img src="reference-T1.png" alt="The reference T1 was traced from" style="width:100%;height:320px;object-fit:contain;">
+      <div style="display:flex;justify-content:center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="9.88 18.2 80.1 63.42" width="320" height="253" role="img" aria-label="Trace T1" style="display:block">
+<path fill="#111111" d="M41.84 31.36 C41.16 31.12 41.93 29.35 41.9 28.72 C41.78 26.77 41.18 24.34 39.67 22.99 C37.97 21.48 35.96 20.46 33.67 20.46 C32.32 20.46 29.81 21.18 29.68 21.06 C29.81 20.14 33.15 18.44 33.77 18.31 C34.46 18.17 35.24 18.24 35.94 18.25 C41.69 18.3 45.83 25.67 42.33 30.48 C42.11 30.78 42.13 31.11 41.84 31.36 Z M59.23 50.04 C59.31 49.93 59.29 49.9 59.44 49.86 C59.84 49.75 60.1 50.3 60.47 50.4 C62.1 50.82 63.63 51.44 65.34 51.64 C68.96 52.05 73.54 50.88 76.41 48.67 C80.71 45.36 82.49 40.91 82.28 35.55 C82.23 34.53 81.1 29.88 79.93 29.98 C79.44 30.87 80.45 32.68 80.56 33.69 C80.81 36.05 80.47 38.31 79.67 40.52 C76.44 49.54 62.41 53.27 55.68 46.32 C55.27 45.89 53.21 43.79 53.98 43.21 C54.5 42.83 57.31 44.67 58.09 44.83 C61.63 45.57 65.42 46.12 68.65 43.99 C73.6 40.74 75.44 33.59 68.86 30.91 C66 29.75 62.69 31.04 60.16 32.2 C53.66 35.17 46.58 41.73 42.79 47.87 C41.97 49.2 37.85 55.54 38.41 56.46 C38.7 56.47 40.46 53.31 40.91 52.63 C43.48 48.74 46.33 45.24 49.66 41.97 C50.25 41.39 53.52 38.22 53.93 38.76 C54.24 39.17 53.37 39.62 53.17 39.9 C51.61 42.01 49.54 43.86 47.87 45.9 C44.24 50.34 41.47 55.7 39.2 60.91 C37.47 64.89 36.12 69.68 35.91 74.05 C35.83 75.86 36.09 77.86 35.74 79.64 C35.37 81.45 34.03 82.48 32.82 80.68 C30.6 77.36 32.94 67.11 33.42 63.08 C35.36 46.98 43.36 35.1 55.71 25.08 C60.66 21.07 65.83 18.2 72.37 18.24 C73.37 18.24 74.62 18.1 75.58 18.37 C75.93 18.46 76.13 18.79 76.51 18.89 C78.45 19.37 80.39 19.78 82.1 20.83 C95.81 29.21 90.27 49.08 75.89 52.78 C70.91 54.06 65.6 54.18 61.11 51.39 C60.49 51.01 59.64 50.63 59.23 50.04 Z M10.17 19.11 C10.63 19.15 15.33 21.84 16.01 22.3 C16.49 22.63 16.87 23.23 17.31 23.62 C23.64 29.17 26.96 36.62 29.1 44.56 C29.61 46.44 30.08 48.93 29.75 50.87 C29.58 51.85 29.23 52.63 29.16 53.66 C29.11 54.33 29.42 56.56 28.49 56.78 C27.12 57.11 26.61 53.79 26.32 52.91 C25.45 50.32 22.08 42.4 20.83 40.06 C18.14 34.99 15.55 29.59 12.04 24.99 C11.68 24.52 10.22 22.83 10.07 22.51 C9.79 21.93 9.81 19.6 10.17 19.11 Z M31.49 21.43 C34.64 20.94 37.6 21.75 39.57 24.28 C39.82 24.6 39.9 25.01 40.19 25.33 C41.24 26.49 41.3 30.59 40.29 31.82 C39.55 32.71 38.46 32.95 37.47 33.38 C34.49 34.64 30.46 32.68 29.01 29.92 C27.62 27.29 27.68 23.54 30.47 22.1 C30.87 21.89 31 21.51 31.49 21.43 Z"/>
+</svg></div>
+      <img src="overlay-T1.png" alt="T1 laid over its reference" style="width:100%;height:320px;object-fit:contain;">
+      <p class="cell__meta" style="grid-column:1 / -1;margin:0;"><b>T1</b> overlaps brand/logo/reference/pelvy-symbol-2024-appicon.png by 96.5%.</p>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+
+}
+</script>
+</body>
+</html>

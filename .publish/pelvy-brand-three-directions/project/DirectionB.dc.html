@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=DM+Sans:wght@400;500;700&display=swap">
+  <style>
+    /*
+      Direction B: The good physio (warm humanist: Headspace, Mailchimp after Collins)
+      Type:      Literata 600 display in place of PT Serif, DM Sans body kept from the live site.
+      Colour:    Today's sage kept for fills, a deeper sage that can carry text, a grey-green paper,
+                 and the site's slate deepened until white text passes on it.
+      Grid:      Roomy, one soft radius at 28px.
+      Signature: One-line figures that share the logo figure's gesture.
+    */
+    :root {
+      --sage: #78A080;
+      --deep: #3F6E57;
+      --paper: #EEF1EA;
+      --ink: #22302A;
+      --muted: #55635B;
+      --accent: #5E6687;
+      --white: #FFFFFF;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .b { width: 900px; min-height: 1100px; background: var(--paper); color: var(--ink); font-family: 'DM Sans', 'Trebuchet MS', sans-serif; padding: 48px; display: flex; flex-direction: column; gap: 28px; }
+    .b h1, .b h2, .b p { margin: 0; }
+    .serif { font-family: 'Literata', Georgia, serif; }
+    .fig { width: 150px; height: 120px; }
+  </style>
+</helmet>
+<div class="b">
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <p style="font-size: 15px; color: var(--muted);">Direction B</p>
+    <h1 class="serif" style="font-size: 56px; line-height: 1; font-weight: 600; letter-spacing: -0.01em;">The good physio</h1>
+    <p style="font-size: 20px; line-height: 1.4; max-width: 640px;">Pelvy as the kind, unhurried clinician in app form. Today's sage and serif headings, redrawn properly, with an illustration style that grows out of the logo.</p>
+  </div>
+
+  <div style="display: flex; gap: 32px; height: 400px; align-items: stretch;">
+    <div style="width: 330px; position: relative; border-radius: 28px; overflow: hidden; background: var(--sage);">
+      <img src="dir-b.jpg" alt="An exercise mat and a phone on a bedroom floor, generated as a sketch of the direction" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <p style="position: absolute; left: 14px; bottom: 12px; background: var(--white); font-size: 12px; padding: 4px 10px; border-radius: 28px;">Generated sketch, not brand photography</p>
+    </div>
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 22px;">
+      <p style="font-size: 20px; font-weight: 700; color: var(--deep);">Pelvy</p>
+      <h2 class="serif" style="font-size: 42px; line-height: 1.1; font-weight: 600; max-width: 440px;">Your pelvic floor program, minus the lost handout.</h2>
+      <p style="font-size: 18px; line-height: 1.5; max-width: 400px;">Your clinician's advice, your exercises and your reminders, kept in one place you already carry.</p>
+      <div style="display: flex;">
+        <span style="background: var(--accent); color: var(--white); font-weight: 500; font-size: 17px; padding: 14px 26px; border-radius: 28px;">Ask your clinician about Pelvy</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 12px;">
+    <div style="flex: 1.4; background: var(--sage); color: var(--ink); padding: 14px 16px; font-size: 14px; border-radius: 12px;"><b>Sage</b><br>#78A080</div>
+    <div style="flex: 1; background: var(--deep); color: var(--white); padding: 14px 16px; font-size: 14px; border-radius: 12px;"><b>Deep sage</b><br>#3F6E57</div>
+    <div style="flex: 1; background: var(--paper); border: 1px solid var(--sage); padding: 14px 16px; font-size: 14px; border-radius: 12px;"><b>Paper</b><br>#EEF1EA</div>
+    <div style="flex: 1; background: var(--ink); color: var(--white); padding: 14px 16px; font-size: 14px; border-radius: 12px;"><b>Ink</b><br>#22302A</div>
+    <div style="flex: 0.8; background: #5E6687; color: var(--white); padding: 14px 16px; font-size: 14px; border-radius: 12px;"><b>Slate</b><br>#5E6687</div>
+  </div>
+
+  <div style="display: flex; gap: 40px; align-items: baseline;">
+    <p class="serif" style="font-size: 44px; font-weight: 600; line-height: 1;">Breathe out</p>
+    <p style="font-size: 17px; line-height: 1.5; max-width: 420px;">Literata for headings, DM Sans for everything you read twice. Nothing here will feel like a new brand to someone who knows the old one.</p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 14px;">
+    <div style="display: flex; gap: 24px; align-items: center; background: var(--white); border-radius: 28px; padding: 18px 28px;">
+      <svg class="fig" viewBox="0 0 150 120" fill="none" stroke="#3F6E57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="74" cy="22" r="9"/>
+        <path d="M30 34c14 22 30 28 44 28s34-8 46-30M74 62c-2 20-6 34-16 48M74 62c4 20 10 34 20 48"/>
+      </svg>
+      <svg class="fig" viewBox="0 0 150 120" fill="none" stroke="#3F6E57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="38" cy="58" r="9"/>
+        <path d="M50 66c18 4 34 4 52 0l32 22M70 70c-4 14-14 22-30 26M102 66c4-12 2-22-6-30"/>
+      </svg>
+      <svg class="fig" viewBox="0 0 150 120" fill="none" stroke="#3F6E57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="26" cy="86" r="9"/>
+        <path d="M38 90h84M58 90c2-18 14-30 30-34M96 90c0-14 8-24 22-28"/>
+      </svg>
+      <p style="font-size: 15px; line-height: 1.4; max-width: 220px;">Reach, stretch, rest. One line weight, one colour, no faces, the same raised arm as the logo.</p>
+    </div>
+    <p style="font-size: 14px; color: var(--muted);">Signature: the one-line figure. It replaces the stock illustrated people on the site with drawings nobody else has.</p>
+  </div>
+
+  <p style="font-size: 14px; line-height: 1.45; color: var(--muted); max-width: 720px;">The tradeoff: this is the closest to what exists, so it changes the least, and soft sage with rounded corners is where every wellness app already lives. A hospital may read it as a consumer app.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":900,"height":1100}}'>
+class Component extends DCLogic {
+}
+</script>
+</body>
+</html>

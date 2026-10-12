@@ -1,0 +1,523 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<!--
+  Specification sheet, generated from the resolved system.
+-->
+<x-dc>
+<helmet>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    img, svg { max-width: 100%; }
+    a { color: inherit; text-decoration-thickness: 0.06em; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 0.12em; }
+
+    body {
+      background: #FCFDFC;
+      color: #2E312F;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-synthesis: none;
+      font-size: 14px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .sheet { padding: 56px 56px 72px; display: flex; flex-direction: column; gap: 48px; }
+    .sheet__head { display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid #2E312F; padding-bottom: 14px; }
+    .sheet__title { font-family: 'Literata', Georgia, serif; font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 0; }
+    .sheet__sub { color: #6B726D; font-size: 13px; max-width: 62ch; margin: 0; }
+    .eyebrow {
+      font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.14em;
+      text-transform: uppercase; color: #6B726D;
+    }
+    .block { display: flex; flex-direction: column; gap: 18px; }
+    .block__title { display: flex; align-items: baseline; gap: 14px; border-bottom: 1px solid #DADDDA; padding-bottom: 8px; }
+    .block__title h2 { font-family: 'Literata', Georgia, serif; font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+    .block__note { color: #6B726D; font-size: 12px; max-width: 70ch; margin: 0; }
+    .mono { font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
+    .grid { display: grid; gap: 2px; }
+
+  </style>
+</helmet>
+<div class="sheet">
+  <div class="sheet__head">
+    <span class="eyebrow">Pelvy / tokens</span>
+    <h1 class="sheet__title">Semantic tokens</h1>
+    <p class="sheet__sub">These are the names to build with. Each swatch shows light on the left and dark on the right. If you find yourself reaching for a raw ramp step in a component, this layer is missing a token: add one here rather than working around it.</p>
+  </div>
+  <div style="columns: 3; column-gap: 36px;">
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">surface</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #FCFDFC;"></span>
+          <span style="width: 14px; height: 14px; background: #111111;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--surface-page</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#FCFDFC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #F8F9F8;"></span>
+          <span style="width: 14px; height: 14px; background: #181919;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--surface-subtle</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#F8F9F8</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #FCFDFC;"></span>
+          <span style="width: 14px; height: 14px; background: #181919;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--surface-raised</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#FCFDFC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #F8F9F8;"></span>
+          <span style="width: 14px; height: 14px; background: #181919;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--surface-sunken</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#F8F9F8</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #FCFDFC;"></span>
+          <span style="width: 14px; height: 14px; background: #212322;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--surface-overlay</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#FCFDFC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #2E312F;"></span>
+          <span style="width: 14px; height: 14px; background: #EAEEEB;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--surface-inverted</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#2E312F</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">control</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #F1F3F1;"></span>
+          <span style="width: 14px; height: 14px; background: #212322;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--control-bg</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#F1F3F1</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #EAEDEB;"></span>
+          <span style="width: 14px; height: 14px; background: #292B29;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--control-bg-hover</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#EAEDEB</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #E3E6E3;"></span>
+          <span style="width: 14px; height: 14px; background: #303331;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--control-bg-active</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#E3E6E3</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">border</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #DADDDA;"></span>
+          <span style="width: 14px; height: 14px; background: #393C3A;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--border-subtle</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#DADDDA</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #CED2CE;"></span>
+          <span style="width: 14px; height: 14px; background: #484C48;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--border-default</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#CED2CE</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #BBC1BC;"></span>
+          <span style="width: 14px; height: 14px; background: #5F645F;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--border-strong</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#BBC1BC</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">text</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #2E312F;"></span>
+          <span style="width: 14px; height: 14px; background: #EAEEEB;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--text-primary</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#2E312F</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #6B726D;"></span>
+          <span style="width: 14px; height: 14px; background: #AFB6B0;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--text-secondary</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#6B726D</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #BBC1BC;"></span>
+          <span style="width: 14px; height: 14px; background: #5F645F;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--text-disabled</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#BBC1BC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #FCFDFC;"></span>
+          <span style="width: 14px; height: 14px; background: #111111;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--text-inverted</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#FCFDFC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #587A5F;"></span>
+          <span style="width: 14px; height: 14px; background: #9BBFA2;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--text-brand</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#587A5F</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #587A5F;"></span>
+          <span style="width: 14px; height: 14px; background: #9BBFA2;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--text-link</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#587A5F</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">accent</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #EDF5EE;"></span>
+          <span style="width: 14px; height: 14px; background: #1E241F;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-bg</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#EDF5EE</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #E4F0E6;"></span>
+          <span style="width: 14px; height: 14px; background: #242D25;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-bg-hover</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#E4F0E6</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #C1D8C5;"></span>
+          <span style="width: 14px; height: 14px; background: #3D5041;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-border</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#C1D8C5</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #41684A;"></span>
+          <span style="width: 14px; height: 14px; background: #41684A;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-solid</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#41684A</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #376041;"></span>
+          <span style="width: 14px; height: 14px; background: #487151;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-solid-hover</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#376041</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #587A5F;"></span>
+          <span style="width: 14px; height: 14px; background: #9BBFA2;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-text</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#587A5F</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #FFFFFF;"></span>
+          <span style="width: 14px; height: 14px; background: #FFFFFF;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-on-solid</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#FFFFFF</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #41684A;"></span>
+          <span style="width: 14px; height: 14px; background: #41684A;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--accent-solid-strong</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#41684A</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">focus</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #41684A;"></span>
+          <span style="width: 14px; height: 14px; background: #487151;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--focus-ring</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#41684A</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">danger</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #FEEEEC;"></span>
+          <span style="width: 14px; height: 14px; background: #2A1F1E;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--danger-bg</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#FEEEEC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #EFC6C0;"></span>
+          <span style="width: 14px; height: 14px; background: #62403C;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--danger-border</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#EFC6C0</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #A9655D;"></span>
+          <span style="width: 14px; height: 14px; background: #A9655D;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--danger-solid</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#A9655D</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #985F58;"></span>
+          <span style="width: 14px; height: 14px; background: #E1A29A;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--danger-text</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#985F58</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">warning</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #F9F1E5;"></span>
+          <span style="width: 14px; height: 14px; background: #272119;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--warning-bg</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#F9F1E5</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #E3CEAE;"></span>
+          <span style="width: 14px; height: 14px; background: #59472B;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--warning-border</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#E3CEAE</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #D7B174;"></span>
+          <span style="width: 14px; height: 14px; background: #D7B174;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--warning-solid</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#D7B174</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #886B39;"></span>
+          <span style="width: 14px; height: 14px; background: #CFAF7C;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--warning-text</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#886B39</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">success</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #EBF6EC;"></span>
+          <span style="width: 14px; height: 14px; background: #1D251E;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--success-bg</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#EBF6EC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #BCDAC0;"></span>
+          <span style="width: 14px; height: 14px; background: #38523C;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--success-border</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#BCDAC0</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #53895C;"></span>
+          <span style="width: 14px; height: 14px; background: #53895C;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--success-solid</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#53895C</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #507D57;"></span>
+          <span style="width: 14px; height: 14px; background: #93C299;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--success-text</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#507D57</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; break-inside: avoid;">
+      <span class="eyebrow" style="border-bottom: 1px solid #DADDDA; padding-bottom: 5px;">info</span>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #E9F4FE;"></span>
+          <span style="width: 14px; height: 14px; background: #1B232A;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--info-bg</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#E9F4FE</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #B7D5EF;"></span>
+          <span style="width: 14px; height: 14px; background: #334D63;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--info-border</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#B7D5EF</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #4980AC;"></span>
+          <span style="width: 14px; height: 14px; background: #4980AC;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--info-solid</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#4980AC</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; padding: 3px 0;">
+        <span style="display: flex; flex: none; border: 1px solid #DADDDA;">
+          <span style="width: 14px; height: 14px; background: #48759A;"></span>
+          <span style="width: 14px; height: 14px; background: #8BBAE2;"></span>
+        </span>
+        <span class="mono" style="flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;">--info-text</span>
+        <span class="mono" style="color: #6B726D; flex: none;">#48759A</span>
+      </div>
+    </div>
+  </div>
+  <div class="block">
+    <div class="block__title"><h2>Layout</h2><span class="eyebrow">breakpoints and the column</span></div>
+    <p class="block__note">Breakpoints are a starting set. The real ones are wherever this layout breaks, and you find those by dragging the window rather than by naming devices. A custom property cannot be used inside a media query, so these are numbers to type into one. <span class="mono">--content-max</span> is the measure plus a gutter each side, and it is the one to reference directly.</p>
+    <div style="display: flex; flex-direction: column; gap: 4px; font-size: 11px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span class="mono" style="width: 92px; flex: none;">--bp-sm</span>
+        <span class="mono" style="width: 62px; flex: none; color: #6B726D;">480px</span>
+        <span style="width: 268px; flex: none; display: block;"><span style="display: block; height: 6px; width: 101px; background: #41684A;"></span></span>
+        <span style="color: #6B726D;">Above a large phone. Two columns of small controls become possible.</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span class="mono" style="width: 92px; flex: none;">--bp-md</span>
+        <span class="mono" style="width: 62px; flex: none; color: #6B726D;">768px</span>
+        <span style="width: 268px; flex: none; display: block;"><span style="display: block; height: 6px; width: 161px; background: #41684A;"></span></span>
+        <span style="color: #6B726D;">Tablet portrait. A single column can become two.</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span class="mono" style="width: 92px; flex: none;">--bp-lg</span>
+        <span class="mono" style="width: 62px; flex: none; color: #6B726D;">1024px</span>
+        <span style="width: 268px; flex: none; display: block;"><span style="display: block; height: 6px; width: 214px; background: #41684A;"></span></span>
+        <span style="color: #6B726D;">Laptop. Sidebars and three-column grids hold.</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span class="mono" style="width: 92px; flex: none;">--bp-xl</span>
+        <span class="mono" style="width: 62px; flex: none; color: #6B726D;">1280px</span>
+        <span style="width: 268px; flex: none; display: block;"><span style="display: block; height: 6px; width: 268px; background: #41684A;"></span></span>
+        <span style="color: #6B726D;">Where the fluid type stops growing, so the layout stops with it.</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; padding-top: 6px;">
+        <span class="mono" style="width: 92px; flex: none;">--content-max</span>
+        <span class="mono" style="width: 62px; flex: none; color: #6B726D;">575px</span>
+        <span style="width: 268px; flex: none;"></span>
+        <span style="color: #6B726D;">62 characters at 17px, plus a 24px gutter each side.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="block__title"><h2>Scales</h2><span class="eyebrow">spacing, radius, motion</span></div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; font-size: 11px;">
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <span class="eyebrow">space (4px base)</span>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-0</span><span style="height: 8px; width: 0px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">0</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-2</span><span style="height: 8px; width: 2px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">2</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-4</span><span style="height: 8px; width: 4px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">4</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-8</span><span style="height: 8px; width: 8px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">8</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-12</span><span style="height: 8px; width: 12px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">12</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-16</span><span style="height: 8px; width: 16px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">16</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-20</span><span style="height: 8px; width: 20px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">20</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-24</span><span style="height: 8px; width: 24px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">24</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-32</span><span style="height: 8px; width: 32px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">32</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-40</span><span style="height: 8px; width: 40px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">40</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-48</span><span style="height: 8px; width: 48px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">48</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-64</span><span style="height: 8px; width: 64px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">64</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-80</span><span style="height: 8px; width: 80px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">80</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-96</span><span style="height: 8px; width: 96px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">96</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-128</span><span style="height: 8px; width: 128px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">128</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-160</span><span style="height: 8px; width: 160px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">160</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-192</span><span style="height: 8px; width: 160px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">192</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 92px;">--space-256</span><span style="height: 8px; width: 160px; background: #41684A;"></span><span class="mono" style="color: #6B726D;">256</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <span class="eyebrow">radius</span>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-none</span><span class="mono" style="color: #6B726D;">0px</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-xs</span><span class="mono" style="color: #6B726D;">5px</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-sm</span><span class="mono" style="color: #6B726D;">7.5px</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-md</span><span class="mono" style="color: #6B726D;">10px</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-lg</span><span class="mono" style="color: #6B726D;">15px</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-xl</span><span class="mono" style="color: #6B726D;">22.5px</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-2xl</span><span class="mono" style="color: #6B726D;">35px</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 100px;">--radius-full</span><span class="mono" style="color: #6B726D;">9999px</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <span class="eyebrow">motion (fluid)</span>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--duration-instant</span><span class="mono" style="color: #6B726D;">0ms</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--duration-fast</span><span class="mono" style="color: #6B726D;">120ms</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--duration-base</span><span class="mono" style="color: #6B726D;">200ms</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--duration-slow</span><span class="mono" style="color: #6B726D;">320ms</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--duration-slower</span><span class="mono" style="color: #6B726D;">480ms</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--ease-standard</span><span class="mono" style="color: #6B726D; font-size: 10px;">cubic-bezier(0.2, 0, 0, 1)</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--ease-enter</span><span class="mono" style="color: #6B726D; font-size: 10px;">cubic-bezier(0, 0, 0, 1)</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--ease-exit</span><span class="mono" style="color: #6B726D; font-size: 10px;">cubic-bezier(0.3, 0, 1, 1)</span></div>
+        <div style="display: flex; align-items: center; gap: 8px;"><span class="mono" style="width: 116px;">--ease-emphasis</span><span class="mono" style="color: #6B726D; font-size: 10px;">cubic-bezier(0.3, 0, 0, 1.2)</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+
+}
+</script>
+</body>
+</html>

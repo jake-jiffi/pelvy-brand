@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&family=Atkinson+Hyperlegible+Mono:wght@400;700&display=swap">
+  <style>
+    /*
+      Direction A: Clinic-grade (corporate trust: Chermayeff and Geismar, public health identities)
+      Type:      Atkinson Hyperlegible Next 800 display, 400 body. One family, chosen because it was
+                 drawn for low-vision readers and its numerals cannot be confused with letters.
+      Colour:    Pelvy green floods one surface per view. White and mint for everything else.
+                 Exhale amber for the one action.
+      Grid:      Left flush, 48px margins, no centred text.
+      Signature: The count ring, used as the marker for any real sequence.
+    */
+    :root {
+      --green: #2F6B4E;
+      --mint: #E6F3EA;
+      --paper: #FFFFFF;
+      --ink: #16241C;
+      --muted: #4C5F55;
+      --accent: #EFA23F;
+      --rule: #C6D7CA;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .a { width: 900px; min-height: 1100px; background: var(--paper); color: var(--ink); font-family: 'Atkinson Hyperlegible Next', 'Verdana', sans-serif; padding: 48px; display: flex; flex-direction: column; gap: 28px; }
+    .a h1, .a h2, .a p { margin: 0; }
+    .ring { width: 64px; height: 64px; border-radius: 50%; border: 5px solid var(--green); display: flex; align-items: center; justify-content: center; font-family: 'Atkinson Hyperlegible Mono', 'Courier New', monospace; font-weight: 700; font-size: 26px; color: var(--green); flex: none; }
+  </style>
+</helmet>
+<div class="a">
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <p style="font-size: 15px; color: var(--muted);">Direction A</p>
+    <h1 style="font-size: 56px; line-height: 1; font-weight: 800; letter-spacing: -0.02em;">Clinic-grade</h1>
+    <p style="font-size: 20px; line-height: 1.4; max-width: 640px;">Pelvy as a piece of health infrastructure. One owned green, one plain typeface drawn for legibility, and the count ring repeated until it means Pelvy.</p>
+  </div>
+
+  <div style="display: flex; gap: 0; height: 400px;">
+    <div style="flex: 1; background: var(--green); color: var(--paper); padding: 36px; display: flex; flex-direction: column; justify-content: space-between;">
+      <p style="font-size: 20px; font-weight: 800;">Pelvy</p>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <h2 style="font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -0.015em; max-width: 420px;">What your clinician told you, still with you at home.</h2>
+        <div style="display: flex; gap: 16px; align-items: center;">
+          <span style="background: var(--accent); color: var(--ink); font-weight: 600; font-size: 17px; padding: 14px 22px; border-radius: 6px; white-space: nowrap;">Book a demo</span>
+          <span style="font-size: 16px;">For clinicians. Free for your patients.</span>
+        </div>
+      </div>
+    </div>
+    <div style="width: 320px; position: relative; background: var(--mint);">
+      <img src="dir-a.jpg" alt="A treatment room desk with a pelvis model, generated as a sketch of the direction" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <p style="position: absolute; left: 0; bottom: 0; background: var(--paper); font-size: 12px; padding: 4px 8px;">Generated sketch, not brand photography</p>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 0; border: 1px solid var(--rule);">
+    <div style="flex: 2; background: var(--green); color: var(--paper); padding: 14px 16px; font-size: 14px;"><b>Pelvy green</b><br>#2F6B4E</div>
+    <div style="flex: 1; background: var(--mint); padding: 14px 16px; font-size: 14px;"><b>Mint</b><br>#E6F3EA</div>
+    <div style="flex: 1; background: var(--paper); padding: 14px 16px; font-size: 14px;"><b>White</b><br>#FFFFFF</div>
+    <div style="flex: 1; background: var(--ink); color: var(--paper); padding: 14px 16px; font-size: 14px;"><b>Ink</b><br>#16241C</div>
+    <div style="flex: 0.6; background: #EFA23F; padding: 14px 16px; font-size: 14px;"><b>Exhale</b><br>#EFA23F</div>
+  </div>
+
+  <div style="display: flex; gap: 40px; align-items: baseline;">
+    <p style="font-size: 44px; font-weight: 800; letter-spacing: -0.02em; line-height: 1;">Rep 3 of 10</p>
+    <p style="font-size: 17px; line-height: 1.5; max-width: 420px;">Atkinson Hyperlegible Next for everything. Your clinician's notes are here whenever you need them, in type built to be read by tired eyes.</p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 14px; border-top: 1px solid var(--rule); padding-top: 22px;">
+    <div style="display: flex; gap: 28px;">
+      <div style="display: flex; gap: 14px; align-items: center; flex: 1;"><span class="ring">1</span><p style="font-size: 16px; line-height: 1.35;">Your clinician sets up your program.</p></div>
+      <div style="display: flex; gap: 14px; align-items: center; flex: 1;"><span class="ring">2</span><p style="font-size: 16px; line-height: 1.35;">You open Pelvy at home.</p></div>
+      <div style="display: flex; gap: 14px; align-items: center; flex: 1;"><span class="ring">3</span><p style="font-size: 16px; line-height: 1.35;">It counts you through every rep.</p></div>
+    </div>
+    <p style="font-size: 14px; color: var(--muted);">Signature: the count ring. It is the screen patients already know, promoted to the brand's one repeated device. Used only where the order is real.</p>
+  </div>
+
+  <p style="font-size: 14px; line-height: 1.45; color: var(--muted); max-width: 720px;">The tradeoff: this is the least cosy of the three. It earns trust from a hospital on sight, and it leans on the writing and the photography to feel kind to someone doing a private exercise at home.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":900,"height":1100}}'>
+class Component extends DCLogic {
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<!--
+  Mechanical audit, generated from the resolved system plan and the rendered measurements.
+  Do not hand-edit: rerunning the audit regenerates it.
+-->
+<x-dc>
+<helmet>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&amp;display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    img, svg { max-width: 100%; }
+    a { color: inherit; text-decoration-thickness: 0.06em; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 0.12em; }
+
+      * { box-sizing: border-box; }
+      .board {
+        font-family: 'Archivo', ui-sans-serif, sans-serif;
+        background: #FFFFFF;
+        color: #111111;
+        padding: 56px;
+        min-height: 100%;
+        -webkit-font-smoothing: antialiased;
+      }
+      .eyebrow {
+        font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+        color: #6B6B6B; font-weight: 500;
+      }
+      h1 { font-size: 40px; line-height: 1.1; margin: 10px 0 0; font-weight: 600; letter-spacing: -0.02em; }
+      h2 { font-size: 15px; margin: 0; font-weight: 600; letter-spacing: -0.01em; }
+      .lede { font-size: 16px; line-height: 1.5; max-width: 62ch; color: #3A3A3A; margin: 14px 0 0; }
+      .rule { height: 1px; background: #E4E4E4; margin: 36px 0; }
+      .grid { display: grid; gap: 28px; }
+      .cell { border: 1px solid #E4E4E4; padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+      .cell__art { display: flex; align-items: center; justify-content: center; min-height: 200px; }
+      .cell__id { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #6B6B6B; }
+      .cell__meta { font-size: 12px; line-height: 1.5; color: #3A3A3A; }
+      .cell__meta b { font-weight: 600; color: #111111; }
+      .verdict { display: inline-block; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+        padding: 3px 8px; border: 1px solid currentColor; }
+      .v-contender { color: #1B6B3A; }
+      .v-notes { color: #8A5A00; }
+      .v-weak { color: #8A2B14; }
+      .v-rejected { color: #8A2B14; }
+      table { border-collapse: collapse; width: 100%; font-size: 12px; }
+      th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid #E4E4E4; vertical-align: top; }
+      th { font-weight: 600; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: #6B6B6B; }
+      /* A table with no caption reaches a screen reader as an unnamed grid of
+         cells, so every table these boards emit carries one. */
+      caption { text-align: left; font-size: 13px; color: #3A3A3A; padding: 0 0 10px; }
+      code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
+
+  </style>
+</helmet>
+<div class="board">
+  <div>
+    <span class="eyebrow">Pelvy / audit</span>
+    <h1>What the arithmetic found</h1>
+    <p class="lede">Run before anybody said what they liked, because a mark that has been praised is very hard to fail on a number afterwards.</p>
+  </div>
+  <div class="rule"></div>
+  <table>
+    <tr><th style="width:110px;">Concept</th><th style="width:130px;">Verdict</th><th>Failed</th><th>Notes</th><th style="width:180px;">Handed to another asset</th></tr>
+    <tr>
+      <td><b>T1c</b><br><span style="color:#6B6B6B;"></span></td>
+      <td><span class="verdict v-notes">clears, with notes</span></td>
+      <td><b>28px app icon</b>: the mark reads as 4 shapes at 256px and 3 at 32px, so its counters close<br><b>Square social avatar</b>: the mark reads as 4 shapes at 256px and 3 at 64px, so its counters close</td>
+      <td><span style="color:#6B6B6B;">nothing</span></td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+    </tr>
+    <tr>
+      <td><b>T1p</b><br><span style="color:#6B6B6B;"></span></td>
+      <td><span class="verdict v-contender">clears every test</span></td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+      <td><span style="color:#6B6B6B;">nothing</span></td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+    </tr>
+    <tr>
+      <td><b>T1sm</b><br><span style="color:#6B6B6B;"></span></td>
+      <td><span class="verdict v-contender">clears every test</span></td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+      <td><span style="color:#6B6B6B;">nothing</span></td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+    </tr>
+    <tr>
+      <td><b>T1sq</b><br><span style="color:#6B6B6B;"></span></td>
+      <td><span class="verdict v-rejected">ruled out</span></td>
+      <td><b>16px favicon</b>: the thinnest feature measures 1px when rendered at 16px, under the 2.0px this context needs</td>
+      <td>The thinnest feature is 1px at favicon size.</td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+    </tr>
+    <tr>
+      <td><b>T1w</b><br><span style="color:#6B6B6B;"></span></td>
+      <td><span class="verdict v-contender">clears every test</span></td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+      <td><span style="color:#6B6B6B;">nothing</span></td>
+      <td><span style="color:#6B6B6B;">none</span></td>
+    </tr>
+  </table>
+  <div class="rule"></div>
+  <p class="lede"><b>Handed to another asset</b> is not a failure. A lockup cannot work at sixteen pixels and is still the right primary mark, because the small-grade version carries that context. The budget of two failures applies to the system of three assets, not to any one file.</p>
+  <p class="lede">Each threshold is the thinnest stroke and the smallest gap a mark can carry in a given use, from a browser tab at sixteen pixels to embroidery and signage, before it stops reading. Where a number was derived rather than measured, the audit says so and gives the reasoning.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+
+}
+</script>
+</body>
+</html>

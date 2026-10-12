@@ -1,0 +1,63 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-11T23:34:09.889Z"
+  },
+  "title": "Pelvy brand: three directions",
+  "launch": {
+    "view": "canvas",
+    "page": "territories"
+  },
+  "pages": [
+    {
+      "id": "territories",
+      "name": "Territories"
+    }
+  ],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 900,
+      "h": 1100,
+      "page": "territories"
+    },
+    "DirectionA.dc.html": {
+      "x": 1020,
+      "y": 0,
+      "w": 900,
+      "h": 1100,
+      "page": "territories"
+    },
+    "DirectionB.dc.html": {
+      "x": 2040,
+      "y": 0,
+      "w": 900,
+      "h": 1100,
+      "page": "territories"
+    },
+    "DirectionC.dc.html": {
+      "x": 3060,
+      "y": 0,
+      "w": 900,
+      "h": 1100,
+      "page": "territories"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "DirectionA.dc.html",
+    "DirectionB.dc.html",
+    "DirectionC.dc.html"
+  ],
+  "notes": {
+    "how-to-read": {
+      "x": 1020,
+      "y": -170,
+      "text": "Each sketch carries the same six parts in the same order: pitch, hero, palette, type, signature, tradeoff.\nThese are low fidelity on purpose. The photographs are generated sketches of each direction's mood and are not brand photography.",
+      "w": 620
+    }
+  },
+  "designSystems": []
+}

@@ -1,0 +1,1374 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<!--
+  Specification sheet, generated from the resolved system.
+  Every value here is measured. Do not hand-edit.
+-->
+<x-dc>
+<helmet>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=DM+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    img, svg { max-width: 100%; }
+    a { color: inherit; text-decoration-thickness: 0.06em; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 0.12em; }
+
+    body {
+      background: #FCFDFC;
+      color: #2E312F;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-synthesis: none;
+      font-size: 14px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .sheet { padding: 56px 56px 72px; display: flex; flex-direction: column; gap: 48px; }
+    .sheet__head { display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid #2E312F; padding-bottom: 14px; }
+    .sheet__title { font-family: 'Literata', Georgia, serif; font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 0; }
+    .sheet__sub { color: #6B726D; font-size: 13px; max-width: 62ch; margin: 0; }
+    .eyebrow {
+      font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.14em;
+      text-transform: uppercase; color: #6B726D;
+    }
+    .block { display: flex; flex-direction: column; gap: 18px; }
+    .block__title { display: flex; align-items: baseline; gap: 14px; border-bottom: 1px solid #DADDDA; padding-bottom: 8px; }
+    .block__title h2 { font-family: 'Literata', Georgia, serif; font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+    .block__note { color: #6B726D; font-size: 12px; max-width: 70ch; margin: 0; }
+    .mono { font-family: 'DM Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
+    .grid { display: grid; gap: 2px; }
+
+  </style>
+</helmet>
+<div class="sheet">
+  <div class="sheet__head">
+    <span class="eyebrow">Pelvy / colour</span>
+    <h1 class="sheet__title">Colour system</h1>
+    <p class="sheet__sub">Step 9 is the brand colour itself. Steps 1 to 8 are surfaces and borders, 11 and 12 are text. Build with the semantic tokens, not these raw steps: reaching past the semantic layer is how a design system stops being one.</p>
+  </div>
+  <div class="block">
+    <div class="block__title">
+      <h2>Light</h2>
+      <span class="eyebrow">12 steps per family</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">brand</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(47.92% 0.0655 150.63)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FBFDFB; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FBFDFB</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #F5FAF6; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F5FAF6</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #EDF5EE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#EDF5EE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #E4F0E6; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E4F0E6</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #DAEADD; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#DAEADD</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #CFE2D3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#CFE2D3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #C1D8C5; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#C1D8C5</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #ABC8B0; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#ABC8B0</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #41684A; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#41684A</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #376041; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#376041</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #587A5F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#587A5F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #263529; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#263529</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">neutral</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(66.72% 0.014 150.45)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FCFDFC; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FCFDFC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #F8F9F8; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F8F9F8</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #F1F3F1; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F1F3F1</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #EAEDEB; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#EAEDEB</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #E3E6E3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E3E6E3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #DADDDA; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#DADDDA</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #CED2CE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#CED2CE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #BBC1BC; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#BBC1BC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #8F9790; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#8F9790</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #858E87; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#858E87</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #6B726D; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#6B726D</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #2E312F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2E312F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">accent1</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(51.65% 0.0532 273.84)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FCFCFE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FCFCFE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #F7F8FC; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F7F8FC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #F0F2FA; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F0F2FA</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #E9ECF7; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E9ECF7</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #E1E4F2; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E1E4F2</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #D7DCEC; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#D7DCEC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #CBD0E4; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#CBD0E4</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #B7BED8; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#B7BED8</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #5E6687; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#5E6687</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #555D7F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#555D7F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #686F8B; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#686F8B</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #2C303D; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2C303D</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">accent2</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(66.72% 0.0642 150.45)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FBFDFB; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FBFDFB</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #F5FAF6; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F5FAF6</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #EDF5EE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#EDF5EE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #E4F0E6; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E4F0E6</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #DBEADD; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#DBEADD</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #D0E2D3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#D0E2D3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #C2D8C5; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#C2D8C5</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #ABC8B1; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#ABC8B1</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #78A080; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#78A080</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #6E9776; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#6E9776</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #597960; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#597960</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #263529; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#263529</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">danger</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(58.02% 0.0894 27.33)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FFFCFB; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FFFCFB</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #FEF6F5; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FEF6F5</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #FEEEEC; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FEEEEC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #FDE6E3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FDE6E3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #FADDD9; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FADDD9</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #F6D3CE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F6D3CE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #EFC6C0; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#EFC6C0</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #E5B1A9; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E5B1A9</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #A9655D; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#A9655D</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #A15B53; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#A15B53</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #985F58; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#985F58</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #432825; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#432825</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">warning</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(78.06% 0.0901 78.69)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FEFCF9; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FEFCF9</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #FCF8F2; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FCF8F2</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #F9F1E5; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F9F1E5</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #F6EBDA; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F6EBDA</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #F1E3CD; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F1E3CD</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #EBDAC0; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#EBDAC0</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #E3CEAE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E3CEAE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #D6BB92; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#D6BB92</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #D7B174; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#D7B174</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #CFA767; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#CFA767</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #886B39; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#886B39</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #3B2E18; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#3B2E18</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">success</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(57.98% 0.0896 148.41)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FBFDFB; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FBFDFB</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #F5FAF5; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F5FAF5</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #EBF6EC; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#EBF6EC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #E1F1E3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E1F1E3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #D7EBD9; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#D7EBD9</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #CCE4CE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#CCE4CE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #BCDAC0; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#BCDAC0</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #A4CBA9; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#A4CBA9</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #53895C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#53895C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #488152; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#488152</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #507D57; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#507D57</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #223625; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#223625</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">info</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(58.07% 0.0897 244.37)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #FBFDFF; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FBFDFF</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #F4F9FE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#F4F9FE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #E9F4FE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E9F4FE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #DFEEFC; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#DFEEFC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #D4E8F9; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#D4E8F9</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #C7E0F5; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#C7E0F5</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #B7D5EF; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#B7D5EF</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #9EC4E6; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#9EC4E6</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #4980AC; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#4980AC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #3D77A5; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#3D77A5</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #48759A; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#48759A</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #1E3343; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#1E3343</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="block">
+    <div class="block__title"><h2>Contrast, light</h2><span class="eyebrow">measured, not assumed</span></div>
+    <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+      <thead>
+        <tr class="eyebrow" style="text-align: left;">
+          <th style="padding-bottom: 6px; font-weight: 400;">Pairing</th>
+          <th style="padding-bottom: 6px; font-weight: 400;">Values</th>
+          <th style="padding-bottom: 6px; font-weight: 400; text-align: right;">WCAG 2.2</th>
+          <th style="padding-bottom: 6px; font-weight: 400; text-align: right;">APCA</th>
+          <th style="padding-bottom: 6px; font-weight: 400; text-align: right;">Required</th>
+        </tr>
+      </thead>
+      <tbody style="color: #2E312F;">
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Body text on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #2E312F; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #2E312F on #FCFDFC
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">12.90:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc 98.12</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Secondary text on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #6B726D; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #6B726D on #FCFDFC
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">4.84:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc 72.85</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Body text on a card</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #2E312F; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #2E312F on #FCFDFC
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">12.90:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc 98.12</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Brand text on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #587A5F; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #587A5F on #FCFDFC
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">4.72:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc 71.98</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Focus ring on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #41684A; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #41684A on #FCFDFC
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">6.23:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc 80.17</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Label on the brand fill (normal text)</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #FFFFFF; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #FFFFFF on #41684A
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">6.36:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc -86.65</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="block">
+    <div class="block__title">
+      <h2>Dark</h2>
+      <span class="eyebrow">12 steps per family</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">brand</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(47.92% 0.0655 150.63)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #101210; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#101210</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #171A17; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#171A17</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #1E241F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#1E241F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #242D25; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#242D25</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #2A362C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2A362C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #314034; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#314034</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #3D5041; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#3D5041</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #506A55; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#506A55</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #41684A; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#41684A</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #487151; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#487151</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #9BBFA2; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#9BBFA2</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #E0F3E3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E0F3E3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">neutral</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(66.72% 0.014 150.45)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #111111; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#111111</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #181919; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#181919</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #212322; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#212322</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #292B29; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#292B29</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #303331; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#303331</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #393C3A; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#393C3A</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #484C48; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#484C48</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #5F645F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#5F645F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #8F9790; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#8F9790</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #97A099; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#97A099</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #AFB6B0; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#AFB6B0</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #EAEEEB; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#EAEEEB</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">accent1</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(51.65% 0.0532 273.84)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #111112; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#111112</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #18191B; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#18191B</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #212228; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#212228</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #282A32; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#282A32</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #2F323C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2F323C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #373B48; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#373B48</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #454A5A; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#454A5A</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #5B6178; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#5B6178</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #5E6687; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#5E6687</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #666F92; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#666F92</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #ABB3D2; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#ABB3D2</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #E7ECFD; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E7ECFD</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">accent2</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(66.72% 0.0642 150.45)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #101210; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#101210</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #171A17; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#171A17</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #1E241F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#1E241F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #242D26; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#242D26</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #2A362C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2A362C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #314034; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#314034</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #3D5041; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#3D5041</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #506A55; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#506A55</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #78A080; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#78A080</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #7FAA88; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#7FAA88</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #9CBFA2; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#9CBFA2</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #E0F3E3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E0F3E3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">danger</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(58.02% 0.0894 27.33)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #131010; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#131010</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #1D1717; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#1D1717</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #2A1F1E; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2A1F1E</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #362523; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#362523</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #412C29; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#412C29</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #4E3430; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#4E3430</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #62403C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#62403C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #82554F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#82554F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #A9655D; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#A9655D</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #B56D64; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#B56D64</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #E1A29A; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E1A29A</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #FFE6E3; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FFE6E3</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">warning</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(78.06% 0.0901 78.69)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #12110F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#12110F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #1B1914; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#1B1914</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #272119; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#272119</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #31291C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#31291C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #3B301F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#3B301F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #473923; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#473923</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #59472B; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#59472B</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #765E37; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#765E37</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #D7B174; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#D7B174</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #E2BA79; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#E2BA79</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #CFAF7C; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#CFAF7C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #FCEACF; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#FCEACF</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">success</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(57.98% 0.0896 148.41)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #101210; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#101210</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #161A17; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#161A17</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #1D251E; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#1D251E</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #222E23; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#222E23</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #273729; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#273729</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #2D4130; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2D4130</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #38523C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#38523C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #496C4E; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#496C4E</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #53895C; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#53895C</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #599363; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#599363</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #93C299; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#93C299</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #DBF5DE; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#DBF5DE</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+  <div class="block" style="gap: 8px;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span class="eyebrow">info</span>
+      <span class="mono" style="font-size: 11px; opacity: 0.6;">oklch(58.07% 0.0897 244.37)</span>
+    </div>
+    <div class="grid" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+      <div style="background: #101113; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">1</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#101113</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">app-background</span>
+      </div>
+      <div style="background: #16191D; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">2</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#16191D</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">subtle-background</span>
+      </div>
+      <div style="background: #1B232A; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">3</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#1B232A</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background</span>
+      </div>
+      <div style="background: #202C36; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">4</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#202C36</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-hover</span>
+      </div>
+      <div style="background: #243441; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">5</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#243441</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">ui-background-active</span>
+      </div>
+      <div style="background: #2A3E4F; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">6</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#2A3E4F</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-subtle</span>
+      </div>
+      <div style="background: #334D63; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">7</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#334D63</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border</span>
+      </div>
+      <div style="background: #436684; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">8</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#436684</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">border-hover</span>
+      </div>
+      <div style="background: #4980AC; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">9</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#4980AC</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid</span>
+      </div>
+      <div style="background: #4F89B8; color: #FFFFFF; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">10</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#4F89B8</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">solid-hover</span>
+      </div>
+      <div style="background: #8BBAE2; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">11</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#8BBAE2</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-low</span>
+      </div>
+      <div style="background: #DEEFFF; color: #000000; padding: 14px 10px 12px; display: flex; flex-direction: column; gap: 2px; min-height: 92px;">
+        <span class="mono" style="font-size: 10px; opacity: 0.72;">12</span>
+        <span class="mono" style="font-size: 11px; margin-top: auto;">#DEEFFF</span>
+        <span style="font-size: 9px; opacity: 0.72; line-height: 1.25;">text-high</span>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="block">
+    <div class="block__title"><h2>Contrast, dark</h2><span class="eyebrow">measured, not assumed</span></div>
+    <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+      <thead>
+        <tr class="eyebrow" style="text-align: left;">
+          <th style="padding-bottom: 6px; font-weight: 400;">Pairing</th>
+          <th style="padding-bottom: 6px; font-weight: 400;">Values</th>
+          <th style="padding-bottom: 6px; font-weight: 400; text-align: right;">WCAG 2.2</th>
+          <th style="padding-bottom: 6px; font-weight: 400; text-align: right;">APCA</th>
+          <th style="padding-bottom: 6px; font-weight: 400; text-align: right;">Required</th>
+        </tr>
+      </thead>
+      <tbody style="color: #2E312F;">
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Body text on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #EAEEEB; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #EAEEEB on #111111
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">16.12:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc -95.58</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Secondary text on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #AFB6B0; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #AFB6B0 on #111111
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">9.12:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc -61.34</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Body text on a card</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #EAEEEB; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #EAEEEB on #181919
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">15.04:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc -94.88</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Brand text on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #9BBFA2; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #9BBFA2 on #111111
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">9.32:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc -62.49</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Focus ring on page</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #487151; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #487151 on #111111
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">3.38:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc -23.4</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+        <tr>
+          <td style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">Label on the brand fill (normal text)</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA;">
+            <span style="display: inline-block; width: 11px; height: 11px; background: #FFFFFF; border: 1px solid #DADDDA; vertical-align: -1px;"></span>
+            #FFFFFF on #41684A
+          </td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">6.36:1</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right;">Lc -86.65</td>
+          <td class="mono" style="padding: 7px 0; border-bottom: 1px solid #DADDDA; text-align: right; color: #507D57;">PASS</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="block">
+    <div class="block__title"><h2>Colour vision</h2><span class="eyebrow">simulated</span></div>
+    <p class="block__note">Roughly one in twelve men has a colour vision deficiency. Success and danger sit close together for the red-green types, which is exactly why status must never be carried by colour alone: every status needs an icon and a word as well.</p>
+    <div style="display: flex; flex-direction: column; gap: 6px;">
+      <div style="display: flex; gap: 14px;">
+        <span style="width: 110px; flex: none;"></span>
+        <div class="grid" style="grid-template-columns: repeat(5, minmax(0, 1fr)); flex: 1; gap: 2px;">
+        <span class="eyebrow" style="text-align: center;">brand</span>
+        <span class="eyebrow" style="text-align: center;">danger</span>
+        <span class="eyebrow" style="text-align: center;">warning</span>
+        <span class="eyebrow" style="text-align: center;">success</span>
+        <span class="eyebrow" style="text-align: center;">info</span>
+        </div>
+      </div>
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <span class="eyebrow" style="width: 110px; flex: none;">as designed</span>
+      <div class="grid" style="grid-template-columns: repeat(5, minmax(0, 1fr)); flex: 1; gap: 2px;">
+        <div style="background: #41684A; height: 40px;"></div>
+        <div style="background: #A9655D; height: 40px;"></div>
+        <div style="background: #D7B174; height: 40px;"></div>
+        <div style="background: #53895C; height: 40px;"></div>
+        <div style="background: #4980AC; height: 40px;"></div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <span class="eyebrow" style="width: 110px; flex: none;">protanopia</span>
+      <div class="grid" style="grid-template-columns: repeat(5, minmax(0, 1fr)); flex: 1; gap: 2px;">
+        <div style="background: #686248; height: 40px;"></div>
+        <div style="background: #746F5C; height: 40px;"></div>
+        <div style="background: #C1B16F; height: 40px;"></div>
+        <div style="background: #8A8059; height: 40px;"></div>
+        <div style="background: #6D81AE; height: 40px;"></div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <span class="eyebrow" style="width: 110px; flex: none;">deuteranopia</span>
+      <div class="grid" style="grid-template-columns: repeat(5, minmax(0, 1fr)); flex: 1; gap: 2px;">
+        <div style="background: #625E4C; height: 40px;"></div>
+        <div style="background: #857D5C; height: 40px;"></div>
+        <div style="background: #CABB76; height: 40px;"></div>
+        <div style="background: #827B5F; height: 40px;"></div>
+        <div style="background: #6077AB; height: 40px;"></div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <span class="eyebrow" style="width: 110px; flex: none;">tritanopia</span>
+      <div class="grid" style="grid-template-columns: repeat(5, minmax(0, 1fr)); flex: 1; gap: 2px;">
+        <div style="background: #3B6760; height: 40px;"></div>
+        <div style="background: #B65C63; height: 40px;"></div>
+        <div style="background: #E6A6A2; height: 40px;"></div>
+        <div style="background: #4B877D; height: 40px;"></div>
+        <div style="background: #008B8F; height: 40px;"></div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+
+}
+</script>
+</body>
+</html>

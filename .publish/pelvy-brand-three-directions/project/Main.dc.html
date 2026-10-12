@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap">
+  <style>
+    /*
+      Territory round, contents page. Set in direction A's type because A is the working choice;
+      the three sketches beside it each use their own.
+    */
+    :root {
+      --green: #2F6B4E;
+      --mint: #E6F3EA;
+      --paper: #FFFFFF;
+      --ink: #16241C;
+      --muted: #4C5F55;
+      --rule: #C6D7CA;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .m { width: 900px; min-height: 1100px; background: var(--paper); color: var(--ink); font-family: 'Atkinson Hyperlegible Next', 'Verdana', sans-serif; padding: 48px; display: flex; flex-direction: column; gap: 30px; }
+    .m h1, .m h2, .m p { margin: 0; }
+    .item { display: flex; gap: 24px; border-top: 1px solid var(--rule); padding-top: 16px; }
+    .item b { font-size: 22px; width: 250px; flex: none; }
+    .item p { font-size: 17px; line-height: 1.45; }
+  </style>
+</helmet>
+<div class="m">
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <p style="font-size: 15px; color: var(--muted);">Pelvy brand, territory round, 12 October 2026</p>
+    <h1 style="font-size: 52px; line-height: 1.02; font-weight: 800; letter-spacing: -0.02em; max-width: 700px;">Three directions for a modernised Pelvy</h1>
+  </div>
+
+  <div style="display: flex; gap: 32px; background: var(--mint); padding: 28px; align-items: center;">
+    <div style="background: var(--paper); padding: 22px 26px; flex: none;">
+      <img src="pelvy-logo-2024.png" alt="The current Pelvy logo, as it appears on pelvy.app" style="display: block; width: 228px; height: 81px;">
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <p style="font-size: 19px; font-weight: 800;">Where the brand is today</p>
+      <p style="font-size: 16px; line-height: 1.45;">The logo exists only as a 228 pixel image. The website, the app and the store listing use three different greens and two type systems. White text on the site's sage buttons measures 2.97 to 1, and the accessibility standard asks for 4.5.</p>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div class="item"><b>A. Clinic-grade</b><p>Health infrastructure. One deep green, one typeface drawn for legibility, the count ring as the repeated device.</p></div>
+    <div class="item"><b>B. The good physio</b><p>The kind clinician in app form. Today's sage and serif headings, redrawn, with one-line figure drawings.</p></div>
+    <div class="item"><b>C. The count</b><p>Built on counting. Oversized numerals, hairline rules, one grotesque and almost no colour.</p></div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 12px; border-top: 1px solid var(--rule); padding-top: 22px;">
+    <h2 style="font-size: 30px; font-weight: 800; letter-spacing: -0.01em;">Which way should Pelvy travel?</h2>
+    <p style="font-size: 17px; line-height: 1.5; max-width: 700px;">All three keep the name, a green from the same family and the figure that makes a P. They differ in who they reassure first: a health service, a patient at home, or someone who has seen every other pelvic health app.</p>
+  </div>
+
+  <div style="background: var(--green); color: var(--paper); padding: 28px; display: flex; flex-direction: column; gap: 10px;">
+    <p style="font-size: 19px; font-weight: 800;">Chosen: B, The good physio</p>
+    <p style="font-size: 16px; line-height: 1.5; max-width: 720px;">Jake picked B on 12 October 2026. One change came with it: the one-line figures are dropped, because a drawing cannot show a pelvic floor exercise and would only decorate. The signature is now the clinician's own note and the count. The identity, voice and proof are built on B, and A and C stay here for the record.</p>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":900,"height":1100}}'>
+class Component extends DCLogic {
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,4906 @@
+{
+  "meta": {
+    "builtBy": "brandi",
+    "spaceBase": 4,
+    "shape": "rounded",
+    "shapeNote": "Friendly, consumer, approachable.",
+    "motion": "fluid",
+    "motionNote": "The default. Motion explains what changed.",
+    "harmony": "explicit"
+  },
+  "palettes": {
+    "brand": {
+      "name": "brand",
+      "seed": "#41684A",
+      "light": {
+        "name": "brand",
+        "mode": "light",
+        "seed": "#41684A",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FBFDFB",
+            "oklch": "oklch(99.25% 0.0032 150.63)",
+            "L": 0.9925,
+            "C": 0.0032,
+            "h": 150.63
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#F5FAF6",
+            "oklch": "oklch(98% 0.0065 150.63)",
+            "L": 0.98,
+            "C": 0.0065,
+            "h": 150.63
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#EDF5EE",
+            "oklch": "oklch(96.2% 0.0131 150.63)",
+            "L": 0.962,
+            "C": 0.0131,
+            "h": 150.63
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#E4F0E6",
+            "oklch": "oklch(94.3% 0.0183 150.63)",
+            "L": 0.943,
+            "C": 0.0183,
+            "h": 150.63
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#DAEADD",
+            "oklch": "oklch(92.1% 0.0235 150.63)",
+            "L": 0.921,
+            "C": 0.0235,
+            "h": 150.63
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#CFE2D3",
+            "oklch": "oklch(89.5% 0.0288 150.63)",
+            "L": 0.895,
+            "C": 0.0288,
+            "h": 150.63
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#C1D8C5",
+            "oklch": "oklch(86% 0.0353 150.63)",
+            "L": 0.86,
+            "C": 0.0353,
+            "h": 150.63
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#ABC8B0",
+            "oklch": "oklch(80.5% 0.0458 150.63)",
+            "L": 0.805,
+            "C": 0.0458,
+            "h": 150.63
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#41684A",
+            "oklch": "oklch(47.92% 0.0655 150.63)",
+            "L": 0.4792,
+            "C": 0.0655,
+            "h": 150.63
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#376041",
+            "oklch": "oklch(44.92% 0.0688 150.63)",
+            "L": 0.4492,
+            "C": 0.0688,
+            "h": 150.63
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#587A5F",
+            "oklch": "oklch(54.5% 0.0557 150.63)",
+            "L": 0.545,
+            "C": 0.0557,
+            "h": 150.63
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#263529",
+            "oklch": "oklch(31% 0.0294 150.63)",
+            "L": 0.31,
+            "C": 0.0294,
+            "h": 150.63
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 6.36,
+          "apca": -86.65,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#41684A",
+          "text": "#FFFFFF",
+          "lc": -86.65,
+          "moved": 0,
+          "adjusted": false
+        },
+        "solidStrongHover": {
+          "hex": "#395F42",
+          "text": "#FFFFFF",
+          "lc": -90.04
+        },
+        "focusRing": {
+          "hex": "#41684A",
+          "step": 9,
+          "ratio": 6.22
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#263529",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 12.65,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 97.58,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#587A5F",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 4.71,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 71.81,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#ABC8B0",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 1.77,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 32.07,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#41684A",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 6.22,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 80,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#41684A",
+            "wcag": {
+              "ratio": 6.36,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -86.65,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          },
+          "focusOnApp": {
+            "fg": "#41684A",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 6.22,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 80,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          }
+        },
+        "warnings": []
+      },
+      "dark": {
+        "name": "brand",
+        "mode": "dark",
+        "seed": "#41684A",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#101210",
+            "oklch": "oklch(17.8% 0.0032 150.63)",
+            "L": 0.178,
+            "C": 0.0032,
+            "h": 150.63
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#171A17",
+            "oklch": "oklch(21.3% 0.0065 150.63)",
+            "L": 0.213,
+            "C": 0.0065,
+            "h": 150.63
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#1E241F",
+            "oklch": "oklch(25.3% 0.0131 150.63)",
+            "L": 0.253,
+            "C": 0.0131,
+            "h": 150.63
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#242D25",
+            "oklch": "oklch(28.5% 0.0183 150.63)",
+            "L": 0.285,
+            "C": 0.0183,
+            "h": 150.63
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#2A362C",
+            "oklch": "oklch(31.7% 0.0235 150.63)",
+            "L": 0.317,
+            "C": 0.0235,
+            "h": 150.63
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#314034",
+            "oklch": "oklch(35.4% 0.0288 150.63)",
+            "L": 0.354,
+            "C": 0.0288,
+            "h": 150.63
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#3D5041",
+            "oklch": "oklch(41% 0.0353 150.63)",
+            "L": 0.41,
+            "C": 0.0353,
+            "h": 150.63
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#506A55",
+            "oklch": "oklch(49.7% 0.0458 150.63)",
+            "L": 0.497,
+            "C": 0.0458,
+            "h": 150.63
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#41684A",
+            "oklch": "oklch(47.92% 0.0655 150.63)",
+            "L": 0.4792,
+            "C": 0.0655,
+            "h": 150.63
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#487151",
+            "oklch": "oklch(50.92% 0.0688 150.63)",
+            "L": 0.5092,
+            "C": 0.0688,
+            "h": 150.63
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#9BBFA2",
+            "oklch": "oklch(77% 0.0557 150.63)",
+            "L": 0.77,
+            "C": 0.0557,
+            "h": 150.63
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#E0F3E3",
+            "oklch": "oklch(94.5% 0.0294 150.63)",
+            "L": 0.945,
+            "C": 0.0294,
+            "h": 150.63
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 6.36,
+          "apca": -86.65,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#41684A",
+          "text": "#FFFFFF",
+          "lc": -86.65,
+          "moved": 0,
+          "adjusted": false
+        },
+        "solidStrongHover": {
+          "hex": "#497152",
+          "text": "#FFFFFF",
+          "lc": -83.08
+        },
+        "focusRing": {
+          "hex": "#487151",
+          "step": 10,
+          "ratio": 3.37
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#E0F3E3",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 16.22,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -96.23,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#9BBFA2",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 9.29,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -62.46,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#506A55",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 3.17,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -21.59,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#41684A",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 2.96,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -19.8,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "fail"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#41684A",
+            "wcag": {
+              "ratio": 6.36,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -86.65,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          },
+          "focusOnApp": {
+            "fg": "#487151",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 3.37,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -23.37,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": [
+          "In dark mode the brand colour (#41684A) has only 2.96:1 against the page background (#101210). It cannot carry meaning on its own here. Pair it with a shape, a label, or step 10 for anything a reader must notice."
+        ]
+      }
+    },
+    "neutral": {
+      "name": "neutral",
+      "seed": "#8F9790",
+      "light": {
+        "name": "neutral",
+        "mode": "light",
+        "seed": "#8F9790",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FCFDFC",
+            "oklch": "oklch(99.25% 0.0007 150.45)",
+            "L": 0.9925,
+            "C": 0.0007,
+            "h": 150.45
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#F8F9F8",
+            "oklch": "oklch(98% 0.0014 150.45)",
+            "L": 0.98,
+            "C": 0.0014,
+            "h": 150.45
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#F1F3F1",
+            "oklch": "oklch(96.2% 0.0028 150.45)",
+            "L": 0.962,
+            "C": 0.0028,
+            "h": 150.45
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#EAEDEB",
+            "oklch": "oklch(94.3% 0.0039 150.45)",
+            "L": 0.943,
+            "C": 0.0039,
+            "h": 150.45
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#E3E6E3",
+            "oklch": "oklch(92.1% 0.005 150.45)",
+            "L": 0.921,
+            "C": 0.005,
+            "h": 150.45
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#DADDDA",
+            "oklch": "oklch(89.5% 0.0061 150.45)",
+            "L": 0.895,
+            "C": 0.0061,
+            "h": 150.45
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#CED2CE",
+            "oklch": "oklch(86% 0.0075 150.45)",
+            "L": 0.86,
+            "C": 0.0075,
+            "h": 150.45
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#BBC1BC",
+            "oklch": "oklch(80.5% 0.0098 150.45)",
+            "L": 0.805,
+            "C": 0.0098,
+            "h": 150.45
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#8F9790",
+            "oklch": "oklch(66.72% 0.014 150.45)",
+            "L": 0.6672,
+            "C": 0.014,
+            "h": 150.45
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#858E87",
+            "oklch": "oklch(63.72% 0.0147 150.45)",
+            "L": 0.6372,
+            "C": 0.0147,
+            "h": 150.45
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#6B726D",
+            "oklch": "oklch(54.5% 0.0118 150.45)",
+            "L": 0.545,
+            "C": 0.0118,
+            "h": 150.45
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#2E312F",
+            "oklch": "oklch(31% 0.0063 150.45)",
+            "L": 0.31,
+            "C": 0.0063,
+            "h": 150.45
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 3,
+          "apca": -62.07,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#747C76",
+          "text": "#FFFFFF",
+          "lc": -75.24,
+          "moved": 0.0881,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#6B736D",
+          "text": "#FFFFFF",
+          "lc": -79.3
+        },
+        "focusRing": {
+          "hex": "#858E87",
+          "step": 10,
+          "ratio": 3.31
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#2E312F",
+            "bg": "#FCFDFC",
+            "wcag": {
+              "ratio": 12.9,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 98.12,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#6B726D",
+            "bg": "#FCFDFC",
+            "wcag": {
+              "ratio": 4.84,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 72.85,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#BBC1BC",
+            "bg": "#FCFDFC",
+            "wcag": {
+              "ratio": 1.8,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 32.94,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#8F9790",
+            "bg": "#FCFDFC",
+            "wcag": {
+              "ratio": 2.94,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 55.34,
+              "tier": "Lc 45+",
+              "use": "large headings only, 36px/400+"
+            },
+            "verdict": "fail"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#8F9790",
+            "wcag": {
+              "ratio": 3,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -62.07,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#858E87",
+            "bg": "#FCFDFC",
+            "wcag": {
+              "ratio": 3.31,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 59.9,
+              "tier": "Lc 45+",
+              "use": "large headings only, 36px/400+"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": [
+          "In light mode the brand colour (#8F9790) has only 2.94:1 against the page background (#FCFDFC). It cannot carry meaning on its own here. Pair it with a shape, a label, or step 10 for anything a reader must notice."
+        ]
+      },
+      "dark": {
+        "name": "neutral",
+        "mode": "dark",
+        "seed": "#8F9790",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#111111",
+            "oklch": "oklch(17.8% 0.0007 150.45)",
+            "L": 0.178,
+            "C": 0.0007,
+            "h": 150.45
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#181919",
+            "oklch": "oklch(21.3% 0.0014 150.45)",
+            "L": 0.213,
+            "C": 0.0014,
+            "h": 150.45
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#212322",
+            "oklch": "oklch(25.3% 0.0028 150.45)",
+            "L": 0.253,
+            "C": 0.0028,
+            "h": 150.45
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#292B29",
+            "oklch": "oklch(28.5% 0.0039 150.45)",
+            "L": 0.285,
+            "C": 0.0039,
+            "h": 150.45
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#303331",
+            "oklch": "oklch(31.7% 0.005 150.45)",
+            "L": 0.317,
+            "C": 0.005,
+            "h": 150.45
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#393C3A",
+            "oklch": "oklch(35.4% 0.0061 150.45)",
+            "L": 0.354,
+            "C": 0.0061,
+            "h": 150.45
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#484C48",
+            "oklch": "oklch(41% 0.0075 150.45)",
+            "L": 0.41,
+            "C": 0.0075,
+            "h": 150.45
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#5F645F",
+            "oklch": "oklch(49.7% 0.0098 150.45)",
+            "L": 0.497,
+            "C": 0.0098,
+            "h": 150.45
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#8F9790",
+            "oklch": "oklch(66.72% 0.014 150.45)",
+            "L": 0.6672,
+            "C": 0.014,
+            "h": 150.45
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#97A099",
+            "oklch": "oklch(69.72% 0.0147 150.45)",
+            "L": 0.6972,
+            "C": 0.0147,
+            "h": 150.45
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#AFB6B0",
+            "oklch": "oklch(77% 0.0118 150.45)",
+            "L": 0.77,
+            "C": 0.0118,
+            "h": 150.45
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#EAEEEB",
+            "oklch": "oklch(94.5% 0.0063 150.45)",
+            "L": 0.945,
+            "C": 0.0063,
+            "h": 150.45
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 3,
+          "apca": -62.07,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#747C76",
+          "text": "#FFFFFF",
+          "lc": -75.24,
+          "moved": 0.0881,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#7D857F",
+          "text": "#FFFFFF",
+          "lc": -71
+        },
+        "focusRing": {
+          "hex": "#8F9790",
+          "step": 9,
+          "ratio": 6.29
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#EAEEEB",
+            "bg": "#111111",
+            "wcag": {
+              "ratio": 16.12,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -95.58,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#AFB6B0",
+            "bg": "#111111",
+            "wcag": {
+              "ratio": 9.12,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -61.34,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#5F645F",
+            "bg": "#111111",
+            "wcag": {
+              "ratio": 3.12,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -21.11,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#8F9790",
+            "bg": "#111111",
+            "wcag": {
+              "ratio": 6.29,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -44.55,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "AA"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#8F9790",
+            "wcag": {
+              "ratio": 3,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -62.07,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#8F9790",
+            "bg": "#111111",
+            "wcag": {
+              "ratio": 6.29,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -44.55,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "AA"
+          }
+        },
+        "warnings": []
+      }
+    },
+    "accent1": {
+      "name": "accent1",
+      "seed": "#5E6687",
+      "light": {
+        "name": "accent1",
+        "mode": "light",
+        "seed": "#5E6687",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FCFCFE",
+            "oklch": "oklch(99.25% 0.0026 273.84)",
+            "L": 0.9925,
+            "C": 0.0026,
+            "h": 273.84
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#F7F8FC",
+            "oklch": "oklch(98% 0.0053 273.84)",
+            "L": 0.98,
+            "C": 0.0053,
+            "h": 273.84
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#F0F2FA",
+            "oklch": "oklch(96.2% 0.0106 273.84)",
+            "L": 0.962,
+            "C": 0.0106,
+            "h": 273.84
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#E9ECF7",
+            "oklch": "oklch(94.3% 0.0149 273.84)",
+            "L": 0.943,
+            "C": 0.0149,
+            "h": 273.84
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#E1E4F2",
+            "oklch": "oklch(92.1% 0.0191 273.84)",
+            "L": 0.921,
+            "C": 0.0191,
+            "h": 273.84
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#D7DCEC",
+            "oklch": "oklch(89.5% 0.0234 273.84)",
+            "L": 0.895,
+            "C": 0.0234,
+            "h": 273.84
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#CBD0E4",
+            "oklch": "oklch(86% 0.0287 273.84)",
+            "L": 0.86,
+            "C": 0.0287,
+            "h": 273.84
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#B7BED8",
+            "oklch": "oklch(80.5% 0.0372 273.84)",
+            "L": 0.805,
+            "C": 0.0372,
+            "h": 273.84
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#5E6687",
+            "oklch": "oklch(51.65% 0.0532 273.84)",
+            "L": 0.5165,
+            "C": 0.0532,
+            "h": 273.84
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#555D7F",
+            "oklch": "oklch(48.65% 0.0559 273.84)",
+            "L": 0.4865,
+            "C": 0.0559,
+            "h": 273.84
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#686F8B",
+            "oklch": "oklch(54.5% 0.0452 273.84)",
+            "L": 0.545,
+            "C": 0.0452,
+            "h": 273.84
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#2C303D",
+            "oklch": "oklch(31% 0.0239 273.84)",
+            "L": 0.31,
+            "C": 0.0239,
+            "h": 273.84
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 5.64,
+          "apca": -83.45,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#5E6687",
+          "text": "#FFFFFF",
+          "lc": -83.45,
+          "moved": 0,
+          "adjusted": false
+        },
+        "solidStrongHover": {
+          "hex": "#565D7E",
+          "text": "#FFFFFF",
+          "lc": -87.04
+        },
+        "focusRing": {
+          "hex": "#5E6687",
+          "step": 9,
+          "ratio": 5.5
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#2C303D",
+            "bg": "#FCFCFE",
+            "wcag": {
+              "ratio": 12.83,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 97.75,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#686F8B",
+            "bg": "#FCFCFE",
+            "wcag": {
+              "ratio": 4.84,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 72.62,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#B7BED8",
+            "bg": "#FCFCFE",
+            "wcag": {
+              "ratio": 1.8,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 33.03,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#5E6687",
+            "bg": "#FCFCFE",
+            "wcag": {
+              "ratio": 5.5,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 76.46,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#5E6687",
+            "wcag": {
+              "ratio": 5.64,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -83.45,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          },
+          "focusOnApp": {
+            "fg": "#5E6687",
+            "bg": "#FCFCFE",
+            "wcag": {
+              "ratio": 5.5,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 76.46,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          }
+        },
+        "warnings": []
+      },
+      "dark": {
+        "name": "accent1",
+        "mode": "dark",
+        "seed": "#5E6687",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#111112",
+            "oklch": "oklch(17.8% 0.0026 273.84)",
+            "L": 0.178,
+            "C": 0.0026,
+            "h": 273.84
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#18191B",
+            "oklch": "oklch(21.3% 0.0053 273.84)",
+            "L": 0.213,
+            "C": 0.0053,
+            "h": 273.84
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#212228",
+            "oklch": "oklch(25.3% 0.0106 273.84)",
+            "L": 0.253,
+            "C": 0.0106,
+            "h": 273.84
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#282A32",
+            "oklch": "oklch(28.5% 0.0149 273.84)",
+            "L": 0.285,
+            "C": 0.0149,
+            "h": 273.84
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#2F323C",
+            "oklch": "oklch(31.7% 0.0191 273.84)",
+            "L": 0.317,
+            "C": 0.0191,
+            "h": 273.84
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#373B48",
+            "oklch": "oklch(35.4% 0.0234 273.84)",
+            "L": 0.354,
+            "C": 0.0234,
+            "h": 273.84
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#454A5A",
+            "oklch": "oklch(41% 0.0287 273.84)",
+            "L": 0.41,
+            "C": 0.0287,
+            "h": 273.84
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#5B6178",
+            "oklch": "oklch(49.7% 0.0372 273.84)",
+            "L": 0.497,
+            "C": 0.0372,
+            "h": 273.84
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#5E6687",
+            "oklch": "oklch(51.65% 0.0532 273.84)",
+            "L": 0.5165,
+            "C": 0.0532,
+            "h": 273.84
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#666F92",
+            "oklch": "oklch(54.65% 0.0559 273.84)",
+            "L": 0.5465,
+            "C": 0.0559,
+            "h": 273.84
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#ABB3D2",
+            "oklch": "oklch(77% 0.0452 273.84)",
+            "L": 0.77,
+            "C": 0.0452,
+            "h": 273.84
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#E7ECFD",
+            "oklch": "oklch(94.5% 0.0239 273.84)",
+            "L": 0.945,
+            "C": 0.0239,
+            "h": 273.84
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 5.64,
+          "apca": -83.45,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#5E6687",
+          "text": "#FFFFFF",
+          "lc": -83.45,
+          "moved": 0,
+          "adjusted": false
+        },
+        "solidStrongHover": {
+          "hex": "#666F90",
+          "text": "#FFFFFF",
+          "lc": -79.68
+        },
+        "focusRing": {
+          "hex": "#5E6687",
+          "step": 9,
+          "ratio": 3.35
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#E7ECFD",
+            "bg": "#111112",
+            "wcag": {
+              "ratio": 16.01,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -95.12,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#ABB3D2",
+            "bg": "#111112",
+            "wcag": {
+              "ratio": 9.09,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -61.19,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#5B6178",
+            "bg": "#111112",
+            "wcag": {
+              "ratio": 3.08,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -20.73,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#5E6687",
+            "bg": "#111112",
+            "wcag": {
+              "ratio": 3.35,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -23.1,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#5E6687",
+            "wcag": {
+              "ratio": 5.64,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -83.45,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "AA"
+          },
+          "focusOnApp": {
+            "fg": "#5E6687",
+            "bg": "#111112",
+            "wcag": {
+              "ratio": 3.35,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -23.1,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": []
+      }
+    },
+    "accent2": {
+      "name": "accent2",
+      "seed": "#78A080",
+      "light": {
+        "name": "accent2",
+        "mode": "light",
+        "seed": "#78A080",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FBFDFB",
+            "oklch": "oklch(99.25% 0.0032 150.45)",
+            "L": 0.9925,
+            "C": 0.0032,
+            "h": 150.45
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#F5FAF6",
+            "oklch": "oklch(98% 0.0064 150.45)",
+            "L": 0.98,
+            "C": 0.0064,
+            "h": 150.45
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#EDF5EE",
+            "oklch": "oklch(96.2% 0.0128 150.45)",
+            "L": 0.962,
+            "C": 0.0128,
+            "h": 150.45
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#E4F0E6",
+            "oklch": "oklch(94.3% 0.0179 150.45)",
+            "L": 0.943,
+            "C": 0.0179,
+            "h": 150.45
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#DBEADD",
+            "oklch": "oklch(92.1% 0.0231 150.45)",
+            "L": 0.921,
+            "C": 0.0231,
+            "h": 150.45
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#D0E2D3",
+            "oklch": "oklch(89.5% 0.0282 150.45)",
+            "L": 0.895,
+            "C": 0.0282,
+            "h": 150.45
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#C2D8C5",
+            "oklch": "oklch(86% 0.0347 150.45)",
+            "L": 0.86,
+            "C": 0.0347,
+            "h": 150.45
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#ABC8B1",
+            "oklch": "oklch(80.5% 0.0449 150.45)",
+            "L": 0.805,
+            "C": 0.0449,
+            "h": 150.45
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#78A080",
+            "oklch": "oklch(66.72% 0.0642 150.45)",
+            "L": 0.6672,
+            "C": 0.0642,
+            "h": 150.45
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#6E9776",
+            "oklch": "oklch(63.72% 0.0674 150.45)",
+            "L": 0.6372,
+            "C": 0.0674,
+            "h": 150.45
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#597960",
+            "oklch": "oklch(54.5% 0.0546 150.45)",
+            "L": 0.545,
+            "C": 0.0546,
+            "h": 150.45
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#263529",
+            "oklch": "oklch(31% 0.0289 150.45)",
+            "L": 0.31,
+            "C": 0.0289,
+            "h": 150.45
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 2.94,
+          "apca": -61.2,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#5D8365",
+          "text": "#FFFFFF",
+          "lc": -75.09,
+          "moved": 0.0936,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#547A5C",
+          "text": "#FFFFFF",
+          "lc": -79.11
+        },
+        "focusRing": {
+          "hex": "#6E9776",
+          "step": 10,
+          "ratio": 3.23
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#263529",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 12.65,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 97.58,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#597960",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 4.75,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 72.07,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#ABC8B1",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 1.77,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 32.03,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#78A080",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 2.88,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 54.32,
+              "tier": "Lc 45+",
+              "use": "large headings only, 36px/400+"
+            },
+            "verdict": "fail"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#78A080",
+            "wcag": {
+              "ratio": 2.94,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -61.2,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "fail"
+          },
+          "focusOnApp": {
+            "fg": "#6E9776",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 3.23,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 58.86,
+              "tier": "Lc 45+",
+              "use": "large headings only, 36px/400+"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": [
+          "In light mode the brand colour (#78A080) has only 2.88:1 against the page background (#FBFDFB). It cannot carry meaning on its own here. Pair it with a shape, a label, or step 10 for anything a reader must notice."
+        ]
+      },
+      "dark": {
+        "name": "accent2",
+        "mode": "dark",
+        "seed": "#78A080",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#101210",
+            "oklch": "oklch(17.8% 0.0032 150.45)",
+            "L": 0.178,
+            "C": 0.0032,
+            "h": 150.45
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#171A17",
+            "oklch": "oklch(21.3% 0.0064 150.45)",
+            "L": 0.213,
+            "C": 0.0064,
+            "h": 150.45
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#1E241F",
+            "oklch": "oklch(25.3% 0.0128 150.45)",
+            "L": 0.253,
+            "C": 0.0128,
+            "h": 150.45
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#242D26",
+            "oklch": "oklch(28.5% 0.0179 150.45)",
+            "L": 0.285,
+            "C": 0.0179,
+            "h": 150.45
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#2A362C",
+            "oklch": "oklch(31.7% 0.0231 150.45)",
+            "L": 0.317,
+            "C": 0.0231,
+            "h": 150.45
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#314034",
+            "oklch": "oklch(35.4% 0.0282 150.45)",
+            "L": 0.354,
+            "C": 0.0282,
+            "h": 150.45
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#3D5041",
+            "oklch": "oklch(41% 0.0347 150.45)",
+            "L": 0.41,
+            "C": 0.0347,
+            "h": 150.45
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#506A55",
+            "oklch": "oklch(49.7% 0.0449 150.45)",
+            "L": 0.497,
+            "C": 0.0449,
+            "h": 150.45
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#78A080",
+            "oklch": "oklch(66.72% 0.0642 150.45)",
+            "L": 0.6672,
+            "C": 0.0642,
+            "h": 150.45
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#7FAA88",
+            "oklch": "oklch(69.72% 0.0674 150.45)",
+            "L": 0.6972,
+            "C": 0.0674,
+            "h": 150.45
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#9CBFA2",
+            "oklch": "oklch(77% 0.0546 150.45)",
+            "L": 0.77,
+            "C": 0.0546,
+            "h": 150.45
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#E0F3E3",
+            "oklch": "oklch(94.5% 0.0289 150.45)",
+            "L": 0.945,
+            "C": 0.0289,
+            "h": 150.45
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 2.94,
+          "apca": -61.2,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#5D8365",
+          "text": "#FFFFFF",
+          "lc": -75.09,
+          "moved": 0.0936,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#668C6E",
+          "text": "#FFFFFF",
+          "lc": -70.89
+        },
+        "focusRing": {
+          "hex": "#78A080",
+          "step": 9,
+          "ratio": 6.4
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#E0F3E3",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 16.22,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -96.23,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#9CBFA2",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 9.31,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -62.56,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#506A55",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 3.17,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -21.59,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#78A080",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 6.4,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -45.39,
+              "tier": "Lc 45+",
+              "use": "large headings only, 36px/400+"
+            },
+            "verdict": "AA"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#78A080",
+            "wcag": {
+              "ratio": 2.94,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -61.2,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "fail"
+          },
+          "focusOnApp": {
+            "fg": "#78A080",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 6.4,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -45.39,
+              "tier": "Lc 45+",
+              "use": "large headings only, 36px/400+"
+            },
+            "verdict": "AA"
+          }
+        },
+        "warnings": []
+      }
+    }
+  },
+  "status": {
+    "danger": {
+      "name": "danger",
+      "seed": "#A9655D",
+      "light": {
+        "name": "danger",
+        "mode": "light",
+        "seed": "#A9655D",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FFFCFB",
+            "oklch": "oklch(99.25% 0.0036 27.33)",
+            "L": 0.9925,
+            "C": 0.0036,
+            "h": 27.33
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#FEF6F5",
+            "oklch": "oklch(98% 0.0089 27.33)",
+            "L": 0.98,
+            "C": 0.0089,
+            "h": 27.33
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#FEEEEC",
+            "oklch": "oklch(96.2% 0.0178 27.33)",
+            "L": 0.962,
+            "C": 0.0178,
+            "h": 27.33
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#FDE6E3",
+            "oklch": "oklch(94.3% 0.025 27.33)",
+            "L": 0.943,
+            "C": 0.025,
+            "h": 27.33
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#FADDD9",
+            "oklch": "oklch(92.1% 0.0321 27.33)",
+            "L": 0.921,
+            "C": 0.0321,
+            "h": 27.33
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#F6D3CE",
+            "oklch": "oklch(89.5% 0.0393 27.33)",
+            "L": 0.895,
+            "C": 0.0393,
+            "h": 27.33
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#EFC6C0",
+            "oklch": "oklch(86% 0.0482 27.33)",
+            "L": 0.86,
+            "C": 0.0482,
+            "h": 27.33
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#E5B1A9",
+            "oklch": "oklch(80.5% 0.0626 27.33)",
+            "L": 0.805,
+            "C": 0.0626,
+            "h": 27.33
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#A9655D",
+            "oklch": "oklch(58.02% 0.0894 27.33)",
+            "L": 0.5802,
+            "C": 0.0894,
+            "h": 27.33
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#A15B53",
+            "oklch": "oklch(55.02% 0.0939 27.33)",
+            "L": 0.5502,
+            "C": 0.0939,
+            "h": 27.33
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#985F58",
+            "oklch": "oklch(54.5% 0.076 27.33)",
+            "L": 0.545,
+            "C": 0.076,
+            "h": 27.33
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#432825",
+            "oklch": "oklch(31% 0.0402 27.33)",
+            "L": 0.31,
+            "C": 0.0402,
+            "h": 27.33
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 4.46,
+          "apca": -76.22,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#A9655D",
+          "text": "#FFFFFF",
+          "lc": -76.22,
+          "moved": 0,
+          "adjusted": false
+        },
+        "solidStrongHover": {
+          "hex": "#9F5C55",
+          "text": "#FFFFFF",
+          "lc": -80.2
+        },
+        "focusRing": {
+          "hex": "#A9655D",
+          "step": 9,
+          "ratio": 4.37
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#432825",
+            "bg": "#FFFCFB",
+            "wcag": {
+              "ratio": 13.11,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 98.24,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#985F58",
+            "bg": "#FFFCFB",
+            "wcag": {
+              "ratio": 5,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 73.6,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#E5B1A9",
+            "bg": "#FFFCFB",
+            "wcag": {
+              "ratio": 1.84,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 34.02,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#A9655D",
+            "bg": "#FFFCFB",
+            "wcag": {
+              "ratio": 4.37,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 69.29,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#A9655D",
+            "wcag": {
+              "ratio": 4.46,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -76.22,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#A9655D",
+            "bg": "#FFFCFB",
+            "wcag": {
+              "ratio": 4.37,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 69.29,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": []
+      },
+      "dark": {
+        "name": "danger",
+        "mode": "dark",
+        "seed": "#A9655D",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#131010",
+            "oklch": "oklch(17.8% 0.0044 27.33)",
+            "L": 0.178,
+            "C": 0.0044,
+            "h": 27.33
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#1D1717",
+            "oklch": "oklch(21.3% 0.0089 27.33)",
+            "L": 0.213,
+            "C": 0.0089,
+            "h": 27.33
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#2A1F1E",
+            "oklch": "oklch(25.3% 0.0178 27.33)",
+            "L": 0.253,
+            "C": 0.0178,
+            "h": 27.33
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#362523",
+            "oklch": "oklch(28.5% 0.025 27.33)",
+            "L": 0.285,
+            "C": 0.025,
+            "h": 27.33
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#412C29",
+            "oklch": "oklch(31.7% 0.0321 27.33)",
+            "L": 0.317,
+            "C": 0.0321,
+            "h": 27.33
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#4E3430",
+            "oklch": "oklch(35.4% 0.0393 27.33)",
+            "L": 0.354,
+            "C": 0.0393,
+            "h": 27.33
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#62403C",
+            "oklch": "oklch(41% 0.0482 27.33)",
+            "L": 0.41,
+            "C": 0.0482,
+            "h": 27.33
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#82554F",
+            "oklch": "oklch(49.7% 0.0626 27.33)",
+            "L": 0.497,
+            "C": 0.0626,
+            "h": 27.33
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#A9655D",
+            "oklch": "oklch(58.02% 0.0894 27.33)",
+            "L": 0.5802,
+            "C": 0.0894,
+            "h": 27.33
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#B56D64",
+            "oklch": "oklch(61.02% 0.0939 27.33)",
+            "L": 0.6102,
+            "C": 0.0939,
+            "h": 27.33
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#E1A29A",
+            "oklch": "oklch(77% 0.076 27.33)",
+            "L": 0.77,
+            "C": 0.076,
+            "h": 27.33
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#FFE6E3",
+            "oklch": "oklch(94.5% 0.0275 27.33)",
+            "L": 0.945,
+            "C": 0.0275,
+            "h": 27.33
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 4.46,
+          "apca": -76.22,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#A9655D",
+          "text": "#FFFFFF",
+          "lc": -76.22,
+          "moved": 0,
+          "adjusted": false
+        },
+        "solidStrongHover": {
+          "hex": "#B36E66",
+          "text": "#FFFFFF",
+          "lc": -72.03
+        },
+        "focusRing": {
+          "hex": "#A9655D",
+          "step": 9,
+          "ratio": 4.24
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#FFE6E3",
+            "bg": "#131010",
+            "wcag": {
+              "ratio": 15.94,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -94.62,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#E1A29A",
+            "bg": "#131010",
+            "wcag": {
+              "ratio": 8.87,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -59.95,
+              "tier": "Lc 45+",
+              "use": "large headings only, 36px/400+"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#82554F",
+            "bg": "#131010",
+            "wcag": {
+              "ratio": 3.03,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -20.36,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#A9655D",
+            "bg": "#131010",
+            "wcag": {
+              "ratio": 4.24,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -30.44,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "non-text only"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#A9655D",
+            "wcag": {
+              "ratio": 4.46,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -76.22,
+              "tier": "Lc 75+",
+              "use": "body text at 18px/400 and above"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#A9655D",
+            "bg": "#131010",
+            "wcag": {
+              "ratio": 4.24,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -30.44,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": []
+      }
+    },
+    "warning": {
+      "name": "warning",
+      "seed": "#D7B174",
+      "light": {
+        "name": "warning",
+        "mode": "light",
+        "seed": "#D7B174",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FEFCF9",
+            "oklch": "oklch(99.25% 0.0045 78.69)",
+            "L": 0.9925,
+            "C": 0.0045,
+            "h": 78.69
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#FCF8F2",
+            "oklch": "oklch(98% 0.009 78.69)",
+            "L": 0.98,
+            "C": 0.009,
+            "h": 78.69
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#F9F1E5",
+            "oklch": "oklch(96.2% 0.018 78.69)",
+            "L": 0.962,
+            "C": 0.018,
+            "h": 78.69
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#F6EBDA",
+            "oklch": "oklch(94.3% 0.0252 78.69)",
+            "L": 0.943,
+            "C": 0.0252,
+            "h": 78.69
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#F1E3CD",
+            "oklch": "oklch(92.1% 0.0324 78.69)",
+            "L": 0.921,
+            "C": 0.0324,
+            "h": 78.69
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#EBDAC0",
+            "oklch": "oklch(89.5% 0.0396 78.69)",
+            "L": 0.895,
+            "C": 0.0396,
+            "h": 78.69
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#E3CEAE",
+            "oklch": "oklch(86% 0.0486 78.69)",
+            "L": 0.86,
+            "C": 0.0486,
+            "h": 78.69
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#D6BB92",
+            "oklch": "oklch(80.5% 0.063 78.69)",
+            "L": 0.805,
+            "C": 0.063,
+            "h": 78.69
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#D7B174",
+            "oklch": "oklch(78.06% 0.0901 78.69)",
+            "L": 0.7806,
+            "C": 0.0901,
+            "h": 78.69
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#CFA767",
+            "oklch": "oklch(75.06% 0.0946 78.69)",
+            "L": 0.7506,
+            "C": 0.0946,
+            "h": 78.69
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#886B39",
+            "oklch": "oklch(54.5% 0.0766 78.69)",
+            "L": 0.545,
+            "C": 0.0766,
+            "h": 78.69
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#3B2E18",
+            "oklch": "oklch(31% 0.0405 78.69)",
+            "L": 0.31,
+            "C": 0.0405,
+            "h": 78.69
+          }
+        ],
+        "onSolid": {
+          "color": "#000000",
+          "ratio": 10.43,
+          "apca": 64.92,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#EAC486",
+          "text": "#000000",
+          "lc": 75.15,
+          "moved": 0.0579,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#E0BA7D",
+          "text": "#000000",
+          "lc": 69.73
+        },
+        "focusRing": {
+          "hex": "#886B39",
+          "step": 11,
+          "ratio": 4.87
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#3B2E18",
+            "bg": "#FEFCF9",
+            "wcag": {
+              "ratio": 12.9,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 97.84,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#886B39",
+            "bg": "#FEFCF9",
+            "wcag": {
+              "ratio": 4.87,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 72.76,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#D6BB92",
+            "bg": "#FEFCF9",
+            "wcag": {
+              "ratio": 1.8,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 32.99,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#D7B174",
+            "bg": "#FEFCF9",
+            "wcag": {
+              "ratio": 1.97,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 37.33,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "textOnSolid": {
+            "fg": "#000000",
+            "bg": "#D7B174",
+            "wcag": {
+              "ratio": 10.43,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 64.92,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "focusOnApp": {
+            "fg": "#886B39",
+            "bg": "#FEFCF9",
+            "wcag": {
+              "ratio": 4.87,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 72.76,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          }
+        },
+        "warnings": [
+          "In light mode the brand colour (#D7B174) has only 1.97:1 against the page background (#FEFCF9). It cannot carry meaning on its own here. Pair it with a shape, a label, or step 11 for anything a reader must notice."
+        ]
+      },
+      "dark": {
+        "name": "warning",
+        "mode": "dark",
+        "seed": "#D7B174",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#12110F",
+            "oklch": "oklch(17.8% 0.0045 78.69)",
+            "L": 0.178,
+            "C": 0.0045,
+            "h": 78.69
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#1B1914",
+            "oklch": "oklch(21.3% 0.009 78.69)",
+            "L": 0.213,
+            "C": 0.009,
+            "h": 78.69
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#272119",
+            "oklch": "oklch(25.3% 0.018 78.69)",
+            "L": 0.253,
+            "C": 0.018,
+            "h": 78.69
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#31291C",
+            "oklch": "oklch(28.5% 0.0252 78.69)",
+            "L": 0.285,
+            "C": 0.0252,
+            "h": 78.69
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#3B301F",
+            "oklch": "oklch(31.7% 0.0324 78.69)",
+            "L": 0.317,
+            "C": 0.0324,
+            "h": 78.69
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#473923",
+            "oklch": "oklch(35.4% 0.0396 78.69)",
+            "L": 0.354,
+            "C": 0.0396,
+            "h": 78.69
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#59472B",
+            "oklch": "oklch(41% 0.0486 78.69)",
+            "L": 0.41,
+            "C": 0.0486,
+            "h": 78.69
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#765E37",
+            "oklch": "oklch(49.7% 0.063 78.69)",
+            "L": 0.497,
+            "C": 0.063,
+            "h": 78.69
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#D7B174",
+            "oklch": "oklch(78.06% 0.0901 78.69)",
+            "L": 0.7806,
+            "C": 0.0901,
+            "h": 78.69
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#E2BA79",
+            "oklch": "oklch(81.06% 0.0946 78.69)",
+            "L": 0.8106,
+            "C": 0.0946,
+            "h": 78.69
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#CFAF7C",
+            "oklch": "oklch(77% 0.0766 78.69)",
+            "L": 0.77,
+            "C": 0.0766,
+            "h": 78.69
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#FCEACF",
+            "oklch": "oklch(94.5% 0.0405 78.69)",
+            "L": 0.945,
+            "C": 0.0405,
+            "h": 78.69
+          }
+        ],
+        "onSolid": {
+          "color": "#000000",
+          "ratio": 10.43,
+          "apca": 64.92,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#EAC486",
+          "text": "#000000",
+          "lc": 75.15,
+          "moved": 0.0579,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#F4CE8F",
+          "text": "#000000",
+          "lc": 80.66
+        },
+        "focusRing": {
+          "hex": "#D7B174",
+          "step": 9,
+          "ratio": 9.37
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#FCEACF",
+            "bg": "#12110F",
+            "wcag": {
+              "ratio": 16,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -95.11,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#CFAF7C",
+            "bg": "#12110F",
+            "wcag": {
+              "ratio": 9.05,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -61.07,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#765E37",
+            "bg": "#12110F",
+            "wcag": {
+              "ratio": 3.08,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -20.8,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#D7B174",
+            "bg": "#12110F",
+            "wcag": {
+              "ratio": 9.37,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -62.84,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "textOnSolid": {
+            "fg": "#000000",
+            "bg": "#D7B174",
+            "wcag": {
+              "ratio": 10.43,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 64.92,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "focusOnApp": {
+            "fg": "#D7B174",
+            "bg": "#12110F",
+            "wcag": {
+              "ratio": 9.37,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -62.84,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          }
+        },
+        "warnings": []
+      }
+    },
+    "success": {
+      "name": "success",
+      "seed": "#53895C",
+      "light": {
+        "name": "success",
+        "mode": "light",
+        "seed": "#53895C",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FBFDFB",
+            "oklch": "oklch(99.25% 0.0044 148.41)",
+            "L": 0.9925,
+            "C": 0.0044,
+            "h": 148.41
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#F5FAF5",
+            "oklch": "oklch(98% 0.0089 148.41)",
+            "L": 0.98,
+            "C": 0.0089,
+            "h": 148.41
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#EBF6EC",
+            "oklch": "oklch(96.2% 0.0179 148.41)",
+            "L": 0.962,
+            "C": 0.0179,
+            "h": 148.41
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#E1F1E3",
+            "oklch": "oklch(94.3% 0.0251 148.41)",
+            "L": 0.943,
+            "C": 0.0251,
+            "h": 148.41
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#D7EBD9",
+            "oklch": "oklch(92.1% 0.0322 148.41)",
+            "L": 0.921,
+            "C": 0.0322,
+            "h": 148.41
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#CCE4CE",
+            "oklch": "oklch(89.5% 0.0394 148.41)",
+            "L": 0.895,
+            "C": 0.0394,
+            "h": 148.41
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#BCDAC0",
+            "oklch": "oklch(86% 0.0484 148.41)",
+            "L": 0.86,
+            "C": 0.0484,
+            "h": 148.41
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#A4CBA9",
+            "oklch": "oklch(80.5% 0.0627 148.41)",
+            "L": 0.805,
+            "C": 0.0627,
+            "h": 148.41
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#53895C",
+            "oklch": "oklch(57.98% 0.0896 148.41)",
+            "L": 0.5798,
+            "C": 0.0896,
+            "h": 148.41
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#488152",
+            "oklch": "oklch(54.98% 0.0941 148.41)",
+            "L": 0.5498,
+            "C": 0.0941,
+            "h": 148.41
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#507D57",
+            "oklch": "oklch(54.5% 0.0762 148.41)",
+            "L": 0.545,
+            "C": 0.0762,
+            "h": 148.41
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#223625",
+            "oklch": "oklch(31% 0.0403 148.41)",
+            "L": 0.31,
+            "C": 0.0403,
+            "h": 148.41
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 4.12,
+          "apca": -73.68,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#50865A",
+          "text": "#FFFFFF",
+          "lc": -75.02,
+          "moved": 0.0085,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#477D52",
+          "text": "#FFFFFF",
+          "lc": -78.98
+        },
+        "focusRing": {
+          "hex": "#53895C",
+          "step": 9,
+          "ratio": 4.03
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#223625",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 12.66,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 97.56,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#507D57",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 4.66,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 71.42,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#A4CBA9",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 1.76,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 31.72,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#53895C",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 4.03,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 66.64,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#53895C",
+            "wcag": {
+              "ratio": 4.12,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -73.68,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#53895C",
+            "bg": "#FBFDFB",
+            "wcag": {
+              "ratio": 4.03,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 66.64,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": []
+      },
+      "dark": {
+        "name": "success",
+        "mode": "dark",
+        "seed": "#53895C",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#101210",
+            "oklch": "oklch(17.8% 0.0044 148.41)",
+            "L": 0.178,
+            "C": 0.0044,
+            "h": 148.41
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#161A17",
+            "oklch": "oklch(21.3% 0.0089 148.41)",
+            "L": 0.213,
+            "C": 0.0089,
+            "h": 148.41
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#1D251E",
+            "oklch": "oklch(25.3% 0.0179 148.41)",
+            "L": 0.253,
+            "C": 0.0179,
+            "h": 148.41
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#222E23",
+            "oklch": "oklch(28.5% 0.0251 148.41)",
+            "L": 0.285,
+            "C": 0.0251,
+            "h": 148.41
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#273729",
+            "oklch": "oklch(31.7% 0.0322 148.41)",
+            "L": 0.317,
+            "C": 0.0322,
+            "h": 148.41
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#2D4130",
+            "oklch": "oklch(35.4% 0.0394 148.41)",
+            "L": 0.354,
+            "C": 0.0394,
+            "h": 148.41
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#38523C",
+            "oklch": "oklch(41% 0.0484 148.41)",
+            "L": 0.41,
+            "C": 0.0484,
+            "h": 148.41
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#496C4E",
+            "oklch": "oklch(49.7% 0.0627 148.41)",
+            "L": 0.497,
+            "C": 0.0627,
+            "h": 148.41
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#53895C",
+            "oklch": "oklch(57.98% 0.0896 148.41)",
+            "L": 0.5798,
+            "C": 0.0896,
+            "h": 148.41
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#599363",
+            "oklch": "oklch(60.98% 0.0941 148.41)",
+            "L": 0.6098,
+            "C": 0.0941,
+            "h": 148.41
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#93C299",
+            "oklch": "oklch(77% 0.0762 148.41)",
+            "L": 0.77,
+            "C": 0.0762,
+            "h": 148.41
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#DBF5DE",
+            "oklch": "oklch(94.5% 0.0403 148.41)",
+            "L": 0.945,
+            "C": 0.0403,
+            "h": 148.41
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 4.12,
+          "apca": -73.68,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#50865A",
+          "text": "#FFFFFF",
+          "lc": -75.02,
+          "moved": 0.0085,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#598F63",
+          "text": "#FFFFFF",
+          "lc": -70.88
+        },
+        "focusRing": {
+          "hex": "#53895C",
+          "step": 9,
+          "ratio": 4.57
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#DBF5DE",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 16.24,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -96.35,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#93C299",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 9.33,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -62.73,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#496C4E",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 3.17,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -21.66,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#53895C",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 4.57,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -32.94,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "AA"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#53895C",
+            "wcag": {
+              "ratio": 4.12,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -73.68,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#53895C",
+            "bg": "#101210",
+            "wcag": {
+              "ratio": 4.57,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -32.94,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "AA"
+          }
+        },
+        "warnings": []
+      }
+    },
+    "info": {
+      "name": "info",
+      "seed": "#4980AC",
+      "light": {
+        "name": "info",
+        "mode": "light",
+        "seed": "#4980AC",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#FBFDFF",
+            "oklch": "oklch(99.25% 0.0037 244.37)",
+            "L": 0.9925,
+            "C": 0.0037,
+            "h": 244.37
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#F4F9FE",
+            "oklch": "oklch(98% 0.0089 244.37)",
+            "L": 0.98,
+            "C": 0.0089,
+            "h": 244.37
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#E9F4FE",
+            "oklch": "oklch(96.2% 0.0179 244.37)",
+            "L": 0.962,
+            "C": 0.0179,
+            "h": 244.37
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#DFEEFC",
+            "oklch": "oklch(94.3% 0.0251 244.37)",
+            "L": 0.943,
+            "C": 0.0251,
+            "h": 244.37
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#D4E8F9",
+            "oklch": "oklch(92.1% 0.0322 244.37)",
+            "L": 0.921,
+            "C": 0.0322,
+            "h": 244.37
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#C7E0F5",
+            "oklch": "oklch(89.5% 0.0394 244.37)",
+            "L": 0.895,
+            "C": 0.0394,
+            "h": 244.37
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#B7D5EF",
+            "oklch": "oklch(86% 0.0484 244.37)",
+            "L": 0.86,
+            "C": 0.0484,
+            "h": 244.37
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#9EC4E6",
+            "oklch": "oklch(80.5% 0.0627 244.37)",
+            "L": 0.805,
+            "C": 0.0627,
+            "h": 244.37
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#4980AC",
+            "oklch": "oklch(58.07% 0.0897 244.37)",
+            "L": 0.5807,
+            "C": 0.0897,
+            "h": 244.37
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#3D77A5",
+            "oklch": "oklch(55.07% 0.0941 244.37)",
+            "L": 0.5507,
+            "C": 0.0941,
+            "h": 244.37
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#48759A",
+            "oklch": "oklch(54.5% 0.0762 244.37)",
+            "L": 0.545,
+            "C": 0.0762,
+            "h": 244.37
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#1E3343",
+            "oklch": "oklch(31% 0.0403 244.37)",
+            "L": 0.31,
+            "C": 0.0403,
+            "h": 244.37
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 4.23,
+          "apca": -74.53,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#487FAA",
+          "text": "#FFFFFF",
+          "lc": -75.03,
+          "moved": 0.0047,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#3F76A1",
+          "text": "#FFFFFF",
+          "lc": -78.97
+        },
+        "focusRing": {
+          "hex": "#4980AC",
+          "step": 9,
+          "ratio": 4.15
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#1E3343",
+            "bg": "#FBFDFF",
+            "wcag": {
+              "ratio": 12.79,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 97.87,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#48759A",
+            "bg": "#FBFDFF",
+            "wcag": {
+              "ratio": 4.8,
+              "AA": true,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 72.46,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AA"
+          },
+          "borderOnApp": {
+            "fg": "#9EC4E6",
+            "bg": "#FBFDFF",
+            "wcag": {
+              "ratio": 1.79,
+              "AA": false,
+              "AAA": false,
+              "nonText": false,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 32.79,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "fail"
+          },
+          "solidOnApp": {
+            "fg": "#4980AC",
+            "bg": "#FBFDFF",
+            "wcag": {
+              "ratio": 4.15,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 67.67,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#4980AC",
+            "wcag": {
+              "ratio": 4.23,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -74.53,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#4980AC",
+            "bg": "#FBFDFF",
+            "wcag": {
+              "ratio": 4.15,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": 67.67,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": []
+      },
+      "dark": {
+        "name": "info",
+        "mode": "dark",
+        "seed": "#4980AC",
+        "steps": [
+          {
+            "step": 1,
+            "role": "app-background",
+            "use": "Page background",
+            "hex": "#101113",
+            "oklch": "oklch(17.8% 0.0044 244.37)",
+            "L": 0.178,
+            "C": 0.0044,
+            "h": 244.37
+          },
+          {
+            "step": 2,
+            "role": "subtle-background",
+            "use": "Subtle page background, striped rows",
+            "hex": "#16191D",
+            "oklch": "oklch(21.3% 0.0089 244.37)",
+            "L": 0.213,
+            "C": 0.0089,
+            "h": 244.37
+          },
+          {
+            "step": 3,
+            "role": "ui-background",
+            "use": "UI component background at rest",
+            "hex": "#1B232A",
+            "oklch": "oklch(25.3% 0.0179 244.37)",
+            "L": 0.253,
+            "C": 0.0179,
+            "h": 244.37
+          },
+          {
+            "step": 4,
+            "role": "ui-background-hover",
+            "use": "UI component background, hovered",
+            "hex": "#202C36",
+            "oklch": "oklch(28.5% 0.0251 244.37)",
+            "L": 0.285,
+            "C": 0.0251,
+            "h": 244.37
+          },
+          {
+            "step": 5,
+            "role": "ui-background-active",
+            "use": "UI component background, pressed or selected",
+            "hex": "#243441",
+            "oklch": "oklch(31.7% 0.0322 244.37)",
+            "L": 0.317,
+            "C": 0.0322,
+            "h": 244.37
+          },
+          {
+            "step": 6,
+            "role": "border-subtle",
+            "use": "Subtle borders and separators",
+            "hex": "#2A3E4F",
+            "oklch": "oklch(35.4% 0.0394 244.37)",
+            "L": 0.354,
+            "C": 0.0394,
+            "h": 244.37
+          },
+          {
+            "step": 7,
+            "role": "border",
+            "use": "UI component border, focus ring",
+            "hex": "#334D63",
+            "oklch": "oklch(41% 0.0484 244.37)",
+            "L": 0.41,
+            "C": 0.0484,
+            "h": 244.37
+          },
+          {
+            "step": 8,
+            "role": "border-hover",
+            "use": "UI component border, hovered",
+            "hex": "#436684",
+            "oklch": "oklch(49.7% 0.0627 244.37)",
+            "L": 0.497,
+            "C": 0.0627,
+            "h": 244.37
+          },
+          {
+            "step": 9,
+            "role": "solid",
+            "use": "Solid background. This is the brand colour itself",
+            "hex": "#4980AC",
+            "oklch": "oklch(58.07% 0.0897 244.37)",
+            "L": 0.5807,
+            "C": 0.0897,
+            "h": 244.37
+          },
+          {
+            "step": 10,
+            "role": "solid-hover",
+            "use": "Solid background, hovered",
+            "hex": "#4F89B8",
+            "oklch": "oklch(61.07% 0.0941 244.37)",
+            "L": 0.6107,
+            "C": 0.0941,
+            "h": 244.37
+          },
+          {
+            "step": 11,
+            "role": "text-low",
+            "use": "Low-contrast text, secondary copy",
+            "hex": "#8BBAE2",
+            "oklch": "oklch(77% 0.0762 244.37)",
+            "L": 0.77,
+            "C": 0.0762,
+            "h": 244.37
+          },
+          {
+            "step": 12,
+            "role": "text-high",
+            "use": "High-contrast text",
+            "hex": "#DEEFFF",
+            "oklch": "oklch(94.5% 0.0283 244.37)",
+            "L": 0.945,
+            "C": 0.0283,
+            "h": 244.37
+          }
+        ],
+        "onSolid": {
+          "color": "#FFFFFF",
+          "ratio": 4.23,
+          "apca": -74.53,
+          "metric": "apca"
+        },
+        "solidStrong": {
+          "hex": "#487FAA",
+          "text": "#FFFFFF",
+          "lc": -75.03,
+          "moved": 0.0047,
+          "adjusted": true
+        },
+        "solidStrongHover": {
+          "hex": "#5188B4",
+          "text": "#FFFFFF",
+          "lc": -70.86
+        },
+        "focusRing": {
+          "hex": "#4980AC",
+          "step": 9,
+          "ratio": 4.47
+        },
+        "checks": {
+          "textHighOnApp": {
+            "fg": "#DEEFFF",
+            "bg": "#101113",
+            "wcag": {
+              "ratio": 16.1,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -95.46,
+              "tier": "Lc 90+",
+              "use": "any body text, including small"
+            },
+            "verdict": "AAA"
+          },
+          "textLowOnApp": {
+            "fg": "#8BBAE2",
+            "bg": "#101113",
+            "wcag": {
+              "ratio": 9.19,
+              "AA": true,
+              "AAA": true,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -61.81,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "AAA"
+          },
+          "borderOnApp": {
+            "fg": "#436684",
+            "bg": "#101113",
+            "wcag": {
+              "ratio": 3.12,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -21.2,
+              "tier": "Lc 15+",
+              "use": "invisible to most readers; decorative only"
+            },
+            "verdict": "non-text only"
+          },
+          "solidOnApp": {
+            "fg": "#4980AC",
+            "bg": "#101113",
+            "wcag": {
+              "ratio": 4.47,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -32.13,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "non-text only"
+          },
+          "textOnSolid": {
+            "fg": "#FFFFFF",
+            "bg": "#4980AC",
+            "wcag": {
+              "ratio": 4.23,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -74.53,
+              "tier": "Lc 60+",
+              "use": "body text at 24px/400, or 18px/600"
+            },
+            "verdict": "non-text only"
+          },
+          "focusOnApp": {
+            "fg": "#4980AC",
+            "bg": "#101113",
+            "wcag": {
+              "ratio": 4.47,
+              "AA": false,
+              "AAA": false,
+              "nonText": true,
+              "size": "normal"
+            },
+            "apca": {
+              "lc": -32.13,
+              "tier": "Lc 30+",
+              "use": "non-text elements and disabled states only"
+            },
+            "verdict": "non-text only"
+          }
+        },
+        "warnings": []
+      }
+    }
+  },
+  "print": {
+    "profile": null,
+    "caveat": "CMYK here is an uncalibrated device conversion, which is a starting point and not a match. Confirm against a printed proof on the actual stock before anything is ordered.",
+    "swatches": [
+      {
+        "role": "brand.solid",
+        "hex": "#41684A",
+        "cmyk": [
+          37.5,
+          0,
+          28.8,
+          59.2
+        ],
+        "cmykString": "38/0/29/59",
+        "computed": true,
+        "pantoneCoated": null,
+        "pantoneUncoated": null,
+        "ral": null,
+        "vinyl": null,
+        "thread": null,
+        "verified": false,
+        "note": null
+      },
+      {
+        "role": "accent1.solid",
+        "hex": "#5E6687",
+        "cmyk": [
+          30.4,
+          24.4,
+          0,
+          47.1
+        ],
+        "cmykString": "30/24/0/47",
+        "computed": true,
+        "pantoneCoated": null,
+        "pantoneUncoated": null,
+        "ral": null,
+        "vinyl": null,
+        "thread": null,
+        "verified": false,
+        "note": null
+      },
+      {
+        "role": "accent2.solid",
+        "hex": "#78A080",
+        "cmyk": [
+          25,
+          0,
+          20,
+          37.3
+        ],
+        "cmykString": "25/0/20/37",
+        "computed": true,
+        "pantoneCoated": null,
+        "pantoneUncoated": null,
+        "ral": null,
+        "vinyl": null,
+        "thread": null,
+        "verified": false,
+        "note": null
+      },
+      {
+        "role": "neutral.paper",
+        "hex": "#FCFDFC",
+        "cmyk": [
+          0.4,
+          0,
+          0.4,
+          0.8
+        ],
+        "cmykString": "0/0/0/1",
+        "computed": true,
+        "pantoneCoated": null,
+        "pantoneUncoated": null,
+        "ral": null,
+        "vinyl": null,
+        "thread": null,
+        "verified": false,
+        "note": null
+      },
+      {
+        "role": "neutral.ink",
+        "hex": "#2E312F",
+        "cmyk": [
+          6.1,
+          0,
+          4.1,
+          80.8
+        ],
+        "cmykString": "6/0/4/81",
+        "computed": true,
+        "pantoneCoated": null,
+        "pantoneUncoated": null,
+        "ral": null,
+        "vinyl": null,
+        "thread": null,
+        "verified": false,
+        "note": null
+      }
+    ]
+  },
+  "dataViz": {
+    "categorical": [
+      "#2E904E",
+      "#A196F2",
+      "#B35195",
+      "#41BD9A",
+      "#8364C8",
+      "#D59639"
+    ],
+    "sequential": [
+      "#FBFDFB",
+      "#EDF5EE",
+      "#DAEADD",
+      "#C1D8C5",
+      "#587A5F",
+      "#376041"
+    ],
+    "note": "A brand palette is built for hierarchy and a chart palette is built for discrimination. Categorical colours here are checked to stay apart under protanopia, deuteranopia and tritanopia, which the brand ramps are not."
+  },
+  "type": {
+    "fonts": {
+      "display": "Literata",
+      "body": "DM Sans",
+      "mono": "DM Mono"
+    },
+    "scale": {
+      "basePx": 17,
+      "baseMaxPx": 19,
+      "ratio": 1.25,
+      "ratioMax": 1.25,
+      "ratioName": "major-third",
+      "rootPx": 16,
+      "viewports": {
+        "minVw": 390,
+        "maxVw": 1280
+      },
+      "steps": [
+        {
+          "name": "2xs",
+          "offset": -3,
+          "use": "Legal lines, dense table metadata",
+          "px": 12.16,
+          "maxPx": 13.6,
+          "rem": 0.76,
+          "lineHeight": 1.55,
+          "letterSpacing": "0.01em",
+          "clamp": "clamp(0.76rem, 0.7206rem + 0.1618vw, 0.85rem)"
+        },
+        {
+          "name": "xs",
+          "offset": -2,
+          "use": "Captions, helper text, badges",
+          "px": 13.6,
+          "maxPx": 15.2,
+          "rem": 0.85,
+          "lineHeight": 1.55,
+          "letterSpacing": "0em",
+          "clamp": "clamp(0.85rem, 0.8062rem + 0.1798vw, 0.95rem)"
+        },
+        {
+          "name": "sm",
+          "offset": -1,
+          "use": "Secondary UI text, labels",
+          "px": 15.21,
+          "maxPx": 16.99,
+          "rem": 0.9506,
+          "lineHeight": 1.55,
+          "letterSpacing": "0em",
+          "clamp": "clamp(0.9506rem, 0.9019rem + 0.2vw, 1.0619rem)"
+        },
+        {
+          "name": "base",
+          "offset": 0,
+          "use": "Body copy. Everything is measured from here",
+          "px": 17,
+          "maxPx": 19,
+          "rem": 1.0625,
+          "lineHeight": 1.511,
+          "letterSpacing": "-0.006em",
+          "clamp": "clamp(1.0625rem, 1.0077rem + 0.2247vw, 1.1875rem)"
+        },
+        {
+          "name": "md",
+          "offset": 1,
+          "use": "Lead paragraphs, large UI text",
+          "px": 21.25,
+          "maxPx": 23.75,
+          "rem": 1.3281,
+          "lineHeight": 1.434,
+          "letterSpacing": "-0.006em",
+          "clamp": "clamp(1.3281rem, 1.2597rem + 0.2809vw, 1.4844rem)"
+        },
+        {
+          "name": "lg",
+          "offset": 2,
+          "use": "Card and section headings",
+          "px": 26.56,
+          "maxPx": 29.69,
+          "rem": 1.66,
+          "lineHeight": 1.357,
+          "letterSpacing": "-0.012em",
+          "clamp": "clamp(1.66rem, 1.5743rem + 0.3517vw, 1.8556rem)"
+        },
+        {
+          "name": "xl",
+          "offset": 3,
+          "use": "Sub-headings",
+          "px": 33.2,
+          "maxPx": 37.11,
+          "rem": 2.075,
+          "lineHeight": 1.28,
+          "letterSpacing": "-0.017em",
+          "clamp": "clamp(2.075rem, 1.9679rem + 0.4393vw, 2.3194rem)"
+        },
+        {
+          "name": "2xl",
+          "offset": 4,
+          "use": "Page headings",
+          "px": 41.5,
+          "maxPx": 46.39,
+          "rem": 2.5938,
+          "lineHeight": 1.202,
+          "letterSpacing": "-0.017em",
+          "clamp": "clamp(2.5938rem, 2.4598rem + 0.5494vw, 2.8994rem)"
+        },
+        {
+          "name": "3xl",
+          "offset": 5,
+          "use": "Hero headings",
+          "px": 51.88,
+          "maxPx": 57.98,
+          "rem": 3.2425,
+          "lineHeight": 1.125,
+          "letterSpacing": "-0.022em",
+          "clamp": "clamp(3.2425rem, 3.0754rem + 0.6854vw, 3.6237rem)"
+        },
+        {
+          "name": "4xl",
+          "offset": 6,
+          "use": "Display, one per page at most",
+          "px": 64.85,
+          "maxPx": 72.48,
+          "rem": 4.0531,
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.022em",
+          "clamp": "clamp(4.0531rem, 3.8442rem + 0.8573vw, 4.53rem)"
+        }
+      ],
+      "byName": {
+        "2xs": {
+          "name": "2xs",
+          "offset": -3,
+          "use": "Legal lines, dense table metadata",
+          "px": 12.16,
+          "maxPx": 13.6,
+          "rem": 0.76,
+          "lineHeight": 1.55,
+          "letterSpacing": "0.01em",
+          "clamp": "clamp(0.76rem, 0.7206rem + 0.1618vw, 0.85rem)"
+        },
+        "xs": {
+          "name": "xs",
+          "offset": -2,
+          "use": "Captions, helper text, badges",
+          "px": 13.6,
+          "maxPx": 15.2,
+          "rem": 0.85,
+          "lineHeight": 1.55,
+          "letterSpacing": "0em",
+          "clamp": "clamp(0.85rem, 0.8062rem + 0.1798vw, 0.95rem)"
+        },
+        "sm": {
+          "name": "sm",
+          "offset": -1,
+          "use": "Secondary UI text, labels",
+          "px": 15.21,
+          "maxPx": 16.99,
+          "rem": 0.9506,
+          "lineHeight": 1.55,
+          "letterSpacing": "0em",
+          "clamp": "clamp(0.9506rem, 0.9019rem + 0.2vw, 1.0619rem)"
+        },
+        "base": {
+          "name": "base",
+          "offset": 0,
+          "use": "Body copy. Everything is measured from here",
+          "px": 17,
+          "maxPx": 19,
+          "rem": 1.0625,
+          "lineHeight": 1.511,
+          "letterSpacing": "-0.006em",
+          "clamp": "clamp(1.0625rem, 1.0077rem + 0.2247vw, 1.1875rem)"
+        },
+        "md": {
+          "name": "md",
+          "offset": 1,
+          "use": "Lead paragraphs, large UI text",
+          "px": 21.25,
+          "maxPx": 23.75,
+          "rem": 1.3281,
+          "lineHeight": 1.434,
+          "letterSpacing": "-0.006em",
+          "clamp": "clamp(1.3281rem, 1.2597rem + 0.2809vw, 1.4844rem)"
+        },
+        "lg": {
+          "name": "lg",
+          "offset": 2,
+          "use": "Card and section headings",
+          "px": 26.56,
+          "maxPx": 29.69,
+          "rem": 1.66,
+          "lineHeight": 1.357,
+          "letterSpacing": "-0.012em",
+          "clamp": "clamp(1.66rem, 1.5743rem + 0.3517vw, 1.8556rem)"
+        },
+        "xl": {
+          "name": "xl",
+          "offset": 3,
+          "use": "Sub-headings",
+          "px": 33.2,
+          "maxPx": 37.11,
+          "rem": 2.075,
+          "lineHeight": 1.28,
+          "letterSpacing": "-0.017em",
+          "clamp": "clamp(2.075rem, 1.9679rem + 0.4393vw, 2.3194rem)"
+        },
+        "2xl": {
+          "name": "2xl",
+          "offset": 4,
+          "use": "Page headings",
+          "px": 41.5,
+          "maxPx": 46.39,
+          "rem": 2.5938,
+          "lineHeight": 1.202,
+          "letterSpacing": "-0.017em",
+          "clamp": "clamp(2.5938rem, 2.4598rem + 0.5494vw, 2.8994rem)"
+        },
+        "3xl": {
+          "name": "3xl",
+          "offset": 5,
+          "use": "Hero headings",
+          "px": 51.88,
+          "maxPx": 57.98,
+          "rem": 3.2425,
+          "lineHeight": 1.125,
+          "letterSpacing": "-0.022em",
+          "clamp": "clamp(3.2425rem, 3.0754rem + 0.6854vw, 3.6237rem)"
+        },
+        "4xl": {
+          "name": "4xl",
+          "offset": 6,
+          "use": "Display, one per page at most",
+          "px": 64.85,
+          "maxPx": 72.48,
+          "rem": 4.0531,
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.022em",
+          "clamp": "clamp(4.0531rem, 3.8442rem + 0.8573vw, 4.53rem)"
+        }
+      },
+      "dropped": [],
+      "warnings": []
+    },
+    "weights": [
+      {
+        "name": "regular",
+        "value": 400,
+        "use": "Body text, and everything that is not asking for attention"
+      },
+      {
+        "name": "medium",
+        "value": 500,
+        "use": "UI labels, buttons, table headers: emphasis without shouting"
+      },
+      {
+        "name": "bold",
+        "value": 700,
+        "use": "Display type and the one word in a sentence that carries it"
+      }
+    ],
+    "measure": {
+      "chars": 62,
+      "css": "62ch",
+      "approxPx": 527,
+      "comfortable": true,
+      "verdict": "within the comfortable range",
+      "source": "Bringhurst, The Elements of Typographic Style, 2.1.2"
+    },
+    "floors": {
+      "bodyScreenPx": 16,
+      "anyScreenPx": 12,
+      "bodyPrintPt": 12,
+      "targetMinPx": 24,
+      "targetComfortablePx": 44
+    }
+  },
+  "space": [
+    {
+      "name": "0",
+      "px": 0,
+      "rem": 0,
+      "onGrid": true
+    },
+    {
+      "name": "2",
+      "px": 2,
+      "rem": 0.125,
+      "onGrid": false
+    },
+    {
+      "name": "4",
+      "px": 4,
+      "rem": 0.25,
+      "onGrid": true
+    },
+    {
+      "name": "8",
+      "px": 8,
+      "rem": 0.5,
+      "onGrid": true
+    },
+    {
+      "name": "12",
+      "px": 12,
+      "rem": 0.75,
+      "onGrid": true
+    },
+    {
+      "name": "16",
+      "px": 16,
+      "rem": 1,
+      "onGrid": true
+    },
+    {
+      "name": "20",
+      "px": 20,
+      "rem": 1.25,
+      "onGrid": true
+    },
+    {
+      "name": "24",
+      "px": 24,
+      "rem": 1.5,
+      "onGrid": true
+    },
+    {
+      "name": "32",
+      "px": 32,
+      "rem": 2,
+      "onGrid": true
+    },
+    {
+      "name": "40",
+      "px": 40,
+      "rem": 2.5,
+      "onGrid": true
+    },
+    {
+      "name": "48",
+      "px": 48,
+      "rem": 3,
+      "onGrid": true
+    },
+    {
+      "name": "64",
+      "px": 64,
+      "rem": 4,
+      "onGrid": true
+    },
+    {
+      "name": "80",
+      "px": 80,
+      "rem": 5,
+      "onGrid": true
+    },
+    {
+      "name": "96",
+      "px": 96,
+      "rem": 6,
+      "onGrid": true
+    },
+    {
+      "name": "128",
+      "px": 128,
+      "rem": 8,
+      "onGrid": true
+    },
+    {
+      "name": "160",
+      "px": 160,
+      "rem": 10,
+      "onGrid": true
+    },
+    {
+      "name": "192",
+      "px": 192,
+      "rem": 12,
+      "onGrid": true
+    },
+    {
+      "name": "256",
+      "px": 256,
+      "rem": 16,
+      "onGrid": true
+    }
+  ],
+  "radius": [
+    {
+      "name": "none",
+      "px": 0
+    },
+    {
+      "name": "xs",
+      "px": 5
+    },
+    {
+      "name": "sm",
+      "px": 7.5
+    },
+    {
+      "name": "md",
+      "px": 10
+    },
+    {
+      "name": "lg",
+      "px": 15
+    },
+    {
+      "name": "xl",
+      "px": 22.5
+    },
+    {
+      "name": "2xl",
+      "px": 35
+    },
+    {
+      "name": "full",
+      "px": 9999
+    }
+  ],
+  "elevation": [
+    {
+      "name": "none",
+      "value": "none",
+      "use": "Flat. The default for most things"
+    },
+    {
+      "name": "sm",
+      "value": "0 1px 2px rgb(11 32 17 / 0.06), 0 1px 1px rgb(11 32 17 / 0.04)",
+      "use": "A card that is merely not the page"
+    },
+    {
+      "name": "md",
+      "value": "0 2px 4px rgb(11 32 17 / 0.06), 0 4px 12px rgb(11 32 17 / 0.08)",
+      "use": "Menus, popovers"
+    },
+    {
+      "name": "lg",
+      "value": "0 4px 8px rgb(11 32 17 / 0.06), 0 12px 32px rgb(11 32 17 / 0.1)",
+      "use": "Dialogs"
+    },
+    {
+      "name": "xl",
+      "value": "0 8px 16px rgb(11 32 17 / 0.08), 0 24px 64px rgb(11 32 17 / 0.12)",
+      "use": "One per screen, at most"
+    }
+  ],
+  "layout": {
+    "breakpoints": [
+      {
+        "name": "sm",
+        "px": 480,
+        "use": "Above a large phone. Two columns of small controls become possible."
+      },
+      {
+        "name": "md",
+        "px": 768,
+        "use": "Tablet portrait. A single column can become two."
+      },
+      {
+        "name": "lg",
+        "px": 1024,
+        "use": "Laptop. Sidebars and three-column grids hold."
+      },
+      {
+        "name": "xl",
+        "px": 1280,
+        "use": "Where the fluid type stops growing, so the layout stops with it."
+      }
+    ],
+    "contentMaxPx": 575,
+    "gutterPx": 24,
+    "note": "Breakpoints are a starting set. The real ones are wherever this layout breaks, and you find those by dragging the window rather than by naming devices."
+  },
+  "motion": {
+    "stance": "fluid",
+    "durations": [
+      {
+        "name": "instant",
+        "ms": 0,
+        "use": "Anything that must feel like a direct manipulation"
+      },
+      {
+        "name": "fast",
+        "ms": 120,
+        "use": "Hover, focus, small state changes"
+      },
+      {
+        "name": "base",
+        "ms": 200,
+        "use": "The default. Dropdowns, tooltips, toggles"
+      },
+      {
+        "name": "slow",
+        "ms": 320,
+        "use": "Panels, drawers, anything crossing the screen"
+      },
+      {
+        "name": "slower",
+        "ms": 480,
+        "use": "Page and route transitions. Rarely anything else"
+      }
+    ],
+    "easings": {
+      "standard": {
+        "value": "cubic-bezier(0.2, 0, 0, 1)",
+        "use": "Movement within the screen"
+      },
+      "enter": {
+        "value": "cubic-bezier(0, 0, 0, 1)",
+        "use": "Something arriving. Decelerates into place"
+      },
+      "exit": {
+        "value": "cubic-bezier(0.3, 0, 1, 1)",
+        "use": "Something leaving. Accelerates away"
+      },
+      "emphasis": {
+        "value": "cubic-bezier(0.3, 0, 0, 1.2)",
+        "use": "A single overshoot. One per screen at most"
+      }
+    }
+  },
+  "focus": {
+    "widthPx": 2,
+    "offsetPx": 2,
+    "note": "Outline, never a box-shadow: an outline is not clipped by overflow."
+  },
+  "semantic": {
+    "light": {
+      "surface.page": "{color.neutral.1}",
+      "surface.subtle": "{color.neutral.2}",
+      "surface.raised": "{color.neutral.1}",
+      "surface.sunken": "{color.neutral.2}",
+      "surface.overlay": "{color.neutral.1}",
+      "surface.inverted": "{color.neutral.12}",
+      "control.bg": "{color.neutral.3}",
+      "control.bg-hover": "{color.neutral.4}",
+      "control.bg-active": "{color.neutral.5}",
+      "border.subtle": "{color.neutral.6}",
+      "border.default": "{color.neutral.7}",
+      "border.strong": "{color.neutral.8}",
+      "text.primary": "{color.neutral.12}",
+      "text.secondary": "{color.neutral.11}",
+      "text.disabled": "{color.neutral.8}",
+      "text.inverted": "{color.neutral.1}",
+      "text.brand": "{color.brand.11}",
+      "text.link": "{color.brand.11}",
+      "accent.bg": "{color.brand.3}",
+      "accent.bg-hover": "{color.brand.4}",
+      "accent.border": "{color.brand.7}",
+      "accent.solid": "{color.brand.9}",
+      "accent.solid-hover": "{color.brand.10}",
+      "accent.text": "{color.brand.11}",
+      "focus.ring": "{color.brand.9}",
+      "danger.bg": "{color.danger.3}",
+      "danger.border": "{color.danger.7}",
+      "danger.solid": "{color.danger.9}",
+      "danger.text": "{color.danger.11}",
+      "warning.bg": "{color.warning.3}",
+      "warning.border": "{color.warning.7}",
+      "warning.solid": "{color.warning.9}",
+      "warning.text": "{color.warning.11}",
+      "success.bg": "{color.success.3}",
+      "success.border": "{color.success.7}",
+      "success.solid": "{color.success.9}",
+      "success.text": "{color.success.11}",
+      "info.bg": "{color.info.3}",
+      "info.border": "{color.info.7}",
+      "info.solid": "{color.info.9}",
+      "info.text": "{color.info.11}",
+      "accent.on-solid": "#FFFFFF",
+      "accent.solid-strong": "#41684A"
+    },
+    "dark": {
+      "surface.page": "{color.neutral.1}",
+      "surface.subtle": "{color.neutral.2}",
+      "surface.raised": "{color.neutral.2}",
+      "surface.sunken": "{color.neutral.2}",
+      "surface.overlay": "{color.neutral.3}",
+      "surface.inverted": "{color.neutral.12}",
+      "control.bg": "{color.neutral.3}",
+      "control.bg-hover": "{color.neutral.4}",
+      "control.bg-active": "{color.neutral.5}",
+      "border.subtle": "{color.neutral.6}",
+      "border.default": "{color.neutral.7}",
+      "border.strong": "{color.neutral.8}",
+      "text.primary": "{color.neutral.12}",
+      "text.secondary": "{color.neutral.11}",
+      "text.disabled": "{color.neutral.8}",
+      "text.inverted": "{color.neutral.1}",
+      "text.brand": "{color.brand.11}",
+      "text.link": "{color.brand.11}",
+      "accent.bg": "{color.brand.3}",
+      "accent.bg-hover": "{color.brand.4}",
+      "accent.border": "{color.brand.7}",
+      "accent.solid": "{color.brand.9}",
+      "accent.solid-hover": "{color.brand.10}",
+      "accent.text": "{color.brand.11}",
+      "focus.ring": "{color.brand.10}",
+      "danger.bg": "{color.danger.3}",
+      "danger.border": "{color.danger.7}",
+      "danger.solid": "{color.danger.9}",
+      "danger.text": "{color.danger.11}",
+      "warning.bg": "{color.warning.3}",
+      "warning.border": "{color.warning.7}",
+      "warning.solid": "{color.warning.9}",
+      "warning.text": "{color.warning.11}",
+      "success.bg": "{color.success.3}",
+      "success.border": "{color.success.7}",
+      "success.solid": "{color.success.9}",
+      "success.text": "{color.success.11}",
+      "info.bg": "{color.info.3}",
+      "info.border": "{color.info.7}",
+      "info.solid": "{color.info.9}",
+      "info.text": "{color.info.11}",
+      "accent.on-solid": "#FFFFFF",
+      "accent.solid-strong": "#41684A"
+    }
+  },
+  "audit": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 1,
+    "findings": [
+      {
+        "level": "info",
+        "area": "colour-vision.light",
+        "message": "Success and danger are hard to tell apart with a red-green colour vision deficiency.",
+        "fix": "This is expected for these hues. Never carry success or failure in colour alone: pair every status with an icon and a word."
+      },
+      {
+        "level": "info",
+        "area": "colour-vision.dark",
+        "message": "Success and danger are hard to tell apart with a red-green colour vision deficiency.",
+        "fix": "This is expected for these hues. Never carry success or failure in colour alone: pair every status with an icon and a word."
+      },
+      {
+        "level": "warn",
+        "area": "palette.dark",
+        "message": "In dark mode the brand colour (#41684A) has only 2.96:1 against the page background (#101210). It cannot carry meaning on its own here. Pair it with a shape, a label, or step 10 for anything a reader must notice.",
+        "fix": null
+      },
+      {
+        "level": "info",
+        "area": "type",
+        "message": "The design canvas and the generated sheets can load fonts from Google Fonts and nowhere else.",
+        "fix": "Run `brandi fonts` to confirm Literata, DM Sans, DM Mono are actually served. A face that is not there renders as the fallback with no warning anywhere."
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-12T00:13:40.791Z"
+  },
+  "title": "Pelvy logo: the redraw",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1200,
+      "h": 1100
+    },
+    "Reference.dc.html": {
+      "x": 1320,
+      "y": 0,
+      "w": 1440,
+      "h": 752
+    },
+    "Range.dc.html": {
+      "x": 2880,
+      "y": 0,
+      "w": 1440,
+      "h": 1129
+    },
+    "Favicons.dc.html": {
+      "x": 0,
+      "y": 1329,
+      "w": 1200,
+      "h": 1151
+    },
+    "Reversed.dc.html": {
+      "x": 1320,
+      "y": 1329,
+      "w": 1440,
+      "h": 893
+    },
+    "Audit.dc.html": {
+      "x": 2880,
+      "y": 1329,
+      "w": 1440,
+      "h": 886
+    },
+    "Copy.dc.html": {
+      "x": 0,
+      "y": -1600,
+      "w": 1440,
+      "h": 1460
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Reference.dc.html",
+    "Range.dc.html",
+    "Favicons.dc.html",
+    "Reversed.dc.html",
+    "Audit.dc.html",
+    "Copy.dc.html"
+  ],
+  "notes": {},
+  "designSystems": []
+}
